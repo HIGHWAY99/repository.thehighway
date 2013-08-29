@@ -1,2 +1,4 @@
+[B]Version 0.0.2[/B]
+- Fanart and Projects
 [B]Version 0.0.1[/B]
 - Initial version
