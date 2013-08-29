@@ -1,0 +1,56 @@
+<settings>
+	<category label="General">
+		<setting visible="false" id="pages"    type="labelenum" label="Number of Pages" values="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|25|30|35|40|45|50|55|60|70|80|90|99|100"             default="1"/>
+		<setting id="enableMeta" 		type="bool" label="30203" default="false" visible="false"/>
+		<setting id="debug-enable" 	type="bool" label="30101" default="false" visible="true"/>
+		<setting id="debug-show" 		type="bool" label="30102" default="false" visible="true"/>
+		<setting visible="false" id="label-empty-favorites" 		type="bool" label="Show Labels in List: Empty Favorites" default="false"/>
+	</category>
+	<category label="Movies">
+		<setting type="text" default=""  id="fav.movies.1.name" label="Favorites 1: Name" />
+		<setting type="text" default="2" id="fav.movies.2.name" label="Favorites 2: Name" />
+		<setting id="movies-favorites-clear-enable" type="bool"   label="  \/  ( Dummy Proofing )" default="false"/>
+		<setting label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=movies&subfav=)"/>
+		<setting label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=movies&subfav=2)"/>
+	</category>
+	<category label="TV">
+		<setting visible="false" type="text" default=""  id="fav.tv.1.name" label="Favorites 1: Name" />
+		<setting visible="false" type="text" default="2" id="fav.tv.2.name" label="Favorites 2: Name" />
+		<setting visible="false" type="text" default="3" id="fav.tv.3.name" label="Favorites 3: Name" />
+		<setting visible="false" id="tv-favorites-clear-enable" type="bool"   		label="  \/  ( Dummy Proofing )" default="false"/>
+		<setting visible="false" label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=)"/>
+		<setting visible="false" label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=2)"/>
+		<setting visible="false" label="Clear Favorites 3" type="action" 	enable="!eq(-3,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=3)"/>
+		<setting visible="false" id="tv-zerolinks-show" type="bool"   		label="Show Episodes with 0 (Zero) Links" default="true"/>
+	</category>
+	<category label="Auto-View">
+		<setting id="auto-view" type="bool"   label="Enable Automatic View" default="false"/>
+		<setting id="default-view"   type="number" label="Default"               default="50"   enable="!eq(-1,false)"/>
+		<setting id="movies-view"    type="number" label="Movies"                default="515"  enable="!eq(-2,false)"/>
+		<setting visible="false" id="tvshows-view"   type="number" label="TV Shows"              default="515"  enable="!eq(-3,false)"/>
+		<setting visible="false" id="season-view"    type="number" label="Seasons"               default="50"   enable="!eq(-4,false)"/>
+		<setting visible="false" id="episode-view"   type="number" label="Episodes"              default="515"  enable="!eq(-5,false)"/>
+		<setting visible="false" id="links-view"   	 type="number" label="Links"              	 default="50"   enable="!eq(-6,false)"/>
+	</category>
+	<category label="Downloads">
+		<setting id="download_method"    	 		 type="labelenum" label="Number of Pages" values="Progress|ProgressBG|Test|Hidden|jDownloader (StreamURL)|jDownloader (Link)"             default="Hidden"/>
+		<setting visible="false" id="download_folder_movies" 			type="folder" label="Download Folder (Movies)"      	default="" />
+		<setting visible="false" id="download_folder_tv" 					type="folder" label="Download Folder (TV)    "      	default="" />
+		<setting id="download_folder_wallpapers" 	type="folder" label="Download Folder (Wallpapers)  "  default="" visible="true"/>
+	</category>
+	<category label="Metadata">
+		<setting id="metadata_movies" 			type="bool" label="(Movies)" 									default="true" visible="false" />
+		<setting id="metadata_tv" 					type="bool" label="(TV)" 											default="true" visible="false" />
+		<setting id="metadata_tv_shows" 		type="bool" label="(TV) >> Shows" 						default="true" visible="false" enable="!eq(-1,false)" />
+		<setting id="metadata_tv_episodes" 	type="bool" label="(TV) >> Episodes" 					default="true" visible="false" enable="!eq(-1,false)" />
+		<setting id="metadata_tv_ep_plot" 	type="bool" label="(TV) >> Episodes >> Plot" 	default="true" visible="false" enable="!eq(-1,false)" />
+	</category>
+	<category label="Context Menu Items">
+		<setting id="CMI_ShowInfo" 								type="bool" label="Show Information" 						default="true" visible="false" />
+		<setting id="CMI_FindAirDates" 						type="bool" label="Find Air Dates" 							default="true" visible="false" />
+		<setting id="CMI_ChangeFanart" 						type="bool" label="Change Fanart" 							default="true" visible="false" />
+		<setting id="CMI_DownloadWallpaper" 			type="bool" label="Download Wallpaper" 					default="true" visible="true" />
+		<setting id="CMI_Search1Channel" 					type="bool" label="Search 1Channel" 						default="true" visible="false" />
+		<setting id="CMI_SearchPrimeWire" 				type="bool" label="(TV) - Search PrimeWire" 		default="true" visible="false" />
+	</category>
+</settings>
