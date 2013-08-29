@@ -1,0 +1,13 @@
+[B]Version 0.2.4[/B]
+- 
+- 
+- 
+- 
+- 
+- Major problems with some pages of movie listings causing stalls has made me ponder rather to continue this project.
+- Split TV Genres to a seperate list and have them hidden for now. (code is in Menu_BrowseByGenre for them, but page parsing not setup yet)
+- Pagination.  (Setup of Next Page stuff)
+- Browse List of Movies on pages. (Not all are working yet.)
+- Category Menu.  Careful here, some menus will cause stalls.  (Testing done in XBMC-Gotham)
+- Initial Main Menu Changes
+- Initial Build (Forked from -my- solarmovie.so project)

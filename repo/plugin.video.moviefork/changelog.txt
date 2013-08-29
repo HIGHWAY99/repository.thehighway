@@ -1,0 +1,14 @@
+[B]Version 0.2.7[/B]
+- 
+- Hide some unused stuff in Settings Window.
+- Little Fix to set Movie Favorites to goto PlayVideo() instead of GetLinks()
+- Reversed Order of "Decades".
+- Added Movie Favorites
+- Added some more graphic links.
+- Added Shortcut to Settings for plugin.video.youtube which this addon uses to play videos.
+- Code Cleanup.  Cleaning out much of the unneeded stuff in default.py for now that was for solarmovie.so
+- Found my artistic side and made a graphic for icon.png.
+
+[B]Version 0.2.6[/B]
+- inital build forked from my plugin.video.solarmovie.so project.
+

@@ -1,0 +1,17 @@
+[B]Version 0.2.8[/B]
+- Some more Code Cleanup.
+- Currently no "Search", "Latest Tracks", exc....
+- Selected a Temp. fanart.  If anyone would like to make one for me feel free to let me know in #XBMCHUB @ irc.freenode.net.
+- Found my artistic side and made a graphic for icon.png.
+- Next Page setup and seems to be working.
+- Slight lag when choosing to "Listen" to a song, while it tries to fetch the file.
+- PlayVideo() and PlaySong()
+- Parsing for Items.
+- Main Menu
+- Have "NOT" got around to cleaning up settings from the moviefork project.
+- Code Cleanup.  Cleaning out much of the unneeded stuff in default.py for now that was for solarmovie.so and moviefork.
+- Addon.xml setup.  Addon Type set to Audio.  Other information setup.
+
+[B]Version 0.2.7[/B]
+- inital build forked from my plugin.video.moviefork & plugin.video.solarmovie.so projects.
+

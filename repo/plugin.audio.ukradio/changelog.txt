@@ -1,0 +1,25 @@
+[B]Version 0.3.1[/B]
+- StarCheck() now shows * (1) for KNOWN unparsed Stations and ** (2) for KNOWN Stations using RTMP.
+- notablenames.py added to hold StarCheck() / StarCheck_() functions.
+- StarCheck(LName) function added to make things easier for me to add in more stations to add a Star by when i find ones that are RTMP links or don't work.
+
+
+[B]Version 0.3.0[/B]
+- rtmp link disabling option
+
+[B]Version 0.2.9[/B]
+- '* ' added before those stations that I know so far to be troublesome and/or not play.
+- those that a playable url cant be found for should pop up a message now and then search for available likely url's and print them to the xbmc.log file.
+- title and page-url are printed to the xbmc.log file when a playable url is not found.
+
+[B]Version 0.2.8[/B]
+- Found my artistic side and made a graphic for icon.png.
+- currently checks for 6 possible string formats for a playable url.  Avoid playing Viking for now as it uses rtmp and wanted to stall out for me.
+- PlaySong() for Radio Stations.
+- Parsing for Items.
+- Main Menu
+- Have "NOT" got around to cleaning up settings from the searchmp3mobi and prior projects.
+- Code Cleanup. 
+- Addon.xml setup.  Addon Type set to Audio.  Other information setup.
+- inital build forked from my plugin.audio.searchmp3mobi, plugin.video.moviefork & plugin.video.solarmovie.so projects.
+
