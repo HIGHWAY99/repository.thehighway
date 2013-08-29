@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.audio.searchmp3mobi"
+       name="[I][/I]SearchMP3.mobi"
+       version="0.2.8"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  	<import addon="plugin.video.youtube" version="4.4.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for MovieFork.com</summary>
+  	<description>Play Movies and TV shows from MovieFork.com.  Initial Project forked from plugin.video.solarmovie.so.</description>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.audio.searchmp3mobi/</website>
+  	<email></email>
+  	<source>http://github.com/HIGHWAY99/plugin.audio.searchmp3mobi/archive/master.zip</source>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.ukradio"
        name="[I][/I]RadioPlayer.co.uk"
        version="0.3.1"
@@ -21,6 +46,31 @@
   	<website>http://github.com/HIGHWAY99/plugin.audio.ukradio/</website>
   	<email></email>
   	<source>http://github.com/HIGHWAY99/plugin.audio.ukradio/archive/master.zip</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.codelyokoevolution"
+       name="[COLOR white][COLOR purple]C[/COLOR][COLOR cornflowerblue]o[/COLOR]de Ly[COLOR cornflowerblue]o[/COLOR]k[COLOR cornflowerblue]o[/COLOR] Ev[COLOR cornflowerblue]o[/COLOR]luti[COLOR cornflowerblue]o[/COLOR]n[/COLOR]"
+       version="0.1.2"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="script.module.urlresolver" version="0.0.1"/>
+  	<import addon="script.module.requests" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for http://codelyokoevolutionfan.webs.com/</summary>
+  	<description>http://codelyokoevolutionfan.webs.com/</description>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.video.codelyokoevolution/</website>
+  	<email></email>
+  	<source>https://github.com/HIGHWAY99/plugin.video.codelyokoevolution/archive/master.zip</source>
   </extension>
 </addon>
 
@@ -46,6 +96,86 @@
   	<website>http://github.com/HIGHWAY99/plugin.video.moviefork/</website>
   	<email></email>
   	<source>http://github.com/HIGHWAY99/plugin.video.moviefork/archive/master.zip</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.solarmovie.so"
+       name="[COLOR grey][COLOR goldenrod]S[/COLOR]olar[COLOR yellow]M[/COLOR]ovie.so[/COLOR]"
+       version="0.2.6"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="script.module.urlresolver" version="2.0.9"/>
+  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for SolarMovie.so</summary>
+  	<description>Play Movies and TV shows from SolarMovie.so.  Some of the Features:  Custom Labels for Multiple-Folder Favorites, Libraries, Find Air-Dates, Search, Advance Search, Some Download compatibility.</description>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.video.solarmovie.so/</website>
+  	<email></email>
+  	<source>http://github.com/HIGHWAY99/plugin.video.solarmovie.so/archive/master.zip</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.theanimehighway"
+       name="Anime [COLOR tan]Highway[/COLOR]"
+       version="0.1.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" 								version="1.0.0"/>
+    <import addon="script.module.urlresolver"  	version="1.0.0"/>
+    <import addon="script.module.elementtree" 	version="1.2.7"/>
+    <import addon="script.module.cryptopy" 			version="1.2.6"/>
+    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
+    <import addon="script.module.t0mm0.common" 	version="1.1.0"/>
+    <import addon="script.common.plugin.cache" 	version="0.9.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" 	library="theanimehighway.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Anime [COLOR tan]Highway[/COLOR] is a 3rd Party Video Plugin for XBMC</summary>
+    <description lang="en">This plugin now handles videos from animeget.com, anime44.com, animeplus.tv, gooddrama.net, and more. I'm aware that GoodDrama isn't anime, but it was a simular site linked to by one or more of the others... so I tossed it into the plugin as well for you jdrama fans. I'm still learning with it comes to python and having the most basic of flaws throw trouble at me, so there's bound to be some features lacking as well as some extra code left in at times that may not have gotten cleaned up at release time.</description>
+    <disclaimer lang="en">This Project is designed for xbmc v12.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+    <website>http://github.com/HIGHWAY99/plugin.video.theanimehighway/</website>
+    <email></email>
+    <source>https://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vidics4"
+       name="[I][/I]Vidics4.com (Under Construction)"
+       version="0.2.4"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="script.module.urlresolver" version="2.0.9"/>
+  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for Vidics4.com</summary>
+  	<description>...</description>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.video.viooz/</website>
+  	<email></email>
+  	<source>http://github.com/HIGHWAY99/plugin.video.viooz/archive/master.zip</source>
   </extension>
 </addon>
 
