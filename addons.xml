@@ -74,6 +74,33 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.funimation"
+       name="Funimation (Under Construction)"
+       version="0.0.4"
+       provider-name="TheHighway">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.elementtree" version="1.2.7"/>
+    <import addon="script.module.cryptopy" version="1.2.6"/>
+    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="funimation.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Funimation video plugin</summary>
+    <description lang="en">Videos from Funimation.com</description>
+    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.moviefork"
        name="[I][/I]MovieFork.com"
        version="0.2.7"
