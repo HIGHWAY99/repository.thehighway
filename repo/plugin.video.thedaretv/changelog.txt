@@ -1,3 +1,10 @@
 v0.1 - initial beta
 v0.2 - added radio thank you HIGHWAY99
-v0.3 - More audo added thanks to HIGWAY99
+v0.3 - More audio added thanks to HIGWAY99
+v0.4 - [ Changes by The Highway ]
+     - TV & Movies - All Shows (ABC, Date, IMDB)
+     - Pagination fixed for TV-Shows
+     - Fanart / Backdrop from metadata added to AddDir() with error handling.
+
+
+
