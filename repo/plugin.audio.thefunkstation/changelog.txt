@@ -1,0 +1,9 @@
+
+[B]Version 0.3.1[/B]
+- Code Cleanup. 
+- Main Menu - Listen | Song History to TextWindow | Status to TextWindow | Plugin Settings
+- Some Initial Art from the site that the project is for.
+- Code Cleanup. 
+- Addon.xml setup.  Addon Type set to Audio.  Other information setup.
+- inital build forked from my plugin.audio.ukradio, plugin.audio.searchmp3mobi, plugin.video.moviefork & plugin.video.solarmovie.so projects.
+
