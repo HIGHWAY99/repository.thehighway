@@ -5,6 +5,6 @@ v0.4 - [ Changes by The Highway ]
      - TV & Movies - All Shows (ABC, Date, IMDB)
      - Pagination fixed for TV-Shows
      - Fanart / Backdrop from metadata added to AddDir() with error handling.
-
-
+v0.5 - [ Changes by The Highway ]
+     - Auto-View Settings for Movies|TVShows|Seasons|Episodes|DefaultView
 
