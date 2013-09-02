@@ -70,7 +70,7 @@
   	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
   	<website>http://github.com/HIGHWAY99/plugin.video.codelyokoevolution/</website>
   	<email></email>
-  	<source>https://github.com/HIGHWAY99/plugin.video.codelyokoevolution/archive/master.zip</source>
+  	<source>http://github.com/HIGHWAY99/plugin.video.codelyokoevolution/archive/master.zip</source>
   </extension>
 </addon>
 
@@ -177,7 +177,7 @@
     <forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
     <website>http://github.com/HIGHWAY99/plugin.video.theanimehighway/</website>
     <email></email>
-    <source>https://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
+    <source>http://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
   </extension>
 </addon>
 
