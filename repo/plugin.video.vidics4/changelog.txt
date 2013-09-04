@@ -1,9 +1,10 @@
+[B]Version 0.2.5[/B]
+- Searches and TV Series/Seasons/Episodes are currently dissabled still and need more work done on them.
+- Parsing for Video Hosters has been fixed.
+- Setup doSearchNormal() for vidics4, but pages aren't setup for the differances in parsing yet.
+- listItems() - Slight fix to NextPage parsing string for the slight variation in some pages/categories.  This seems to keep the categories (which only happened with some) from getting stuck on the spin-cicle.
+
 [B]Version 0.2.4[/B]
-- 
-- 
-- 
-- 
-- 
 - Major problems with some pages of movie listings causing stalls has made me ponder rather to continue this project.
 - Split TV Genres to a seperate list and have them hidden for now. (code is in Menu_BrowseByGenre for them, but page parsing not setup yet)
 - Pagination.  (Setup of Next Page stuff)
