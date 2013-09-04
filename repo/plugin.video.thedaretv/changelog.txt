@@ -7,4 +7,10 @@ v0.4 - [ Changes by The Highway ]
      - Fanart / Backdrop from metadata added to AddDir() with error handling.
 v0.5 - [ Changes by The Highway ]
      - Auto-View Settings for Movies|TVShows|Seasons|Episodes|DefaultView
-
+v0.6 - [ Changes by The Highway ]
+     - New Art / Graphics by o9r1sh.
+     - _artPath and art_(filename,fo='[folder]',fe='.png') added to thedareradio.py, so that it'll work in .py files.
+     - setup of default.py to use the /art/[FOLDER]/*.png graphics made by o9r1sh.
+     - spacing/tabbing clean-up in default.py.  This makes it so I don't have to backspace as far.
+     - set_view('list') added in places where it was previously missing.
+     - 
