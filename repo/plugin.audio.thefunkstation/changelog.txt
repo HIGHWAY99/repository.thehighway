@@ -1,3 +1,7 @@
+[B]Version 0.3.2[/B]
+- Packaged LastFM slideshow.py from RamFM Addon to add Start SlideShow Menu Item as requested by mirageuk.
+- Settings Window Changes
+- Choose your Player Setting.  This is a nice feature either way, though is being done to attempt to fix the issue that FunkStation had mentioned on the Forum... I hope it helps.
 
 [B]Version 0.3.1[/B]
 - Code Cleanup. 
