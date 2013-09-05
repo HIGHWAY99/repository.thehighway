@@ -1,0 +1,18 @@
+[B]Version 0.2.7[/B]
+- Project still needs a lot of code clean up and some more work, but I'm going to go ahead and release this version for people to use since it can now play videos, and has numerous features and categories to browse.
+- Search - Feature added (Normal Search).
+- listLinks() - The downloadable choices dont seem to wanna work reguardless of what I toss at it.  The contentURL finally works to play the videos.
+- listEpisodes() - seems to be working so far.
+- BrowseByAZ() - currently bugged.  By-passed for the time being, so no 0/A-Z... just All by default.
+- BrowseByGenre() - working.
+- listItems() - seems to be working so far.
+- Main Menu - setup.
+
+[B]Version 0.2.6[/B]
+- Initial Build forked from plugin.video.solarmovie.so to plugin.video.kissanime for current project.
+
+
+
+
+
+
