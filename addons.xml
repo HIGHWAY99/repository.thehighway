@@ -74,7 +74,7 @@
 
 <addon id="plugin.image.kissmanga"
        name="KissManga"
-       version="0.2.8"
+       version="0.2.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
@@ -150,7 +150,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.2.8"
+       version="0.2.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>

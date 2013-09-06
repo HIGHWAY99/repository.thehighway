@@ -1,3 +1,9 @@
+[B]Version 0.2.9[/B]
+- 
+- 
+- Normal Search - .replace(' ','+') - Fix was more for KissManga than for KissAnime, but it still works on both.
+- Favorites - Fixed mode to 'GetEpisodes' to make it work.
+
 [B]Version 0.2.8[/B]
 - Support originally for .jpg's, now also for .png's.
 - Download Feature available for Manga's Page Images.

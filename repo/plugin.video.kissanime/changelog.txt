@@ -1,3 +1,9 @@
+[B]Version 0.2.9[/B]
+- 
+- 
+- Normal Search - .replace(' ','+') - Fix was more for KissManga than for KissAnime, but it still works on both.
+- Favorites - Fixed mode to 'GetEpisodes' to make it work.
+
 [B]Version 0.2.8[/B]
 - Some Slight changes using additional settings in config.py to make things easier to update in both kissanime and kissmanga addons.
 - Side-Note: I am looking into how simular KissManga.com is to KissAnime.com... browsing looks 
