@@ -1,3 +1,7 @@
+[B]Version 0.3.4[/B]
+- Auto-View option in Settings.
+- Art added with thanks to mirageuk.
+
 [B]Version 0.3.3[/B]
 - Again I want to thank < mirageuk > on the xbmchub forum for his help in solving this problem.
 - There's now 2 Listen commands on the menu, both clearly marked as for which major version of XBMC they are for.  These are setup for Gotham and for Frodo.  Frodo uses PAPlayer, where as Gotham is setup for the choice selector.  If you can't get either of them to work, try changing the player selector in settings and then use Gotham.

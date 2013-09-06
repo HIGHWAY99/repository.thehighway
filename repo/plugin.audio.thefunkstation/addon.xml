@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.audio.thefunkstation"
        name="TheFunkStation"
-       version="0.3.3"
+       version="0.3.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
