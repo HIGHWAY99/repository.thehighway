@@ -1,6 +1,13 @@
+[B]Version 0.3.0[/B]
+- 
+- 
+- After a few seconds thought I did go ahead and add in an option in the Settings Window for having the old style method displayed as well.
+- Old items on the MainMenu Removed/Hidden for genre/sortmethod folder list instead of the new select list.  Let me know if there's any interest in putting those back in, with a setting option to display them or not.
+- Favorites Folder No. 3 and 4 have been added.  Remember that you can customize their names in the Settings Menu.
+- _DoGetItems(), Select_AZ(), Select_Sort(), Select_Genre() added for the new choice list(s) method.  You can now choose All, Numbers (0-9), or A-Z for the Anime List.
+- MetaHandler import added to addon.xml as a requirement.
+
 [B]Version 0.2.9[/B]
-- 
-- 
 - Normal Search - .replace(' ','+') - Fix was more for KissManga than for KissAnime, but it still works on both.
 - Favorites - Fixed mode to 'GetEpisodes' to make it work.
 
