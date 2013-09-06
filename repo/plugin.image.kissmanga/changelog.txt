@@ -1,4 +1,7 @@
 [B]Version 0.2.8[/B]
+- Support originally for .jpg's, now also for .png's.
+- Download Feature available for Manga's Page Images.
+- OK, things are finally sorted out it seems or near enoug to release... after going thrugh and trying some differant methods.
 - Some Slight changes using additional settings in config.py to make things easier to update in both kissanime and kissmanga addons.
 - Side-Note: I am looking into how simular KissManga.com is to KissAnime.com... browsing looks 
 - Backdrop/Fanart, Cover/Thumbnail, and some other metadata information setup  to be used when the User ENABLES the option in the Addon/Plugin Settings under Metadata.
