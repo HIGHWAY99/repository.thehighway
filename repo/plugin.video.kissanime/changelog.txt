@@ -1,6 +1,15 @@
+[B]Version 0.3.1[/B]
+- 
+- 
+- 
+- 
+- 
+- Major Break-through!  Addon can now pass playable links for multiple resolutions in .flv/.mp4/exc... formats available on the site.
+- Moving "some" content type data to config.py to better keep the default.py simular in nature for KissAnime and KissManga.
+- More Stuff done in listEpisode().  Label name parsing, Date information and Plot filled with misc info for easy viewing.
+- Dated added to end of Episode Name like in KissManga addon.
+
 [B]Version 0.3.0[/B]
-- 
-- 
 - After a few seconds thought I did go ahead and add in an option in the Settings Window for having the old style method displayed as well.
 - Old items on the MainMenu Removed/Hidden for genre/sortmethod folder list instead of the new select list.  Let me know if there's any interest in putting those back in, with a setting option to display them or not.
 - Favorites Folder No. 3 and 4 have been added.  Remember that you can customize their names in the Settings Menu.
