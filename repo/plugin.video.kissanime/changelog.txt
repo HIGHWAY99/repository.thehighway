@@ -1,9 +1,34 @@
+[B]Version 0.3.2[/B]
+- 
+- 
+- 
+- Slight Adjustments made to the Download Function(s).
+- To use either download Feature, remember to dissable the Auto-Play option in Settings so you can view the list of links.
+- JDownloader Feature Made Available.  This could use a short little test by those who have it setup, with dropping me a message on the forum or IRC Chat to let me know how well it's working.
+- Download Feature Made Available.  This includes the same type of Download-Methods as in my SolarMovie.so addon.
+- Along with Genre(Select), the OldMenu feature now provides a method to view the Last... stuff in a submenu in order to work around any issues with refreshing the main menu when ran from a shortcut on the MainScreen of XBMC.
+- Check out Settings for a Genre and All|#|A-Z Style changer to change the graphics for the 2 folder listings.  At this moment it looked like some links with -'s were having problems so some icons for 'ALL' don't seem to want to show up.  Please go easy on switching between these as to not bombard the remote hosts.
+- Ability to Add a Favorite from one folder to another... Thus allowing you to move them... for now you still have to click remove after you click add if you dont want to keep it there too.
+- Fanart Image now gets transfered to Favorites when adding a New Favorite Item.
+- Main-Menu and AutoPlay tabs added to Addon/Plugin Settings Window/Dialog since there was getting to be quite a bit in the General tab.
+- More items added to MainMenu: Last Video [Played|AutoPlay] and Last Anime Visited.  These only show up if enabled (True by default) and have a value which will happen after u visit/play one the first time.
+### AutoPlay feature seems to be working now for: Default (Default URL) | Next (Next Url is usually the highest quality Url I think.) | Last (Last is usually the lowest quality Url I think.).
+### I've switched from enables for alternative autoplay options to a enum switch under General tab in Settings.
+### In the end I had to save info at listEpisodes() to call later to go back to there after play, so to prevent the continual re-play issue.
+### Tried a check via the title and url... that didn't help much if any at all.
+### Many problems with list auto-refreshes causing it to be hard to get out of playing a video with auto-play on.
+- Working on an AutoPlay Feature.
+- listEpisodes() - Date Stamp Display changes.
+- Option added to Settings for dissabling the view of Favorites 2-4.
+- Another Code Cleanup.  Removed old methods since start of KissAnime/KissManga projects and some more of the older stuff from SolarMovie.so project days.
+### Due to this, I'm converting the select menus to folder menus.
+### Finding out that the select sort method select screen list has a problem of showing up again cause of some darn refreshing issue.
+- Working on setting up a normal genre folder listing with the select sort method system.
+- Plot fix for KeyError: (u'\u2014',) due to the adding of plot data from metadata.
+- Added handling for catching the previously missing metadata tags in listItems() in default.py.
+- Added some missing metadata tags to GRABMETA() in teh_tools.py.
+
 [B]Version 0.3.1[/B]
-- 
-- 
-- 
-- 
-- 
 - Major Break-through!  Addon can now pass playable links for multiple resolutions in .flv/.mp4/exc... formats available on the site.
 - Moving "some" content type data to config.py to better keep the default.py simular in nature for KissAnime and KissManga.
 - More Stuff done in listEpisode().  Label name parsing, Date information and Plot filled with misc info for easy viewing.
