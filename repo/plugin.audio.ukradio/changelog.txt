@@ -1,8 +1,13 @@
+[B]Version 0.3.2[/B]
+- 
+- error handling for unicode.
+- rtmp changes.
+- *^ stands for issue with users 'Outside The UK'.
+
 [B]Version 0.3.1[/B]
 - StarCheck() now shows * (1) for KNOWN unparsed Stations and ** (2) for KNOWN Stations using RTMP.
 - notablenames.py added to hold StarCheck() / StarCheck_() functions.
 - StarCheck(LName) function added to make things easier for me to add in more stations to add a Star by when i find ones that are RTMP links or don't work.
-
 
 [B]Version 0.3.0[/B]
 - rtmp link disabling option
