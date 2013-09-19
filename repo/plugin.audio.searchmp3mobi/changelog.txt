@@ -1,3 +1,11 @@
+[B]Version 0.2.9[/B]
+### plugin.audio.searchmp3mobi?mode=Search&section=music&pageno=1&pagecount=1&title=[search text]
+- Multi-Word Search and Single-Word Search playing some working song links.
+- Multi-Word Search and Single-Word Search playing some working youtube video links.
+- Single-Word Search displaying listings.
+- Multi-Word Search displaying listings.
+- Search Feature added.
+
 [B]Version 0.2.8[/B]
 - Some more Code Cleanup.
 - Currently no "Search", "Latest Tracks", exc....
