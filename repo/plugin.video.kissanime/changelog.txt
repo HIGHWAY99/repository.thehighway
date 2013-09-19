@@ -1,7 +1,12 @@
+[B]Version 0.3.3[/B]
+- 
+- 
+- Right-Click ContextMenuItem for Latest ... episode (item) noted when there's a '</a>' in the LInfo data area.
+- New option in Settings for hiding items that have not been aired yet, since that normally means there isn't yet anything to watch for them.
+- '[Completed]' and '[Not yet aired]' tags added to the plot description when they appear in the LInfo data area (Latest Episode Category).
+- Added Latest Episode category and updated/hot image area data to what is parsed in listItems().
+
 [B]Version 0.3.2[/B]
-- 
-- 
-- 
 - Slight Adjustments made to the Download Function(s).
 - To use either download Feature, remember to dissable the Auto-Play option in Settings so you can view the list of links.
 - JDownloader Feature Made Available.  This could use a short little test by those who have it setup, with dropping me a message on the forum or IRC Chat to let me know how well it's working.
