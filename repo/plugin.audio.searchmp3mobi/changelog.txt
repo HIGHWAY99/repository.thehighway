@@ -1,3 +1,9 @@
+[B]Version 0.3.0[/B]
+- 
+- Tested Search value with search query as 'title'.
+- Album List and Listing songs via url from Album Listings.
+- SearchEngine Method - temp fix.
+
 [B]Version 0.2.9[/B]
 ### plugin.audio.searchmp3mobi?mode=Search&section=music&pageno=1&pagecount=1&title=[search text]
 - Multi-Word Search and Single-Word Search playing some working song links.
