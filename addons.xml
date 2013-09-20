@@ -324,7 +324,7 @@
 
 <addon id="plugin.video.vidics4"
        name="Vidics4.com"
-       version="0.2.5"
+       version="0.2.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
