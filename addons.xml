@@ -276,7 +276,7 @@
 
 <addon id="plugin.video.theanimehighway"
        name="Anime [COLOR tan]Highway[/COLOR]"
-       version="0.1.0"
+       version="0.1.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="1.0.0"/>
@@ -300,7 +300,7 @@
     <forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
     <website>http://github.com/HIGHWAY99/plugin.video.theanimehighway/</website>
     <email></email>
-    <source>http://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
+    <source>https://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
   </extension>
 </addon>
 

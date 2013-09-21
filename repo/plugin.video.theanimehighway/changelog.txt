@@ -37,6 +37,14 @@ Video Source FYI/Rundown:
 
 ========= ChangeLog: =========
 
+ver 0.1.2 - The Anime Highway
+	03.) DubHappy.eu >> Anime Movies >> [type: 7, mode: 358] - Seems like 'http://www.dubhappy.eu/.+?/' urls now use 'http://www.animestatic.com/anime-movies/.+?-english-dubbed/' instead.  Although it seems to use animestatic.com urls it seems that domain currently forwards to animestatic.org.  I've setup things so it'll just use the whole url rather than of a certain domain.  This may make for breaks later if they change things again to a domain with pages  that are setup differantly.
+	02.) DubHappy.eu >> Anime List >> [type: 7, mode: 258] - 'Anime List' changed to 'Dubbed Anime List' in 2 places.  Used in splitting out the unused parts of the page.
+	01.) Tested several listing pages to make sure things haven't broken since the last update.
+
+ver 0.1.1 - The Anime Highway
+	01.) On-error fix for UploadC.
+
 ver 0.1.0 - The Anime Highway
 	01.) Noticed some errors for show(s), having video-not-found issues, dealing with stuff in videolinks.py and teh_tools.py, so i tossed in a little quick fix.
 
