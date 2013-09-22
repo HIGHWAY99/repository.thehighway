@@ -1,3 +1,10 @@
+[B]Version 0.3.0[/B]
+### These Favorite Folders can be Labeled with custom names and can be hidden by disabling them in Addon Settings.
+### You can Add/Remove/Empty/List Favorites as well as Adding from one Favorites folder to another.
+### default.py >> ps() | fav__empty() | fav__remove() | fav__add() | fav__list() | BrowseItems()
+### settings.xml >> Movies | TV
+- Favorites
+
 [B]Version 0.2.0[/B]
 - fix for Normal Search feature to allow for the better passing of title searches.
 
