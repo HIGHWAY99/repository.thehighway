@@ -1,5 +1,10 @@
+[B]Version 0.2.9[/B]
+- Fix in Settings
+
+[B]Version 0.2.8[/B]
+- Normal Search - Seems to be working.  This search is for title only.
+
 [B]Version 0.2.7[/B]
-- 
 - Hide some unused stuff in Settings Window.
 - Little Fix to set Movie Favorites to goto PlayVideo() instead of GetLinks()
 - Reversed Order of "Decades".
