@@ -1,0 +1,24 @@
+[B]Version 2.0.3[/B]
+- Rewrite of get_episode logic - now supports air date
+- Added search/refresh on tv shows - returns list of possible matches
+- Many code clean ups and fixes
+- Early support for batch meta grabs - still WIP
+
+[B]Version 2.0.2[/B]
+- Added MySQL support
+- Added Year column for TV Shows - Temporary upgrade code in place
+- Playcount now set for Watched Status in Frodo
+- Use of common logging function, reduce amount of logs in normal logging mode
+- Remove usage of date conversion routines
+- Sending back TVShowTitle for episodes for subtitles to work proper
+- More error trapping to protect against script errors
+- Backfilling more missing data from IMDB
+- Fixed Votes not populating properly
+
+[B]Version 1.0.1[/B]
+- Updated for changes in IMDB field names
+- Added return of Year for TV Shows - still to do: save Year in DB
+- Corrected Ratings and Episode values on TV Shows not returning in proper format in all scenarios
+
+[B]Version 1.0.0[/B]
+- Initial Release.

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.thedaretv" version="0.6.0" name="The Dare TV" provider-name="The_Silencer and HIGHWAY99">
+<addon id="plugin.video.thedaretv" version="0.6.1" name="The Dare TV" provider-name="The_Silencer and HIGHWAY99">
 	<requires>
 		<import addon="xbmc.python" version="2.0"/>
 		<import addon="script.module.urlresolver"  version="2.0.9"/>
 		<import addon="script.module.t0mm0.common" version="2.1.1"/>
 		<import addon="script.module.metahandler"  version="2.0.3"/>
 		<import addon="script.module.universal" version="1.0.1" />
+		<import addon="plugin.video.favorites" version="0.0.2" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

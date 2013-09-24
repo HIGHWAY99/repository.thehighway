@@ -1,0 +1,59 @@
+[B]Version 2.0.9[/B]
+- Fixed VeeHD
+
+[B]Version 2.0.8[/B]
+- Added Bayfiles
+- Added CrunchyRoll
+- Added Movreel
+- Added Played
+- Added RPNet
+- Updated Sharesix
+- Added TheFile
+- Added Vureel
+- Added WatchFreeInHD
+- Fixed ZooUpload
+- Added BillionUploads
+- Added HugeFiles
+- Added ShareRepo
+- Added VidBull
+- Fixed VeeHD
+- Fixed VidHog
+
+[B]Version 2.0.7[/B]
+- Vidxden: Fixed
+- Added: Sharesix (humla)
+
+[B]Version 2.0.6[/B]
+- Videoweed: Allow Videoweed.eu/files/1423541 type
+- Divstage: Allow embedded urls to resolve
+- Filenuke: Removed www. from regex causing 502 errors
+- Xvidstage: Fixed
+- Stream2k: Fixed
+
+[B]Version 2.0.5[/B]
+- Added streamcloud
+- Added zooupload
+- Fixed divxstage - handle url with .net
+- Fixed flashx.tv - new pattern and embed code
+- Fixed vidstream - new url
+- Fixed ecostream - new embed url pattern
+- Reverted putlocker code, added option for higher vid quality
+
+[B]Version 2.0.4[/B]
+- Frodo branch
+- Updated putlocker and vidxden resolvers
+- Updated real-debrid
+
+[B]Version 1.0.3[/B]
+- Fixed putlocker
+
+[B]Version 1.0.2[/B]
+- Fixed dailymotion
+- Fixed gorillavid
+
+[B]Version 1.0.0[/B]
+- Initial Release.
+
+
+[B]Version 1.0.0[/B]
+- Initial Release.
