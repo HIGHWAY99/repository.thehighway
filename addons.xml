@@ -147,6 +147,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.favorites"
+       name="** My Favorites **"
+       version="0.0.2"
+       provider-name="the-one">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.module.t0mm0.common" version="0.0.1"/>
+	<import addon="script.module.universal" version="0.0.1"/>
+	<import addon="script.module.metahandler" version="1.0.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">My Favorites</summary>
+    <description lang="en">Favorites across all addons.[CR][CR][COLOR orange]Support[/COLOR] @ [COLOR blue]www.[B]XBMCHUB[/B].com[/COLOR][CR][CR][COLOR orange][B]Credits[/B][/COLOR][CR]     [COLOR blue]The_Silencer:[/COLOR] Testing and Quality Assurance</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.funimation"
        name="Funimation (Under Construction)"
        version="0.0.4"
@@ -304,13 +325,14 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thedaretv" version="0.6.0" name="The Dare TV" provider-name="The_Silencer and HIGHWAY99">
+<addon id="plugin.video.thedaretv" version="0.6.1" name="The Dare TV" provider-name="The_Silencer and HIGHWAY99">
 	<requires>
 		<import addon="xbmc.python" version="2.0"/>
 		<import addon="script.module.urlresolver"  version="2.0.9"/>
 		<import addon="script.module.t0mm0.common" version="2.1.1"/>
 		<import addon="script.module.metahandler"  version="2.0.3"/>
 		<import addon="script.module.universal" version="1.0.1" />
+		<import addon="plugin.video.favorites" version="0.0.2" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
