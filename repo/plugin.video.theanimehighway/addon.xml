@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.theanimehighway"
        name="Anime [COLOR tan]Highway[/COLOR]"
-       version="0.1.2"
+       version="0.1.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="1.0.0"/>
     <import addon="script.module.urlresolver"  	version="1.0.0"/>
-    <import addon="script.module.elementtree" 	version="1.2.7"/>
-    <import addon="script.module.cryptopy" 			version="1.2.6"/>
-    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
     <import addon="script.module.t0mm0.common" 	version="1.1.0"/>
     <import addon="script.common.plugin.cache" 	version="0.9.1"/>
-    <import addon="script.module.requests" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" 	library="theanimehighway.py">
 		<provides>video</provides>
@@ -25,6 +21,6 @@
     <forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
     <website>http://github.com/HIGHWAY99/plugin.video.theanimehighway/</website>
     <email></email>
-    <source>https://github.com/HIGHWAY99/plugin.video.theanimehighway/archive/master.zip</source>
+    <source></source>
   </extension>
 </addon>

@@ -1,0 +1,38 @@
+[B]Version 0.1.3[/B]
+- removed a false/positive from videolinks.py
+
+[B]Version 0.1.2[/B]
+- import requirement changes and edited addon.xml.
+
+[B]Version 0.1.1[/B]
+- DailyMotion Improvements and Fixes.
+
+[B]Version 0.1.0[/B]
+- mp4 links from 4Shared seem to not play for some unknown reason at this time, flv links however do play.
+- Added Several more Hosters (Sources) to my collection of Handled Hosters (Sources).
+- Gave up on urlResolver to go back to using my videolinks.py collection of Hoster-Handling. Setup my addLink() function in teh_tools.py to handle my current method of link adding with a quick and dirty fix.
+- Browse: List of Hosters (Sources) for Video
+- Browse: Videos
+- Browse: Next Page on -Channels or All-
+- Browse: by -Channels or All-
+
+
+
+
+
+
+
+
+[B]To-DO List:[/B]
+- 
+- 
+- 
+- 
+- 
+- 
+
+
+
+
+
+
