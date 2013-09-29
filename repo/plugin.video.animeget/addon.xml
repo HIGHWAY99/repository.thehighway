@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.animeget"
+       name="AnimeGet"
+       version="0.0.1"
+       provider-name="TheHighway">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.elementtree" version="1.2.7"/>
+    <import addon="script.module.cryptopy" version="1.2.6"/>
+    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="animeget.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AnimeGet video plugin</summary>
+    <description lang="en">Videos from animeget.com</description>
+    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
