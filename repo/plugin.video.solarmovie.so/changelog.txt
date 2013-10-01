@@ -1,3 +1,13 @@
+[B]Version 0.2.8[/B]
+- Note:  Keep an eye out for my upcoming Remake Project thats sort of taken a spin into a even huger project.  I'll be having an addon in the future that will handle adding Host Plugin updates to urlresolver's plugin folder.
+- UrlResolver Check disabled to increase speed !!dramatically!!.  This also allows for displaying those that might not be handded yet, which lets us find out about them and you to find out about them... and thus report them to us.
+- #XBMCHUB @ irc.Freenode.net message window.
+- Quick Fix for New Threads (now Latest Comments).
+- Fix to 'prtItem' in listItems() thanks to lukin visiting me on irc.
+
+[B]Version 0.2.7[/B]
+- Fix made to plugin name and .py file name for Favorite Folder Empty command in Settings Window.
+
 [B]Version 0.2.6[/B]
 ### Currently by default this setting's value is set to 9999, which there should hopefully not be any movies and/or episodes that have higher than that.
 - listLinks() - An option in the Settings Window for limiting the number of Host Links displayed.  This is an attempt to speed up the displaying Host Menus which can take a long while when they have a high number like 200 links.

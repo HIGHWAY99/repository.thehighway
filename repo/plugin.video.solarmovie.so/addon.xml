@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.solarmovie.so"
        name="[COLOR grey][COLOR goldenrod]S[/COLOR]olar[COLOR yellow]M[/COLOR]ovie.so[/COLOR]"
-       version="0.2.6"
+       version="0.2.8"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
@@ -20,6 +20,6 @@
   	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
   	<website>http://github.com/HIGHWAY99/plugin.video.solarmovie.so/</website>
   	<email></email>
-  	<source>http://github.com/HIGHWAY99/plugin.video.solarmovie.so/archive/master.zip</source>
+  	<source></source>
   </extension>
 </addon>
