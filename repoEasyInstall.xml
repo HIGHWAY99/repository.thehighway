@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.favorites"
+       name="** My Favorites **"
+       version="0.0.2"
+       provider-name="the-one">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.module.t0mm0.common" version="0.0.1"/>
+	<import addon="script.module.universal" version="0.0.1"/>
+	<import addon="script.module.metahandler" version="1.0.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">My Favorites</summary>
+    <description lang="en">Favorites across all addons.[CR][CR][COLOR orange]Support[/COLOR] @ [COLOR blue]www.[B]XBMCHUB[/B].com[/COLOR][CR][CR][COLOR orange][B]Credits[/B][/COLOR][CR]     [COLOR blue]The_Silencer:[/COLOR] Testing and Quality Assurance</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon version="0.0.3" id="repository.thehighway" name="TheHighway's XBMC Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's XBMC Addons">
+		<info compressed="false">http://github.com/HIGHWAY99/repository.thehighway/raw/master/addons.xml</info>
+		<checksum>http://github.com/HIGHWAY99/repository.thehighway/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon version="0.0.1" id="repository.TheHighwaysEasyInstallRepo" name="TheHighway's Easy Fresh Install Addon Collection" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Easy Fresh Install Addon Collection">
+		<info compressed="false">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml</info>
+		<checksum>http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml.md5</checksum>
+		<datadir zip="true">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
+		<description>For Myself and those who want to use it.  Basically for when you need to do a fresh install and don't want to hunt up the IMPORTANT things in life in each and every little spot (some unknown to man).  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Common caching api for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="script.ircchat"
+       name="IrcChat"
+       version="1.0.0"
+       provider-name="divingmule|MassIV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>An IRC Client</summary>
+    <description>
+      This add-on is a basic IRC client for XBMC mediacenter.
+      Internet Relay Chat (IRC) is a protocol for live interactive
+      Internet text messaging (chat) or synchronous conferencing.
+      It is mainly designed for group communication in discussion forums, called channels.
+    </description>
+    <language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source>https://github.com/divingmule/script.ircchat</source>
+    <forum></forum>
+    <website>http://wiki.xbmc.org/index.php?title=Add-on:IrcChat#IRC</website>
+  </extension>
+</addon>
+
+<addon id="script.module.httplib2"
+       name="httplib2"
+       version="0.7.1"
+       provider-name="Joe Gregario">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.metahandler"
+	     name="metahandler"
+	     version="2.0.3"
+	     provider-name="Eldorado (inspired by anarchintosh, westcoast, daledude, t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.elementtree" version="1.2.7"/>
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+	<import addon="script.module.myconnpy" version="0.3.2"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.t0mm0.common"
+	     name="t0mm0's common stuff"
+	     version="2.1.1"
+	     provider-name="t0mm0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>
+
+<addon id="script.module.universal"
+       name="Universal - An Addons Toolkit"
+       version="1.0.1"
+       provider-name="the-one">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="0.0.1"/>
+  </requires>
+  <extension library="default.py" point="xbmc.service"  start="startup"/>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Universal - An Addons Toolkit</summary>
+    <description lang="en">Collection of common functionality for addons.</description>
+    <platform>all</platform>
+	<language></language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+	<forum>http://www.xbmchub.com/forums/ones-xbmc-repo/9259-%5Bbeta-release%5D-universal-addons-toolkit.html</forum>
+	<website>https://github.com/the-one-/script.module.universal/wiki</website>
+	<source>https://github.com/the-one-/script.module.universal</source>
+	<email>xs2the1[at]gmail[dot]com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.urlresolver"
+     name="urlresolver"
+     version="2.0.9"
+     provider-name="XBMCHub.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.t0mm0.common" version="1.0.0"/>
+    <import addon="plugin.video.youtube" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common video host URL's to be playable in XBMC.</summary>
+    <description lang="en">Resolve common video host URL's to be playable in XBMC, simplify addon development of video plugins requiring multi video hosts.</description>
+  </extension>
+</addon>
+</addons>
