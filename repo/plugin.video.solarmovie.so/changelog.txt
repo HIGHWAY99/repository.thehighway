@@ -1,3 +1,10 @@
+[B]Version 0.2.9[/B]
+- Quick Temp. Fix for TV Searches.  Seems TV Searches are bringing up Episodes instead of TV Show Titles.
+- nURL() function added to teh_tools.py for fetching webpages.  A better function method that I've put together since doing a later project.
+- "Search  [API]" added for Movies and for TV (with movies as well).
+- Alright, I think I finally got the ContextMenuItems setup and the Metadata showing for all available movie and tv show titles on the "Search  [API]" feature.
+- Adjusted the [TV] and [MOVIE] tags to the front of labels to be more viewable.  Also added the [Country(s)] tag back on to the end of labels. (in the "Search  [API]" feature)
+
 [B]Version 0.2.8[/B]
 - Note:  Keep an eye out for my upcoming Remake Project thats sort of taken a spin into a even huger project.  I'll be having an addon in the future that will handle adding Host Plugin updates to urlresolver's plugin folder.
 - UrlResolver Check disabled to increase speed !!dramatically!!.  This also allows for displaying those that might not be handded yet, which lets us find out about them and you to find out about them... and thus report them to us.
