@@ -5,7 +5,7 @@
 '/addon/':'Addons_Anime-Pack_with-Menu_[2013-10-12].zip'
 
 # [Menu] | CAST ALBA TV | GetLiveStreamOnline | iGUiDE | iLiVE | NaviXtreme
-'/addon/':'Addons_Live-Stream-Pack_with-Menu_[2013-10-12].zip'
+'/addon/':'Addons_Live-Stream-Pack_with-Menu_[2013-10-13].zip'
 
 # [Menu] | MerDB | SingleLinkMoviez
 '/addon/':'Addons_Movies-n-TV_with-Menu_[2013-10-12].zip'
