@@ -1,8 +1,8 @@
 ### List of Updates ###
 
 
-
 # Additional Tools
+'/addon/':'Tools_Updater-v3_[2013-10-13].zip'
 '/addon/':'Tools_Some-Tools-Apps-Toys_[2013-10-12].zip'
 
 # Some Common Repositories

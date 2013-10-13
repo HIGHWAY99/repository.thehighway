@@ -1,0 +1,628 @@
+========= Contact: =========
+I can often be found " i-d-l-i-n-g " on irc chat in the channel #XBMCHUB on irc.freenode.net:6667. Please feel free to come hang out, "IDLE", and help one another. I'd like to see this channel more active. :)
+
+Am also on the xbmchub forums, though I don't frequent the forum near as much.
+
+My XBMC-HUB Refferal Code - http://www.xbmchub.com/forums/register.php?referrerid=15468
+Please use it to register if you don't have an account.  It not's not much but it can help me out.  
+========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
+========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
+========= ChangeLog: =========
+
+[B]Version 0.9.9[/B] - The Binary Highway
+- Thanks goes out to TwiztedZero for his help on some Fanart graphics and Icon graphic and helping me put together the basic themed-graphic I used as a base template to mock up some Icon/Thumbnail Graphics thru-out the addon in as many places as I could.  We might still get some additional changes done to the art, but I've really been QUITE ready and wanting to get this project released at long last.
+- 1Channel Tool to Remove/Restore the Host-Handled Check which can dramatically slow down the speed of the Source List menu.
+- Updaters come in a few versions, 1 that is gone already, a 2nd for misc. stuff (testers-only), 3rd for list of sub-addons (testers-only), then the 2 for plubic use that use github.  These 2 plublic ones are of course for misc. stuff and for sub-addons.
+### When you first use this addon you'll likely see a " << [Use Updater]" message in a few places.
+### ### This shows up until you've clicked to update/download the list file used for that tool the first time.
+### ### So first thing you should do is click "Misc. (Tools and such)".
+### ### Next Click either "Updater v2b [GitHub]" or "Updater For Sub-Addons [GitHub]" depending on what you want.
+### ### If you just want to catch some addons, I've currently got some setup on the subaddons list in packs for anime, live streams, movies&tv, and audio.
+### ### The "Updater v2b..." will have If you want additional tools, including a tool which will eventually help me to provider fixes to the community.
+### ### "Updater v2b..." will be where to look if you want a differant fanart for this project, or update differant parts of this project, even to catch the missing menu's that are already setup for use.
+### ### Some menu's don't have any addons yet, but in case anyone wants to make some before I get around to it, I did add to the list several Menu-Only updates for Image Addons... Sports... Others... and Adult addons.
+### ### Also make sure to check "Updater v2b..." for the Host-Plugin updates ocassionally.  Whenever I come out with some new ones I'll try to get them added to there.
+### Many of the smaller quickly done fast made addons I do from now on will most likely be added to this project for a quick and easy template method.
+
+[B]Version 0.9.9-pre[/B] - The Binary Highway
+- I've been forgetting to update this file so here's a bit of information to bring ya up-to-date.
+### My current project 'The Anime Highway - Remake' had gotten a name change.
+### It's new name is currently 'The Binary Highway', as it's now got capabilities of having tools, updating, fixes, addons of differant categories (not just anime).
+### I haven't changed the folder name over yet, but that'll happen soon before 'public' releases happen, I hope.
+### Currently I've updated the Updater Tool to v2 with some nice new methods.
+### ### With Updater v2 you can click-2-fetch a updates text file.
+### ### You can View the text file in a Text Window.
+### ### Once you have the updates text file locally, you should then see on the Updater v2's Menu a list of files available for update.
+### ### You can then pick and choose which you want (reading the text file for extra descriptions if you feel like it).
+### ### With Updater v2, I'll have the ability to provide more than one version for some updates and so on, more of a variety of updates, including date-stamps within the filenames.
+### There's currently a good selection of category menus, tools, misc files, repos, host plugins for urlresolver....
+### I still need to see about fixing up the graphic links once the graphics are more final, so I'll have to see about re-packing initial stuff later again before any 'public' releases, for which files will probably be on github rather than my dropbox.
+
+
+[B]Version 0.9.9-pre[/B] - The Anime Highway - Remake
+- Host Plugins - 
+### vidup_org.py (vidup.org) - 'http://((?:www.)?vidup.org)/embed.php?.*?file=([0-9a-zA-Z\-_\.]+).*?'
+### mp4upload_com.py (mp4upload.com) - 'http://((?:www.)?mp4upload.com)/embed-([0-9a-zA-Z\-_\.]+)[\-\.].*?'
+- aAnimeStatic_org.py (animestatic.org) - 
+### Play Videos of Handled Hosts | Browse Episodes | Browse Url/Name-only List Items.
+### I'll try to remember to work on the search feature later.
+- aDubHappy_eu.py (dubhappy.eu) - 
+### Play Videos of Handled Hosts | Browse Episodes | Browse Url/Name-only List Items.
+- I should note that there's a really good chance of renaming the project now as it's coming to handle way way more than just anime.
+### Many more Category / Menus added.
+### filenames slightly changed.
+### Anime moved into its own sub-menu.
+- c_SlideShow.py | vTheDireRadio.py | vTheFunkStation.py | vMusicVids.py
+- Handling for Passing a url or resolved url to JDownloader and File Downloading.
+- c_HiddenDownloader.py | c_Extract.py
+- tUpdater.py (Updater Tool for files within this tool) - 
+### This updater is currently ran manually.
+### Because its ran manually instead of automatically, there's a 'Check Updater Info' link that will bring up a text window with info on the what files were last updated on what Date.
+- XBMC.old.Log Viewer - Same as the previous, but for the previous log file, so that if an error accurs and they are forced to restart xbmc, they can look up what happened there.
+- XBMC.Log Viewer - A text window opened up and looked at by those on devices that would otherwise make that harder to do.
+- import shutil - 
+### openfile > savefile didn't work for graphics like the fanart.jpg and icon.png, so I've checked my methods to using shutil.copy(fromfilepath,tofilepath).
+- tRepos.py (Repository Installer) - 
+### This tool will allow the isntalling of Repositories.
+### A Restart of XBMC might be needed before the Repository shows up within xbmc.
+- Metadata colored.
+- Graphics - Looked around for some XBMCHUB graphics for what I don't have atm.
+- sCartoonWorld.py (cartoon-world.tv) - 
+### "Ongoing Anime and Cartoons"
+### Browse Lists:  Anime List | Cartoon List | Movie List
+### Browse Episodes
+### Search | Repeat Last Search | Browse Search Items
+- settings.xml - Options for ContextMenuItems.
+- mResolverPlugins.py - 
+### My current system to copy files packaged with my addon (/resources/urlresolver/*.py) to the urlResolver's path (usually: script.module.urlresolver/lib/urlresolver/plugins/*.py).
+### This should now work with -master | -2.0.9 | -1.0.0 tags on the end of the default script.module.urlresolver path.
+### It will give you a safety prompt to make sure you want to copy the file.
+### If the file already exists, a bottom-right-corner popup should show up saying that message.
+### If the file does already exist, it will now be renamed in the same path with the same file name but with a ".bup" after it.
+### I hope this will help a lot of you to grab Host Plugin updates a lot more easier.
+### In the future I "might" see if I can't get it to check my github location for more so you dont have to update this project as much.  But that won't be right now.
+- urlResolver() Host Files:
+### 01.)  vidcrazy.net - 'http://((?:video.)?vidcrazy.net)/nvs.php\?file=([0-9a-zA-Z\-_]+)[&]*'
+### 02.)  uploadcrazy.net - 'http://((?:embeds.)?uploadcrazy.net)/nvs.php\?file=([0-9a-zA-Z\-_]+)[&]*'
+- sCartoonWorld.py (cartoon-world.tv) - 
+### Project ported from plugin.video.cartoonworld.
+- vCastAlbaTV.py (castalba.tv) - Live Streams
+### Another handled site ported.
+- viLiveTo.py (ilive.to) - Live Streams
+### With what all has been going on in the community, I've decided to consider porting some Non-Anime-Related site handling to modules for this project and/or a possibly clone of this project.
+### This is the first handled site chosen to be ported for this project.
+### Categories, Live Channels, Token(s), and Playable Url parsing seems to be working.
+- Misc. (Tools and such) - New Menu for any Misc. menu items.
+### This will include stuff such as ChangeLog, Plugin Settings, Url-Resolver Settings, ... links.
+### Hopefully it'll eventually include tools for copying urlResolver() host plugins and such too.
+- Others (Non-Anime) - New Menu for Handled Sites that are not Anime, such as GoodDrama possibly.
+### File names will be such as v*.py within the main addon folder.
+### These v*.py files are automatically searched for added displayed to the menu list.
+### Similarly to the v*.py files, the s*.py files are also automatically searched for added displayed to the menu list for Anime-Related Handled Sites.
+### I basically consider this drag-and-drop, as you can create a new [s|v]*.py file for a handled site and have it put into the right menu.
+### v*.py files will show up in the Others Menu.
+### s*.py files will show up in the Default-Main Menu.
+### The passing of the value as to which file to grab is done by the sName / vName.
+### It is best to have either:
+### ### SiteName='name of site'
+### ### [or]
+### ### SiteName="name of site"
+### ### ... in the [s|v]*.py file for the handled site.
+### If the SiteName starts with a [ for things such as [COLOR white] and such, then it will refrain from putting the default chosen coloring on the first letter.
+### Simular to SiteName has now been done for fanartSite and iconSite, both holding a url to a remote graphic.
+### Remember to be careful of spacing / tabbing around the = sign.  You can now use a single space or no space at all as well as using either " or '.
+- About (Text Window) - Setup to be in each handled site's s*.py file to help explain stuff, leave notes to be read and so on.
+- ContextMenuItems - 
+### I forgot to mention before that I had setup some common ContextMenuItems functions.
+### It's been setup to handle many addons, some of which have been diabled (#) for now for space.
+### Still looking for more addons with anime content and a search feature.
+### Find Episodes for those shows on TheTVDB is setup.
+### Show Infomation is setup.
+### 
+### 
+### 
+### 
+- TO-DO:
+### * Decide on one of a few Favorites Methods to use.
+### * See how possible a universal search of all handled sites with search features might be.
+### * Sort out possible Metahandling ideas for Handled Sites with Url/Name-ONLY items.
+### * Sort out issues with graphics and hunt up graphics or find someone to make them for the differant handled sites.
+### * Hunt up other addon's that have a Search Feature and contain anime for the ContextMenuItems Feature(s).
+### * Graphic Downloading as Wallpapers and the such.
+### * Video Downloading.
+### * Setup of a basic Drag-n-Drop method to search the addon path for s*.py files for handled sites and catch their SiteName='...' string value.
+### * Something simular to that for \resources\urlresolver\*.py files for urlResolver() modules and copying them to the url resolver's subfolder when individually selecting them.
+### * 
+### * 
+- I "MIGHT" be looking for some quality graphics for the addon's main project relating to Anime and 
+### Highway as well as the number 99 if possible (not the actual highway 99 in the USA).  I have not 
+### considered rather to change them yet or not.  If I do consider changing them it would most likely 
+### need a nice XBMCHUB graphic overlayed somehow as well and maybe even something for #XBMCHUB on 
+### irc.freenode.net, which is the IRC channel that I try hard to advertise for.  
+- Well, good news is that AnimeGet.com and Anime44.net were the 2 first projects that TheAnimeHighway 
+### were based off of and so they have been carried over first and foremost.  The others I'll have to 
+### look over and see what graphics I can find online to link to for them so not to have a huge .zip 
+### file again like in the old project.  I have not yet decided on which other ones to keep/dump when 
+### it comes to Re-adding handled sites from the old project.  Some seemed to be Url/Name-ONLY links 
+### an awful LOT.  Other(s) seemed to be nearly dead sites and those they linked to were the same way.  
+### I would like to see about keeping the ones with dubbed content however.  I'm also looking into 
+### what other sites to add new to this "Remake" project.  Before you all get ahead of yourselves on 
+### that part, I don't plan to get into adding any sites that are difficult to handle or annoying 
+### riddled with these annoying popups and noisy advertisements that you can't even see....  I'm 
+### making it pretty easy for other devs to be able to add handling for sites that they want, and 
+### hopefully they'll share them with me and thus with the rest of you.  I'll try to have several 
+### handled sites done by myself as well so they have some good examples.  If there's an easy site 
+### for anime / cartoons / [maybe more], I'll consider working on them when request(s) for them are 
+### made... so long as they don't have a LOT of annoying pages and such to setup for.
+- sAnime44.py (Anime44.net) - 
+### Most of this file has been refiltered over from sAnimeGet.py
+### Pages for Series is parsed.  Movies uses Url/Name-ONLY items.
+### Pages for Url/Name-ONLY items parsed.
+### Episodes Parsed.  (sAnimeGet.py updated slightly to have better handling like in this one.)
+### Search Page - Fixed to work with this site's method.
+### Repeat Last Search - Checked to make sure it would still be working.
+### filtering out areas with links that have simular <li><a...>...</a></li> links for things other than what was suppose to be parsed.
+### filtering out facebook frame works on hosts listings.
+### I may have forgotten to note some stuff, but for the most part, this site seems handled.  A exception might be some of the hosts that I had not had the chance to notice yet.
+- sAnimeGet.py (AnimeGet.com) - 
+### Slight changes to search engine, was thinking about future possibilities.
+### Finished up things for the most part on sAnimeGet.py.  Moving onto sAnime44.py
+- urlResolver() Host Files:
+### 01.)  yourupload.com - fix attempted for 'http://embed.(yourupload.com)/([0-9a-zA-Z]+\?.*?client_file_id=[0-9a-zA-Z]+)[&]*'
+### ### can't quite get this 3rd method for yourupload.com to work.
+### 02.)  vidzur.com - 'http://.*?(vidzur.com)/embed\.php\?.*?vid=([0-9a-zA-Z/_\-\.]*)[\?&]*'
+- Expect graphics to be fewer and of lower quality for now.
+### I have not setup fanart/backdrop fetching yet so it resuses the graphics from the handled site(s).
+- I have not decided yet rather to use common cache storage again or SQL for Favorites and such things.
+### I haven't messed with SQL for quite a while, and haven't in XBMC work yet.
+### I've noticed that common cache storage tends to cause a message prompt about cache being full at times.
+- urlResolver() Host Files:
+### Grabbed several made by others (and maybe myself in the past) for needed sites that are already 
+### ### handled, though might not be in most people's urlresolver folder.
+### list.txt made to keep track of what all host sites I currently know to be used by my known 
+### ### handled sites at this point and to keep track of which ones I've dealt with.
+### 01.)  videofun.me - working for now.
+### 02.)  video44.net - working for now.
+### 03.)  novamov.com - Already exists, but has troubles handling urls for my use.  Needs a fix.
+### 04.)  yourupload.com - fixed to work with both /embed/ and /embed_ext/[site]/ links
+### 05.)  play44.net - I came apon this one while setting up AnimeGet.  This is one that I don't remember 
+### ### being handled in the original project.
+### I'll have to work on some more of these as I come accross them while browsing hosts list menus, so 
+### ### I'll have something to use for testing.
+### Some of the others may work that hare already handled, but I have not actually tested them yet.
+- sAnimeGet.py (AnimeGet.com) - 
+### Pagination
+### Page fetching and Page Parsing in two different functions.
+### Content Types added:  tvshows | episodes.
+### Auto-View setup:  not currently set to work with settings.xml yet.
+### A-Z browsing where available.
+### Genre browsing where available.
+### Post-Method Search setup and working.  This was a bit troubling as I hadn't done a HTTP_Post with 
+### ### t0mm0's common module(s) before.  The site seemed somewhat bugged on the search engine too.
+### I pretty much got a Site Handling s*.py file setup to use as a template now.  
+### Hopefully I can soon get the handling for more sites knocked out and working.
+### Auto-View setup:  works with settings.xml now.
+- default.py - 
+### PlayFromHosts()
+### CorePlayer Option in settings.xml
+- sAnimeGet.py - 
+### Browse: Hosts
+- sAnime44.py (by The Highway) - file in place, but site handling not worked on quite yet.
+- sAnimeGet.py (by The Highway) - http://www.animeget.com/
+### Section Menu:  *Anime Movies | *Anime Series | Ongoign Series | New Series | Surprise Me
+### SubMenu
+### Menu Item coloring.
+### Browse: Items on pages.
+### 'Show Info' ContextMenuItem
+### Browse: Episodes | Movies | OVAs | Specials | *
+### Better parsing of data on available on site, for metadata labeling.
+- Site Handling:
+### * A little note, if you feel like making up a s[Site].py file to handle another site for this 
+### project just let me know and I'll add it and give you credit on it.
+### * To keep them pretty well sorted amongst the other files in the folder and make it to where 
+### I can still easily call the other files, I've put a small 's' at the start of the .py files 
+### for handled sites.
+- A TON of getting those files all put together from my old methods and tweaking them some.
+### I'm trying a bit different way of getting html pages this time out.
+- mMain.py - Main Menu and default location when another isn't found.
+- /art/ | /resources/settings.xml
+- default.py | common.py | config.py
+### default.py - initial file and helps to route to the others.
+### common.py - common functions and such used by other files in the project, simular to teh_tools in the old days.
+### config.py - advanced settings for pro-users and/or devs to mess with, simular to what I've used in many other projects in the past.
+- [ Initial BUILD ]
+- If you take a good hard look below at how the changes I went through for the The Anime Highway 
+### (original project), you'll surely see I put a LOT of time effort and hard work into it.  
+### Over that time my skills, methods, and basic way of going about things have grown.  It took 
+### a long while to work up the courage to start this "Remake" project, so please don't rant on 
+### me too much for going about things this way.  I will try to keep the old project updated 
+### somewhat as long as I can stand to, though it's troublesome to edit and more so to notice 
+### breaks that no one posts about on the forum.
+- This "Remake" Project has been started to make things easier on those editing it, rather it be 
+### me or someone else.  After being away from it so long, coding-wise, I've found it more 
+### troubling to edit fixes for with how mixed together it was.  So, I've decided to devide 
+### things out and split stuff for differant sites among their own files.  I've also setup videos 
+### to work with urlresolver().  As is obvious to some of us, urlresolver doesn't have a LOT of 
+### these host sites handled for videos.  Well, I've went and made module files for handling the 
+### sites which can be copied over to the urlresolver()'s /lib/urlresolver/plugins/ folder.  
+### It is my attentions to eventually setup a little menu folder to handle copying over individual 
+### host .py modules as I make them, simular to the "Mash UP" addon's method.  Before I pursue 
+### that, though, I still have to get the project up and going well enough to actually deem 
+### releasable publicly.
+- First of all, let me state that this is a Remake from the ground up, so what worked before or 
+### might have been included before won't work / be included again until I've had the time to add 
+### them all over again.
+
+
+========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
+========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
+========= ChangeLog: ========= The Anime Highway (The Original)
+
+[B]Version 0.1.2[/B] - The Anime Highway
+- 	03.) DubHappy.eu >> Anime Movies >> [type: 7, mode: 358] - Seems like 'http://www.dubhappy.eu/.+?/' urls now use 'http://www.animestatic.com/anime-movies/.+?-english-dubbed/' instead.  Although it seems to use animestatic.com urls it seems that domain currently forwards to animestatic.org.  I've setup things so it'll just use the whole url rather than of a certain domain.  This may make for breaks later if they change things again to a domain with pages  that are setup differantly.
+- 	02.) DubHappy.eu >> Anime List >> [type: 7, mode: 258] - 'Anime List' changed to 'Dubbed Anime List' in 2 places.  Used in splitting out the unused parts of the page.
+- 	01.) Tested several listing pages to make sure things haven't broken since the last update.
+
+[B]Version 0.1.1[/B] - The Anime Highway
+	01.) On-error fix for UploadC.
+
+[B]Version 0.1.0[/B] - The Anime Highway
+	01.) Noticed some errors for show(s), having video-not-found issues, dealing with stuff in videolinks.py and teh_tools.py, so i tossed in a little quick fix.
+
+[B]Version 0.0.9[/B] - The Anime Highway
+	01.) Fix to menu257_episode_list() for site WatchDub.
+
+[B]Version 0.0.8[/B] - The Anime Highway
+	15.) Hosters -- While doing work on plugin.video.codelyokoevolution, I added several more Video Hosters to my collection of supportable Hosters.  I'm glad to say that its seems to be up to 30 / 31 Hoster Sites that it does checks for now. Though at least a couple hoster sites are non existant now.
+	14.) Hosters >> AuEngine.com -- Screensohts display, Videos Play.  I'm glad to have this one finally working, I've put it off for way too long.
+	13.) Hosters >> Videonest.net -- Screenshots display, Videos Play.  I may have to add in more parsing for the PermID later as I find more variations of urls.
+	12.) Hosters >> VideoBam.com -- Screenshot images don't seem to work with xbmc. The videos do play, though.
+	11.) Little fix in teh_tools.py for thetvdb episode data fecting.  This fixes it so that the show_poster/image will show if there isn't a screenshot...again.  Took me many hours to figure out the right Regular_expression stuff.
+	10.) Little fix in teh_tools.py for thetvdb episode data fecting.  This allows for making sure to catch results that dont have a screenshot.
+	09.) Hosters >> Youtube.com -- Screenshots work (HD/SD).  Playing doesn't atm in my plugin. I setup my plugin to forward the link to plugin.video.youtube, but something seems to fail.
+	### 02:13:43 T:3664  NOTICE: checking rather url has been visited: plugin://plugin.video.theanimehighway/?url=cH_iCOh_uGQ&mode=1990&name=%5BCOLOR+red%5DYouTube%5B%2FCOLOR%5D+-+%5BCOLOR+grey%5DUse%3A+Youtube+Plugin%5B%2FCOLOR%5D&nm=YouTube&tp=8&scr=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FcH_iCOh_uGQ%2Fhqdefault.jpg&fan=fanart.jpg&show=YouTube&cat=+%3A%3A%3A+watchdub.com+%3A%3A%3A+WatchAnimeMovie.com+%3A%3A%3A++%3A%3A%3A+%5BCOLOR+red%5DYouTube%5B%2FCOLOR%5D+-+%5BCOLOR+grey%5DUse%3A+Youtube+Plugin%5B%2FCOLOR%5D 
+	### 02:13:43 T:3664  NOTICE: url: cH_iCOh_uGQ 
+	### 02:13:43 T:5780  NOTICE: Thread XBPython start, auto delete: false 
+	### 02:13:43 T:5780  NOTICE: -->Python Interpreter Initialized<-- 
+	### 02:13:43 T:2576  NOTICE: Thread BackgroundLoader start, auto delete: false 
+	### 02:13:43 T:5780  NOTICE: Previous line repeats 1 times. 
+	### 02:13:43 T:5780  NOTICE: Loading cookies from :'[[path]]\\AppData\\Roaming\\XBMC\\userdata\\addon_data\\plugin.video.youtube\\yt-cookiejar.txt' 
+	### 02:13:43 T:5780  NOTICE: YouTube-4.4.6 
+	### 02:13:44 T:5780  NOTICE: CommonFunctions-2.5.1 
+	### 02:13:44 T:5780  NOTICE: links: 'dict' 02:13:44 T:5780 WARNING: Attempt to use invalid handle -1
+	08.) Hoster, "stagevu.com", is now listing and playing images.  Screen shot is parsed right, but doesnt seem to display within XBMC, possibly cause of the awful large size of it for a thumbnail.
+	07.) WooHoo! Woot! Woot! I sure love when I do something better in my plugin than Links sites or even the Hoster sites do :) -- Videoweed.es has screenshots somewhat busted up, though their /mobile/ area can bring up the screenshot from the file_id.  In the other pages, themselves, they have <link rel="image_src" href="http://k.".DOMAIN_URL."/thumbs_weed/ff7bbc3432b8fe81cc36ba564d099ca60f.flv.jpg" / >.  The secret is u knock off the first 2 letters "ff" on that file name and remove the replace the '.flv.jpg' with '-1.jpg' and then before the filename put 'http://thumbs.videoweed.es/thumbs/'.
+	06.) Mp4Upload videos are now playing.
+	05.) Added some compatibility for Mp4Upload.com. Graphics Fetched, Downloadable Link found, but still doesn't play quite yet.
+	04.) Veoh Fix for compatibility with more Urls.  Also '(English)' tag for those that mark '[eng]', 'english', or '(eng)' in it.
+	03.) Next up today was a Full Movie List for DubHappy.eu.  Again, no metadata or images for these -LONG- lists, maybe later once I do alphabetical downsizing. Also The images for the movies aren't so easily caught it would seem, and looking on the movie pages, a lot of the images were bad links and had urls hosted by another site anyways... so you'll have to do without images for now.
+	02.) While I was at it I used the new List-Function, for the simpleton (Hahaha) links, to do a Alphabetical Full-Anime-Series List for DubHappy.eu. Because this list is so awfully long, I've taken out the check to see rather online image urls were good or not, so some might not show up if they aren't... also, No plot or meta data for this listing page for the same reason.
+	01.) After quite some time off I've back to look for a dubbed anime to watch and noticed that it was a bit troublesome to find a newly added anime on watchdub section of my plugin, and so...  Added "Recent Anime" to "WatchDub.com" 's Browsable Methods.
+
+[B]Version 0.0.7[/B] - The Anime Highway
+- Example:
+if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.solarmovie.so'):
+	contextmenuitems.append(('Find AirDates', 'XBMC.Container.Update(%s?mode=%s&title=%s)' % ('plugin://plugin.video.solarmovie.so/','SearchForAirDates',title)))
+if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.theanimehighway'):
+	contextmenuitems.append(('Find AirDates', 'XBMC.Container.Update(%s?mode=%s&name=%s)' % ('plugin://plugin.video.theanimehighway/','1801',title)))
+	22.) Added External Feature: Find AirDates.  This can be linked to from other addons too. You can set it to bring up a keyboard for title entry or send a &title=snowname.
+	21.) With the current problem I came apon with "class_itmOBJ()", I'm considering putting off finishing the changing of so much over to using it just yet.
+	20.) Setup a SubMenu linked from the MainMenu for Extras2 stuff when Extras2 is turned off in the Settngs window. This should help to save some space on the MainMenu.
+	20.) Attempted to work my class_itmOBJ() into the innerworkings of videolinks.py for a videolinks2.py, but the class objects seems to act as one object rather than being able to set varibles as a new copy of the object. if you got an idea on how to deal with that please let me know. I had it setup to test with my 501-mode method episode listings linking to it to do a more urlresolver method style select list, but i had to end up using more of a simple array to fix it to work at all. So, I'm sending videolinks2.py back to the drawing board for now. I may in the future work on a vidoelinks3.py to do more of a select dialog method for video urls after the episode list. I haven't decided yet.  On videolinks2.py, it basically wanted to set all entries as with the same information.
+	19.) Added Cool feature to let you type in a Show name, select from a return list of results, and then display the episode listings. (All information from thetvdb.com) With this you can quickly and easily look up what AirDate the site has for upcoming and current episodes.
+	18.) set_view >> episodes >> fixed. This allowed for showing episode data better in mediaInfo views instead of trying to show them in a tvshow type.
+	17.) Started Adding ability to fetch episode metadata from thetvdb.com.
+	16.) Attempting to setup Video sources for vbox7.com. got thumbnail image parsed as well as the video link found with a bit of extra effort and url range-testinging, but video seems to fail to play for more than a second. vbox7.com sources r so damn slow to buffer and laggy as hell.. and frame skipping.
+	15.) class_MyMenu().addDir_CM2 >> fixed.
+	14.) make_item_show() >> function created.
+	13.) FAV() >> added cached data where available.
+	12.) Testing adding class_itmOBJ() method into FAV function (listings favorites). 
+	11.) check_cmd() and check_mode() setup to better do away with possibility of errors.
+	10.) "Site Selection Menu" now using the new "class_itmOBJ" and "class_MyMenu" classes. New functions: make_item_fill_it, make_item, make_item_cmd are now working. more subfunctions in "class_MyMenu" still need finished up.
+	09.) Doing more work on class(s) to hopefully make for better passing of information and menu functions.
+	08.) Combined TextBox_FromUrl and TextBox_FromFile to make a single new TextBox2 class to handle both.
+	07.) Settings >> Added ability to set view mode for Main Sites Selection Menu page.
+	06.) Settings >> Added ability to hide EXTRAS and EXTRAS2 groups of stuff on menus.
+	05.) News feature via news.txt @ Github now working.
+	04.) TextBox class for displaying a text window with text from a given url.
+	03.) TextBox class for text from a preset local file.
+	02.) Added addDirF() function for using making links for my favcmd method.
+	01.) Added italics to code filtering.
+
+[B]Version 0.0.6[/B] - The Anime Highway
+	30.) About time for another public release.
+	29.) Filesize / Speed / ETA now seem to work on frodo dialog method for downloads. Both [B] and [CR] added to filtering as well.
+	28.) Added import time for time handling.
+	27.) Added color code parsing for text used for filenames / downloads.
+	26.) Added a _Frodo set of download functions for release builds of this project, since many probably dont use nightly builds.
+	25.) Settings >> Menu >> ( Default == True ) You can now disable handled sites in the settings window under "Menu" for each site. This basically just changes rather the sites are hidden/shown on the main menu.
+	24.) Veoh fixed to play videos and show screenshots. Downloads from Veoh have not been tested yet.
+	23.) Reminder to self: noticed episodes page needs tweaked for watchdub.com shows that have season referal links... potention to cause first an episode to not show up too.
+	22.) Addition of <EMBED src="(.+?)" for stuff like rutube.
+	21.) Some work on Veoh, PutLocker, RuTube.
+	20.) Useless work done on megavideo, which a host for no longer exists.
+	19.) DubHappy.eu >> Fixed issue with spaces in genre names causing shows to not show up.
+	18.) Setup Studio display on video player.
+	17.) Fixed Title display on video-player.
+	16.) Handling for vidoes hosted by vidup.org.
+	15.) Slight bit of handling for hosted videos linked by verilscriptz.com for dubhappy.eu.
+	14.) Dubbed Anime from dubhappy.eu added to the plugin. So far just Genre's listing. Still got Movie and Series lists to consider doing.
+	13.) Improvements on ParseDescription() function. Good function for Names and Plot Descriptions.
+	12.) Tried but failed at fixing the view-change problem on Favorites Add/Remove.
+	11.) Tracking for Last-Page added.
+	10.) Better Handling for NONE-type handling on plugin url varibles.
+	09.) Re-worked the Meta-Art method just a bit to do a better job checking rather it exists in cache first.  Still need to re-work over the fetching when it doesn't exist.  This is in attempt to speed up screen-load times a bit.
+	08.) Added a Clear Visited Data button in the Add-on's Settings window.
+	07.) "@ " Added before stuff like Shows and Episodes (( those using the AddDirD() function )).
+						## When it shows black it hasn't been visited yet.
+						## When it shows green it's arleady been visited.
+	06.) Added Title Line for Episode on Link Page and Show on Episode Page.
+	05.) Added additional coloring to more of the Video Source sites.
+	04.) Did a little fix for YourUpload videos. This should allow a lot more of them to play, a specially for dubbed anime on AnimeZone.
+	03.) Working on a fix for VeeVr videos, but no success yet. If anyone can come up with a method for that please let me know on #xbmchub @ irc.freenode.net and I'll see about adding it.
+	02.) Added partial handling for Video Source: TrollVid
+	01.) Added Handled Site: DubbedAnimeOn.com (Dubbed Anime)
+						## DubbedAnimeOn.com seems to use just one video source, TrollVid, which on many shows for DubbedAnimeOn need to Refering from their site which means clicking the links somewhat fast.
+						## Listings By: Genre, Search
+
+[B]Version 0.0.5[/B] - The Anime Highway
+	30.) Fixed the passing of Plot Description in MetaArt and thetvdb functions, so that if thetvdb's description is blank, it'll use the description passed to it by the site (such as animeget.com).
+	29.) Added ContentMenuItem: Show Information. I'm very happy to have added this feature.
+	28.) Fixed ' and " 's showing up as &#____; 's on Descriptions for dubbed anime (AnimeZone).
+	27.) Bug Fix: Many shows showing up in dubbed anime (AnimeZone). Fixed!
+	26.) I seem to still be sorting out little tiny errors here and there from the moving of stuff to teh_tools.py
+	25.) teh_tools.py added to '/plugin.vidoe.theanimehighway/'. Many functions and such from both theanimehighway.py and videolinks.py have been moved over to the_tools.py This was in hopes of cleaning up videolinks.py some and making both fore-mentioned .py files a bit cleaner
+	24.) The 'enable-debugging' setting has been setup to work with much of the 'print' commands. Still need to setup 'show-debugging' setting for many of the extra notice commands.
+	23.) OK, all the sites for the most part seem to be doing well-ish enough on the extra data (such as plot description). They also seem to be well-ish with the thetvdb.com Metadata handling.
+	22.) All these new features handling the extra parsing data, as well as, handling the metadata has seriously slowed down the load time for each page. Sorry for the effect that has, but I hope some find it handier to have it this way.
+	21.) Metadata is still a work in progress, but should be working slightly on AnimeGet, Anime44, GoodDrama, and AnimeZone(including dubbed-anime). This is currently only for show data, part of which is also now parsed from the individual sites as well.
+	20.) Added more to the Plugin's Settings window. Still gotta connect the settings.
+	19.) Working on adding some cached meta data for quicker fetching later.
+	18.) Doing some testing on AnimeGet and Anime44 sections to see about adding thetvdb meta data where missing.
+	17.) I can finally set things as movies and tvshows view types. This allows me to make more views a vailable to you, as well as setting some default views. I need to setup some things in the settings window for this later.
+	16.) Sorting where available... a bit picky at times.
+	15.) more data-labeling, for AnimeGet.com only at the moment.
+	14.) Lots of Research on how-to add some new features.
+	13.) Removed Videos for NovaMov, want to show as Error.
+	12.) AnimeZone's dubbed anime section is going to need a ton of work done yet. Many of its video's go down pretty fast'ish.
+	11.) Added Handling for only-some video sources for when Video has been Removed/Deleted.
+	10.) Veevr screenshot of video works, but video doesnt seem to play yet. I'm currently @ a deadend with Veevr sources atm. I can get screenshot of video but not the video itself.
+	09.) Fixed a complication with Dailymotion sources for AnimeZone's english-dubbed section.
+	08.) NovaMov seems to still be a problem. Some work done on NovaMove, but still not working.
+	07.) Putlocker and UploadC sources seem to be working now.
+	06.) Adding Dubbed-Anime Listings from AnimeZone to the plugin.
+	05.) Adding Upload2 video source capabilities, for future use. Is still untested.
+	04.) Seems to be no Search ability on AnimeZone at this time.
+	03.) Search ability seems to be working for: AnimeGet (post), Anime44 (get), AnimePlus (get), GoodDrama (get).
+	02.) Added ability to fetch URLs with post-type form-data. This was needed for AnimeGet's search method.
+	01.) Added AnimeZone to the Handled-Sites. This seems to have 3 domains and links on header bar changes between them a LOT. I've only added 1 of the 3 domains for now... surely that should be enough.
+
+[B]Version 0.0.4[/B] - The Anime Highway
+	49.) Time to upload to github. I guess it's been pleanty long working on it since updating github last.
+	48.) Got both VideoWeed and NovaMov to be playable again.
+	47.) Fixed little problem with the download option for video44
+	46.) Added Video Source Runday list to the ChangeLog file, to better keep people uptodate on whats working.
+	45.) DailyMotion Videos >> Play: working , Downloads: no
+	44.) Working on resorting out my main method for Video Link fetching.
+	43.) It's After 5am... Zzz... (Time to sleep.)
+	42.) Added File not found to another of the sources.
+	41.) Added Part # labeling for VideoFun and Video44.
+	40.) Stuck on dailymotion and NovaMov.
+	39.) Sorted out most of the common Video Sources. NovaMov for sure is messed up atm, but VideoFun, Video44, YourUpload, VideoWeed, & VidZur seem to be working now.
+	38.) Doing a MAJOR overhaul to fix the messup that led to sloppy coding in process of filtering the Video Source types.
+	37.) Noticed a problem of using 'match[0]' instead of 'url' in some place(s).
+	36.) Done some fixes for YourUpload source. Hoping it will work for downloading a lot more often now. Screenshot should also work more often now.
+	35.) VidZur(noticed on anime44 and animeget) source seems to work finally. Download for VidZur also seems to work fine.
+	34.) Added graphic for VidZur.
+	33.) Working on adding VidZur as a source location.
+	32.) Added [COLOR tan] [/COLOR] to Favorites and Highway in many places thru-out the plugin.
+	31.) Left the ability to block download feature in Function() but setup an if-statement to block them by string-in-URL statements for the known bad sources.
+	30.) I have dissabled video downloads for 2ndary Links of VideoFun sources. You can still use getURL feature on these.
+	29.) More Download Notes:
+					# Let me take this moment to point out that there's not currently a Cancel feature for the downloads. Hmm, then again, it may or may not cancel but take a short bit before canceling and then not meantoin that its been canceled for the time being.
+					# Progress bar does not work atm, or at least on the videos.
+					# Filesize is currently in bytes.
+					# Some Video Sources like to download in real-time, causing for a very slow agronising wait... while unable to do anything else.
+					# Disclaimer: WARNING! If you choose a very laggy download that takes forever, you may very well to forcibly close XBMC and start it again. << You were warned here! This is why it helps to read a change log. >> hehehe.
+					# Some video sources end up basically routing to the same bad source types at times while not at other times. This made a lot of my testing somewhat meaningless... but I still made some use of the information.
+					# More testing needs done on this feature.
+					# 
+	28.) Testing of Download on the differant Video Sources:																																							#									# [##] = random data for the most part.
+					# VideoFun:  			# (failure)		# Does not seem possible at this time.																												#Screenshot: yes	# urls: http://[##].videofun.me/videos/[showname]/[filename].flv?st=[##]-[##]&e=[##]
+					# Video44:  			# (pass)			# Fast Speed. Complete Video. Good Video Output. Around 37-38mb for 23min videos. 						#Screenshot: no 	# urls: http://[##.##.##.## ip address]/dl/[##]/[##]/[filename].flv
+					# NovaMov:  			# (maybe)			# Slow Speed. Seems like real time. May not output a full video.															#Screenshot: no 	# urls: http://[##.##.##.## ip address]/dl/[##]/[##]/[filename].flv
+					# YourUpload:  		# (pass)			# Fast Speed. Complete Video. Good Video Output. Around 37-38mb for 23min videos. 						#Screenshot: yes	# urls: http://stream.vidcache.net/[##]?client_file_id=[##]
+					# VideoWeed:			#	(failure)		#	Slow Speed.	Seems like real time. Taken longer than real-time to finish downloading.				#Screenshot: no 	# urls: http://[##].videoweed.es/dl/[##]/[##]/[##].flv
+					# DailyMotion:		#	(untested)	# 
+					# GoogleVideo:		#	(untested)	# 
+					# 
+	27.) Added Filesize prompt at download completion, to help confirm a good download.
+	26.) Problems with the ContextMenuItem display options have led to skipping the easy function for the time being, or atleast for True/False options. Those options seem to work now.
+	25.) Added Clear-Favorites option to the Plugin category in settings window.
+	24.) ContextMenuItem > Downloading, Show URL >> settings should now work.
+	23.) Have noticed that some video sources dont want to work for downlaods and will DL a second or two basically and stop. << For now, try a differant source when possible.
+	22.) Yes/No-Dialog > Figured out how to set text in place of Yes and No, so I setup a Movie / Shows folder prompt. This means Movies folder now works too. So, you now have the option of saving to your settable movie or show folder.
+	21.) Folder settings now gotten for Shows Folder.
+	20.) Progress-Dialog for file download doesn't seem to show any progress increasing, but atleast this way you better know when the file download has started and ends besides the little notice prompts that doesnt last long.  Wish I could get something going in the upper right hand corner as I've seen with another addon before, but I simply dont know how yet.
+	19.) Working on Dialogs again today.
+	18.) Researched addon settings getting.
+	17.) Got bored of WoW super-fast.
+	16.) Is a Taco Tuesday at one of our town's local gas station, so I caught a bite to eat and played some WoW on Astralwow.info to take a bit of a break from working on the plugin non-stop.
+	15.) Settigns > Account				>> Username, Password, Use Account? << I should meantion that this may never be integrated, but wanted it setup just in case.
+	14.) Settings > Plugin 				>> Download master branch file (downloads the .zip as a .avi, so will need to change that manually for now)
+	13.) Settings > Downloads 		>> ContextMenuItem >>> File Downloading, Show URL
+	13.) Settings > Downloads 		>> Show Folder, Movie Folder
+	12.) Added Language file (/language/english/strings.xml)
+	11.) Working on the plugin's Settings window. Mainly Prep work for now. None of the Settings are currently used at this point.
+	10.) --File Downloading-- (preset local path)
+	09.) Yes/No-Dialogs
+	08.) OK-Dialogs
+	07.) Testing File Downloading.
+	06.) Had ShowPage URLs setup for keyboard method, Now got it setup for Video URLs too. Still no copy/paste yet.
+	05.) Setup Keyboard method to display -some- URLs, but not sure how to setup copy/paste yet.
+	04.) Trying to put together a method to display URLs for easier copy/paste.
+	03.) I saw one DailyMotion link earlier I beleive that showed as error (non-playable). Can't seem to remember which show/episode it was on now to work on fixing that just yet.
+	02.) Fixed up Show-Poster graphic, current Fanart, and Show name (without date-stamp) to carry through from show listings to link listings and even display while video is playing. This way if there's no screenshot for a given video-source, it'll default to the Show-Poster graphic. I've been trying to away from annoying huge images showing as the icon on the play-bar during watching videos... but this seems to look better than seeing the video source site's name.
+	01.) liz.addContextMenuItems(contextMenuItems, replaceItems=True)##replaceItems is now set to False, so that shows can still be set to XBMC Overall-Favorites List and such things.
+
+[B]Version 0.0.3c[/B] - The Anime Highway
+	14.) Fixed Favorites to work when clicked to view the show's episodes  propperly.
+	13.) Show/Add/Remove/Clear-Favorites seem to all be functioning now.
+	12.) Added Clear-Favorites ContextMenuItem to empty list of Favorites.
+	11.) Adding more data to be recorded for Add/Remove-Favorites... I should really see about fixing this method later.
+	10.) Show-Favorites seem to be working but now more probs with Add/Remove-Favorites.
+	09.) Add/Remove-Favorite seem to work but Favorites not showing up in Favorites Menu.
+	08.) Add-Favorite...somewhat functional.
+	07.) Sorted out issues I hadn't noticed with my notification method.
+	06.) Decided to use what seems to be a more common method for ContextMenuItem execusion of commands.
+	05.) Getting more used to using "%s - %s" % (item1,item2) type method of doing things.
+	04.) Hours spent figuring out issues wit hsetting up functions and such to run from the ContextMenuItems.
+	03.) Researched ContextMenuItems Methods.
+	02.) Started work on researching methods used by others for Saving Favorites within the plugin.
+	01.) ...hours sorting out stuff to setup things on github.
+
+[B]Version 0.0.3[/B] - The Anime Highway
+	11.) GoogleVideo icon graphic added.
+	10.) Thinking of watching some more of the anime series Kono Naka ni Hitori, Imouto ga Iru! (episode 2)... to take a break.
+	09.) There aren't many Google Video links either, so I haven't hunted up one yet to try and make sure they work finally, yet. I added a simular method as to what I did for the others... so there's a slight chance they may work.
+	08.) There aren't many DailyMotion links, so I haven't hunted up one to double check hat they still work... nor rather they work most or just some of the time.
+	07.) NovaMov video source urls now seem to be working.
+	06.) VideoFun video source urls now seem to be working. <<< This is a HUGE help for those wanting to watch any of the Anime Movies.
+	05.) NovaMov icon graphic added.
+	04.) VideoFun icon graphic added.
+	03.) YourUpload icon graphic added.
+	02.) 2ndary method made for YourUpload videos, as only some wanted to work before. Now, most should work.
+	01.) Testing on other video source urls for AddLink().
+
+[B]Version 0.0.2d[/B] - The Anime Highway
+	03.) Added plugin graphics for GoodDrama.
+	02.) Hopefully fixed the new path issue I was having.
+	01.) Setting up new project path became troublesome.
+
+[B]Version 0.0.2b[/B] - The Anime Highway
+	15.) OK decided on The Anime Highway (Anime Highway on the list to be more to the top of the A's) as it sounds better than Animation Highway.
+	14.) Sorting extra files out for Release Time, and considering plugin's new name.
+	13.) Genres (with/without count), Show/Movie Listings, Episode Listings (with/without date stamp) seem to be working. Video-Source URL Links still seem to be troublesome for some yourupload links and I havent had the chance to get others any further positive progress for now.
+	12.) Realized I had a bug on the genre's page which turned out to be a forgoten elif(elseif) in the site-change handling area for the whole plugin. This caused wrong data to show for animeplus and gooddrama, but is now fixed.
+	11.) Added GooddDama.net to the plugin.
+	10.) Fixed some urls I forget about for AnimeGet
+	09.) Added AnimePlus.tv to the plugin.
+	08.) Fixed animeget side of plugin to again pull the date stamps on episodes, while still working without date stamps for anime44 (which does not have them).
+	07.) Fixed animeget side of plugin to do the additional menu choices.
+	06.) Added icon and fanart graphics for overall plugin project.
+	05.) Setup for additional icon and fanart graphics.
+	04.) Added modifications for more colored text.
+	03.) Added Site selection menu.
+	02.) Settup of further arrays.
+	01.) Filtering in data for both sites.
+
+[B]Version 0.0.2a[/B] - The Anime Highway
+	07.) I've Decided to merge my AnimeGet and Anime44 plugins to make one named Animation Highway.
+	06.) Got my first YourUpload video source link to work finally. (4th video source seems to be working.)
+	05.) Added colored Text to video source links.
+	04.) Added colored Text to keep some differance between movies (red) and series (blue).
+	03.) Added some arrays and better handling to easy shift between projects.
+	02.) Annoyed by the tab-spacing issues with Python scripting.
+	01.) Working towards cleaning up the mess of extra imports.
+
+[B]Version 0.0.1b[/B] - The Anime Highway
+- ver 0.0.1b - Anime44 - [Released]
+- 	06.) My icon and fanart images for me havent wanted to update propperly, but hopefully they'll show up right for you instead of showing the old animeget graphics.
+- 	05.) More or less, a bunch of little fixes, tweaks and hadling the change over for Anime44 from the original plugin for AnimeGet, which i still plan to work on.
+- 	04.) Made Fix for lack of date stamp on episode list.
+- 	03.) Made Fixes for Movie Listings.
+- 	02.) Fix things up a bit to make it easier to change for other simular sites later on.
+- 	01.) Movies seem to get the royal shaft on this site. No Art, no categories, just one long list on a single page. Anime Shows seems to have a slight few less options too, but not as badly downgraded.
+
+[B]Version 0.0.1a[/B] - The Anime Highway
+- ver 0.0.1a - AnimeGet - [Released]
+- 	12.) Noticed some simular sites and looking at them for possible expansion. For the time being, I'm going to copy my addon and see about fixing it up to work on one or more other simular sites as well.
+- 	11.) Still searching the site to notice other video sources, but it pretty much means viewing source for each and every page and looking down through it to see. It's very tedious and boring, so will wait a while on that. Currently 3 video sources work. Unfortunately 1 important one does seem to be quite secure and thus does not (videofun.me).
+- 	10.) Things seem to be working for top choices: movies, shows, ongoing, new, surprise-me. Have not bothered to do Latest episodes or Search feature yet. That might wait to way down the line. (feel free to edit it to add them if you wish)
+- 	09.) Setting up additional Top-menu choices. Still a few unavailable.
+- 	08.) Added Source for DailyMotion.
+- 	07.) Visited the #xbmchub IRC chat channel again to see how things were, thanked o9r1sh, said hello to TwistedZero.
+- 	06.) Setting up Genres for menu.
+- 	05.) Found fix for parsing of video sources (video44 and videoweed) thanks to o9r1sh of plugin.video.gogoanime.
+- 	04.) Setting up alphabetical index.
+- 	03.) Setting up main menu.
+- 	02.) Testing to make sure atleast some of the video sources will work with Addlink().
+- 	01.) Sorting out the basic foundation of the video plugin(s).
+
+
+==========
+TO-DO List:
+==========
+
+Search Feature *(Done)
+More Sites *(Keeps happening)
+Code Cleanup *(A Endless Task)
+Graphics
+Figure out video linkage for Google and others.
+Setting option to view "Error" Links.
+Handling for .strm files.
+
+
+================
+Current Features:
+================
+
+# Handles Sites: animeget.com, anime44.com, animeplus.tv, gooddrama.net (JDrama), anime44.co.uk (AnimeZone - has many mirror domains)
+
+# Video-Url Parsing: Internally Handles parsing to get usable links for a very Huge list of video hosting sites. *(Still working on handling more of them.)
+
+# Playing Online-Videos: Handles Playing many, but not all, of the videos linked from the fore-mentioned 'Handled Sites'.
+
+# Downloads: Grants a ContentMenuItem option to download-to-harddrive (to one of two user-settable folders) option for many, but not all, of the fore-mentioned 'Handled Sites'. A feature which I surely hope many will love who use XBMC @ a PC. This feature might not be as useful at this time for those using XBMC from a mediaplayer of sorts or such a device. I'm sure many will want to complain or hate me for including this feature, but those types need to remember to keep their personal opinions to themselves.
+
+# Show URL: A little feature that came from wanting to setup a copy/paste feature (currently on the shelf for later). copy/pasting from a x64 Windows OS wasn't very viable atm (or I couldn't find a way atm), so I setup this method. This feature displays the url for you to see and type elsewhere, or at least to double-check while debugging stuff. Still many issues with this feature due to how xbmc seems to be setup.
+
+# Plugin Update: This feature still needs worked on a lot. In the Settings window, there is a button to click to download the plugin's master branch from github.com. This will download the plugin's .zip file to a folder, which u'll have to browse to and manually grab and add/update yourself, for the time being. I'm sorry for lack of work on this feature.
+
+# Favorites: \\  //
+######### Favorites within the Plugin: A feature thats very useful. You can now save favorites for within this plugin to more easily browse to faster.
+######### XBMC Favorites: Still handled on many pages, where default ContentMenuItem(s) are not dissabled. With this feature, you can get at shows from the Favorites menu @ xbmc's main screen.
+
+# Settings Window: Many user-options here, much of which are setup and working currently.
+
+# View Modes: Options in the Plugin's Settings-Window. This allows you to set all of a given type of list such as Favorites, Show-listings, or Episodes to a given View-type. 
+######### Many of the pages within this plugin are now setup as a TVShow / Movie view type. This allows for more view type choices.
+######### Sorting: Some sorting was also added in places. I simply got tired of seeing stuff alphabetically an utter mess.
+
+# Metadata:  \\  //
+######### Much more information, such as: Posters / Fanart, Plot Descriptions, Ratings, Genres. This is currently handled for the Shows as a whole. I hope to put in some handling for episodes later.
+######### Rather than figure out how to make things work with another plugin that exists for thetvdb.com, I simply put together coding of my own to fetch the extra data, where available.
+######### Also added more data, such as Plot Description, parsed from the 'Handled Sites'.
+
+# Other Stuff: Anything else that happened to slip my mind after writing all this other stuff.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
