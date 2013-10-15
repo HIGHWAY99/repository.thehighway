@@ -11,6 +11,8 @@
 '/addon/':'Addons_Movies-n-TV_with-Menu_[2013-10-12].zip'
 
 # [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio
+'/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-15].zip'
+# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM
 '/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-12].zip'
 
 
