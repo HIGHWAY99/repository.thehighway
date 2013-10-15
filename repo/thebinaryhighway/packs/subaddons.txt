@@ -10,7 +10,8 @@
 
 
 # Popcorn Flix v0.0.2
-'/addon/':'Addons_Movies-n-TV_PopcornFlix_v0.0.2_[2013-10-15].zip
+'/addon/':'Addons_Movies-n-TV_PopcornFlix_v0.0.3_[2013-10-15].zip'
+'/addon/':'Addons_Movies-n-TV_PopcornFlix_v0.0.2_[2013-10-15].zip'
 # [Menu] | MerDB | SingleLinkMoviez | Popcorn Flix
 '/addon/':'Addons_Movies-n-TV_with-Menu_[2013-10-15].zip'
 # [Menu] | MerDB | SingleLinkMoviez | Movie Forks | Popcorn Flix
