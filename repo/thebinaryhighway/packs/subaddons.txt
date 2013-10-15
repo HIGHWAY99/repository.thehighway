@@ -1,6 +1,8 @@
 ### List of Addons ###
 
 
+# [Menu] | Anime44 | AnimeGet | AnimeStatic | CartoonWorld | DubHappyEU | Kids WB
+'/addon/':'Addons_Anime-Pack_with-Menu_[2013-10-15].zip'
 # [Menu] | Anime44 | AnimeGet | AnimeStatic | CartoonWorld | DubHappyEU
 '/addon/':'Addons_Anime-Pack_with-Menu_[2013-10-12].zip'
 
