@@ -1,34 +1,44 @@
 ### List of Addons ###
 
-# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM v0.0.2
-Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-16].zip
+'/addon/':'Menu_Anime_[2013-10-17].zip'
+'/addon/':'Addons_Anime_Anime44_[2013-10-17].zip'
+'/addon/':'Addons_Anime_AnimeGet_[2013-10-17].zip'
+'/addon/':'Addons_Anime_AnimeStaticOrg_[2013-10-17].zip'
+'/addon/':'Addons_Anime_CartoonWorld_[2013-10-17].zip'
+'/addon/':'Addons_Anime_DubHappyEu_[2013-10-17].zip'
+'/addon/':'Addons_Anime_KidsWB_[2013-10-17].zip'
 
-# [Menu] | Url Tester v0.0.1
-Addons_Others_Url-Tester_with-Menu_[2013-10-16].zip
+'/addon/':'Menu_Audio_[2013-10-17].zip'
+'/addon/':'Addons_Audio_MusicVids_[2013-10-17].zip'
+'/addon/':'Addons_Audio_RamFM_[2013-10-17].zip'
+'/addon/':'Addons_Audio_TheDareRadio_[2013-10-17].zip'
+'/addon/':'Addons_Audio_TheFunkStation_[2013-10-17].zip'
 
-# [Menu] | Anime44 | AnimeGet | AnimeStatic | CartoonWorld | DubHappyEU | Kids WB
-'/addon/':'Addons_Anime-Pack_with-Menu_[2013-10-15].zip'
-# [Menu] | Anime44 | AnimeGet | AnimeStatic | CartoonWorld | DubHappyEU
-'/addon/':'Addons_Anime-Pack_with-Menu_[2013-10-12].zip'
+'/addon/':'Menu_Movies-and-TV_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_MerDBru_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_MovieFork_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_PopcornFlix_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_SingleLinkMoviez_[2013-10-17].zip'
 
-# [Menu] | CAST ALBA TV | GetLiveStreamOnline | iGUiDE | iLiVE | NaviXtreme
-'/addon/':'Addons_Live-Stream-Pack_with-Menu_[2013-10-13].zip'
+'/addon/':'Menu_Live-Streams_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_CastAlbaTV_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_GetLiveStreamOnlineCom_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_iGUiDE_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_iLiveTo_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_NaviXtreme_[2013-10-17].zip'
+
+'/addon/':'Menu_Others_[2013-10-17].zip'
+'/addon/':'Addons_Others_UrlTester_[2013-10-17]
 
 
-# Popcorn Flix v0.0.2
-'/addon/':'Addons_Movies-n-TV_PopcornFlix_v0.0.3_[2013-10-15].zip'
-'/addon/':'Addons_Movies-n-TV_PopcornFlix_v0.0.2_[2013-10-15].zip'
-# [Menu] | MerDB | SingleLinkMoviez | Popcorn Flix
-'/addon/':'Addons_Movies-n-TV_with-Menu_[2013-10-15].zip'
-# [Menu] | MerDB | SingleLinkMoviez | Movie Forks | Popcorn Flix
-'/addon/':'Addons_Movies-n-TV_with-Menu_includes-Broken-MovieFork_[2013-10-15].zip'
-# [Menu] | MerDB | SingleLinkMoviez
-'/addon/':'Addons_Movies-n-TV_with-Menu_[2013-10-12].zip'
+'/addon/':'Menu_Image-Manga-Pictures_[2013-10-17].zip'
 
-# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio
-'/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-15].zip'
-# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM v0.0.1
-'/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-12].zip'
+
+'/addon/':'Menu_Sports_[2013-10-17].zip'
+
+
+'/addon/':'Menu_Adult_[2013-10-17].zip'
+'/addon/':'Addons_Adult-Pack_with-Menu_[2013-10-17].zip'
 
 
 

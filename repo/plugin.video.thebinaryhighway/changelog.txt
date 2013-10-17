@@ -9,7 +9,15 @@ Please use it to register if you don't have an account.  It not's not much but i
 ========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
 ========= ChangeLog: =========
 
-[B]Version 0.9.9[/B] - The Binary Highway
+[B]Version 1.0.0[/B] - The Binary Highway
+- ! ! ! C O D E    C L E A N U P ! ! !
+- Tons more work added to RamFM Sub-Addon.
+- 3 more Sub-Addons yesterday and 1 Adult Related Sub-Addon Today.
+- Screenshots Left and Right!
+- Added a fix for the Username and Password Annoyance on XBMC-Startup for Last FM.
+- Several More Sub-Addons, Tools, ....
+
+[B]Version 0.9.9-Testers[/B] - The Binary Highway
 - Thanks goes out to TwiztedZero for his help on some Fanart graphics and Icon graphic and helping me put together the basic themed-graphic I used as a base template to mock up some Icon/Thumbnail Graphics thru-out the addon in as many places as I could.  We might still get some additional changes done to the art, but I've really been QUITE ready and wanting to get this project released at long last.
 - 1Channel Tool to Remove/Restore the Host-Handled Check which can dramatically slow down the speed of the Source List menu.
 - Updaters come in a few versions, 1 that is gone already, a 2nd for misc. stuff (testers-only), 3rd for list of sub-addons (testers-only), then the 2 for plubic use that use github.  These 2 plublic ones are of course for misc. stuff and for sub-addons.

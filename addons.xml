@@ -354,6 +354,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.thebinaryhighway"
+       name="[COLOR white]The [COLOR blue][B]Binary[/B][/COLOR] [COLOR tan]Highway[/COLOR] [I]00111001 00111001[/I][/COLOR]"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" 								version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" 	library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This addon is a 3rd Party Plugin for XBMC.</summary>
+    <description lang="en">This addon is now a fun little project to learn from and work on building a tool of my own for providing use of tools, fixes and the such, as well as, making available common repositories and examples of doing sub-addons, including many of my own and some example ones for other addons you might like to try...  This plugin is was to be a remake of TheAnime[COLOR tan]Highway[/COLOR] (plugin.video.theanimehighway).  It is my hope to make some improvements apon my original addon and make it a bit easier to add new handled sites and go back in to make fixes.  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+    <disclaimer lang="en">This Project is designed for XBMC Gotham (v13.x) originally. It gets a slight bit of testing as I use it myself, on a Windows 7 OS. Ocassionally I get the chance to test my addon(s) on XBMC Frodo (v12.2) as well, but not always.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-addons/</forum>
+    <website>http://github.com/HIGHWAY99?tab=repositories</website>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.thedaretv" version="0.6.1" name="The Dare TV" provider-name="The_Silencer and HIGHWAY99">
 	<requires>
 		<import addon="xbmc.python" version="2.0"/>

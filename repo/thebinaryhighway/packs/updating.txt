@@ -1,32 +1,28 @@
 ### List of Updates ###
 
-# Fixes
-## 1ch | LastFM
-'/addon/':'Tools_XBMCFixes_NewMethod_[2013-10-13].zip'
-## 1ch | LastFM
-'/addon/':'Tools_XBMCFixes_1ch-n-LastFM_[2013-10-13].zip'
-
-
-# Additional Tools
-'/addon/':'Tools_Some-Tools-Apps-Toys_[2013-10-12].zip'
-'/addon/':'Tools_Updater-v3_[2013-10-13].zip'
-
-# Some Common Repositories
-'/addon/resources/repos/':'Repositories_[2013-10-12].zip'
+# Other Tools
+'/addon/':'Tools_XBMCCommands_[2013-10-17].zip'
+'/addon/':'Tools_RunProgram_[2013-10-17].zip'
+# Initial Tools
+'/addon/':'Tools_XBMCFixes_[2013-10-17].zip'
+'/addon/':'Tools_Repos_[2013-10-17].zip'
+'/addon/':'Tools_ResolverPlugins_[2013-10-17].zip'
+'/addon/':'Tools_UrlTester_[2013-10-17].zip'
 
 # Host Plugins for UrlResolver
 '/addon/resources/urlresolver/':'UrlResolver_Host-Plugins_[2013-10-12].zip'
-
 # Mouse Fixes
 '/addon/resources/misc/':'Mouse_Tweak_[2013-10-12].zip'
 
 # Additional Menus
-'/addon/':'Menu_Image_[2013-10-12].zip'
-'/addon/':'Menu_Sports_[2013-10-12].zip'
-'/addon/':'Menu_Others_[2013-10-12].zip'
-'/addon/':'Menu_Adult_Menu-Only_[2013-10-12].zip'
-
-
+'/addon/':'Menu_Adult_[2013-10-17].zip'
+'/addon/':'Menu_Anime_[2013-10-17].zip'
+'/addon/':'Menu_Audio_[2013-10-17].zip'
+'/addon/':'Menu_Image-Manga-Pictures_[2013-10-17].zip'
+'/addon/':'Menu_Live-Streams_[2013-10-17].zip'
+'/addon/':'Menu_Movies-and-TV_[2013-10-17].zip'
+'/addon/':'Menu_Others_[2013-10-17].zip'
+'/addon/':'Menu_Sports_[2013-10-17].zip'
 
 # Optional Fanart
 '/addon/':'Fanart_BinaryHighway_01_Small-Sign_[2013-10-12].zip'
