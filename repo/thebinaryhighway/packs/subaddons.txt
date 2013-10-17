@@ -1,5 +1,8 @@
 ### List of Addons ###
 
+# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM v0.0.2
+Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-16].zip
+
 # [Menu] | Url Tester v0.0.1
 Addons_Others_Url-Tester_with-Menu_[2013-10-16].zip
 
@@ -24,7 +27,7 @@ Addons_Others_Url-Tester_with-Menu_[2013-10-16].zip
 
 # [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio
 '/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-15].zip'
-# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM
+# [Menu] | SlideShow Module | 80s & 90s Music Videos | The Funk Station | The Dare Radio | Ram FM v0.0.1
 '/addon/':'Addons_Audio-Pack_Music-Radio-SlideShow_with-Menu_[2013-10-12].zip'
 
 
