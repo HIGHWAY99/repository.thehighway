@@ -1,5 +1,14 @@
 ### List of Updates ###
 
+
+
+# Repositories
+'/addon/resources/repos/':'repository.bluecop.xbmc-plugins.[hulu_amazon].zip'
+'/addon/resources/repos/':'repository.eldorado.[projectfreetv_giddyup].zip'
+'/addon/resources/repos/':'repository.googlecode.anarchintosh-projects.xml.zip'
+'/addon/resources/repos/':'repository.lambda.[muchmovieshd_simplyplayer].zip'
+'/addon/resources/repos/':'repository.Vinnydude.[dailyflix].zip'
+
 # Other Tools
 '/addon/':'Tools_XBMCCommands_[2013-10-17].zip'
 '/addon/':'Tools_RunProgram_[2013-10-17].zip'
