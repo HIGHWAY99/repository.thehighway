@@ -28,7 +28,7 @@
 '/addon/':'Addons_Live-Streams_NaviXtreme_[2013-10-17].zip'
 
 '/addon/':'Menu_Others_[2013-10-17].zip'
-'/addon/':'Addons_Others_UrlTester_[2013-10-17]
+'/addon/':'Addons_Others_UrlTester_[2013-10-17].zip'
 
 
 '/addon/':'Menu_Image-Manga-Pictures_[2013-10-17].zip'
