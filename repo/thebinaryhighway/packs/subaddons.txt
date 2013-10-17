@@ -10,6 +10,9 @@
 
 '/addon/':'Menu_Audio_[2013-10-17].zip'
 '/addon/':'Addons_Audio_MusicVids_[2013-10-17].zip'
+# Ram FM v0.0.3
+'/addon/':'Addons_Audio_RamFM_v0.0.3_[2013-10-17].zip'
+# Ram FM v0.0.2
 '/addon/':'Addons_Audio_RamFM_[2013-10-17].zip'
 '/addon/':'Addons_Audio_TheDareRadio_[2013-10-17].zip'
 '/addon/':'Addons_Audio_TheFunkStation_[2013-10-17].zip'
