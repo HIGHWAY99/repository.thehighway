@@ -40,7 +40,8 @@
 '/addon/':'Fanart_BinaryHighway_02_Large-Sign_[2013-10-12].zip'
 '/addon/':'Fanart_Highway_01_A-Highway_[2013-10-12].zip'
 
-
+# Adult Version Updater Tool
+'/addon/':'Tools_Updater-4-AdultAddons_[GitHub]_[2013-10-18].zip'
 
 
 ####################################

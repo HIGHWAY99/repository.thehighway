@@ -40,8 +40,6 @@
 '/addon/':'Menu_Sports_[2013-10-17].zip'
 
 
-'/addon/':'Menu_Adult_[2013-10-17].zip'
-'/addon/':'Addons_Adult-Pack_with-Menu_[2013-10-17].zip'
 
 
 
