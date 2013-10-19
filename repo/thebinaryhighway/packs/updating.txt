@@ -14,6 +14,7 @@
 # Other Tools
 '/addon/':'Tools_XBMCCommands_[2013-10-17].zip'
 '/addon/':'Tools_RunProgram_[2013-10-17_06_38_PM].zip'
+'/addon/':'Tools_LogUploader_[2013-10-18].zip'
 # Initial Tools
 '/addon/':'Tools_XBMCFixes_[2013-10-17].zip'
 '/addon/':'Tools_Repos_[2013-10-17].zip'
