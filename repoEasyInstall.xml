@@ -87,6 +87,20 @@
   </extension>
 </addon>
 
+<addon id="script.module.elementtree"
+       name="Elementtree XML parser"
+       version="1.2.7"
+       provider-name="http://effbot.org/zone/element-index.htm">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.httplib2"
        name="httplib2"
        version="0.7.1"
