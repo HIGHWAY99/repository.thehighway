@@ -34,7 +34,7 @@
 	</extension>
 </addon>
 
-<addon version="0.0.1" id="repository.TheHighwaysEasyInstallRepo" name="TheHighway's Easy Fresh Install Addon Collection" provider-name="The[COLOR tan]Highway[/COLOR]">
+<addon version="0.0.1" id="repository.TheHighwaysEasyInstallRepo" name="TheHighways Easy Fresh Install Addon Collection" provider-name="The[COLOR tan]Highway[/COLOR]">
 	<extension point="xbmc.addon.repository" name="TheHighway's Easy Fresh Install Addon Collection">
 		<info compressed="false">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml</info>
 		<checksum>http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml.md5</checksum>
