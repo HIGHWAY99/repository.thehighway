@@ -1,6 +1,8 @@
 ### List of Updates ###
 
 
+# Host Plugins for UrlResolver
+'/addon/resources/urlresolver/':'Host-Plugin_cheesestream-com_[2013-10-22].zip'
 
 # Repositories
 
@@ -25,6 +27,7 @@
 
 # Host Plugins for UrlResolver
 '/addon/resources/urlresolver/':'UrlResolver_Host-Plugins_[2013-10-12].zip'
+
 # Mouse Fixes
 '/addon/resources/misc/':'Mouse_Tweak_[2013-10-12].zip'
 
