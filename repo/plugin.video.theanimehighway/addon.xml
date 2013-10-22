@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.theanimehighway"
        name="Anime [COLOR tan]Highway[/COLOR]"
-       version="0.1.3"
+       version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="1.0.0"/>

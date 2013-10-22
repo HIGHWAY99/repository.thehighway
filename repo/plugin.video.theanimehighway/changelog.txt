@@ -37,6 +37,9 @@ Video Source FYI/Rundown:
 
 ========= ChangeLog: =========
 
+ver 0.1.4 - The Anime Highway
+	01.) Error handling to skip over hosts that start throwing errors.
+	### Thank you animeCrave who came to our irc channel @ #XBMCHUB with news of the problem.
 ver 0.1.3 - The Anime Highway
 	01.) removed a false/positive from videolinks.py and videolinks2.py
 
