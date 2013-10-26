@@ -8,6 +8,7 @@
 '/addon/':'Addons_Anime_DubHappyEu_[2013-10-17].zip'
 '/addon/':'Addons_Anime_KidsWB_[2013-10-17].zip'
 '/addon/':'Addons_Cartoons_Nickelodeon-NL_Dutch_[2013-10-26].zip'
+'/addon/':'Addons_Cartoons_Disney-Int_[2013-10-26].zip'
 
 '/addon/':'Menu_Audio_[2013-10-17].zip'
 '/addon/':'Addons_Audio_MusicVids_[2013-10-17].zip'
