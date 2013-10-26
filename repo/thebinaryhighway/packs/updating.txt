@@ -24,6 +24,7 @@
 '/addon/':'Tools_XBMCFixes_[2013-10-17].zip'
 '/addon/':'Tools_Repos_[2013-10-17].zip'
 '/addon/':'Tools_ResolverPlugins_[2013-10-17].zip'
+'/addon/':'Tools_UrlTester_v0.0.2_[2013-10-25].zip'
 '/addon/':'Tools_UrlTester_[2013-10-17].zip'
 
 # Host Plugins for UrlResolver
