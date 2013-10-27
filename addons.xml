@@ -230,13 +230,11 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.3.3"
+       version="0.3.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
-  	<import addon="script.module.urlresolver" version="2.0.9"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
-  	<import addon="script.module.metahandler" version="2.0.3"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -247,7 +245,7 @@
   	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
+  	<forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
   	<website>http://github.com/HIGHWAY99/plugin.video.kissanime/</website>
   	<email></email>
   </extension>
@@ -330,7 +328,7 @@
 
 <addon id="plugin.video.theanimehighway"
        name="Anime [COLOR tan]Highway[/COLOR]"
-       version="0.1.3"
+       version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="1.0.0"/>

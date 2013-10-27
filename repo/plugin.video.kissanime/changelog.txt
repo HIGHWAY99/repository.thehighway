@@ -1,6 +1,8 @@
+[B]Version 0.3.4[/B]
+- Adjusted coding for a-d-Check(s) that caused videos to blocked.
+- 
+
 [B]Version 0.3.3[/B]
-- 
-- 
 - Right-Click ContextMenuItem for Latest ... episode (item) noted when there's a '</a>' in the LInfo data area.
 - New option in Settings for hiding items that have not been aired yet, since that normally means there isn't yet anything to watch for them.
 - '[Completed]' and '[Not yet aired]' tags added to the plot description when they appear in the LInfo data area (Latest Episode Category).
