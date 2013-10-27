@@ -1,6 +1,11 @@
+[B]Version 0.3.6[/B]
+- Still Fixing the video block issues.
+
+[B]Version 0.3.5[/B]
+- 
+
 [B]Version 0.3.4[/B]
 - Adjusted coding for a-d-Check(s) that caused videos to blocked.
-- 
 
 [B]Version 0.3.3[/B]
 - Right-Click ContextMenuItem for Latest ... episode (item) noted when there's a '</a>' in the LInfo data area.
