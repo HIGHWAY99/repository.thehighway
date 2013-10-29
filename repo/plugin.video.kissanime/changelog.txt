@@ -1,3 +1,10 @@
+[B]Version 0.3.7[/B]
+- Another Day, Another Problem
+- /url got changed to http:// url in iframe.
+- Handling of a form post, but can't seem to see where it's using any form data.
+- Also setup things to try and use/load/save cookies.  Some of the cookie data though may not be included that I find via my Browser, due to some of the stuff called for at load time.
+- Temp Fx, view site, view show's page, then view show's episode list in XBMC, then link list and hopefully watch video.
+
 [B]Version 0.3.6[/B]
 - Still Fixing the video block issues.
 
