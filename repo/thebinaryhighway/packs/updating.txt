@@ -14,14 +14,12 @@
 '/addon/resources/repos/':'repository.BlazeRepo.[popcornflix].zip'
 
 # Other Tools
-'/addon/':'Tools_XBMCFixes_[2013-10-24].zip'
-'/addon/':'Tools_XBMCFixes_[2013-10-20b].zip'
+'/addon/':'Tools_XBMCFixes_[2013-10-30].zip'
 '/addon/':'Tools_XBMCCommands_[2013-10-17].zip'
 '/addon/':'Tools_RunProgram_[2013-10-17_06_38_PM].zip'
 '/addon/':'Tools_LogUploader_[2013-10-18].zip'
 '/addon/':'Tools_Updater_v2_4_SubAddons_4those-wanting-whole-list-unhidden_[GitHub]_[2013-10-19].zip'
 # Initial Tools
-'/addon/':'Tools_XBMCFixes_[2013-10-17].zip'
 '/addon/':'Tools_Repos_[2013-10-17].zip'
 '/addon/':'Tools_ResolverPlugins_[2013-10-17].zip'
 '/addon/':'Tools_UrlTester_v0.0.2_[2013-10-25].zip'
