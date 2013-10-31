@@ -1,3 +1,8 @@
+[B]Version 0.3.9[/B]
+- Another Fix to allow us KissAnime Fan XBMC-Users to continue to enjoy our beloved Kiss Anime!
+- Leaving out the updated settings.xml until it's time for the new graphics options.
+- Adjusting things and making new additions for future upcoming graphic changes.
+
 [B]Version 0.3.8[/B]
 - Great Thanks to KissAnime.com and their Staff!
 - Great Thanks also to Heiren!
