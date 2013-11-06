@@ -36,7 +36,7 @@
 '/addon/':'Menu_Others_[2013-10-17].zip'
 '/addon/':'Addons_Others_UrlTester_v0.0.2_[2013-10-25].zip'
 '/addon/':'Addons_Others_UrlTester_[2013-10-17].zip'
-
+'/addon/':'Addons_Others_Example1_[2013-11-05].zip'
 
 '/addon/':'Menu_Image-Manga-Pictures_[2013-10-17].zip'
 
