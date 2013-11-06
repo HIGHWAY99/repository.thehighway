@@ -3,6 +3,7 @@
 
 # Host Plugins for UrlResolver
 '/addon/resources/urlresolver/':'Host-Plugin_cheesestream-com_[2013-10-22].zip'
+'/addon/resources/urlresolver/':'Host-Plugin_vidxden_temp-fix_[2013-11-05].zip'
 
 # Repositories
 
