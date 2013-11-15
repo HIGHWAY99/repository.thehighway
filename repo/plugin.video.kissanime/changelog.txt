@@ -1,3 +1,22 @@
+[B]Version 0.4.0[/B]
+- Addong is working again.
+- Recent NEW graphics by Marquerite.
+- Graphics for most other menu items setup.
+- "ArtSite" A-Z Theme setup.
+- Inserted new icon.png and linked up new genre graphics for "ArtSite" Genre Style.
+- Pireviews of the new Genre graphics are looking good so far.
+- Listings for Related Shows has been added to the episode listings Menu.  No ContextMenuItems included for this atm like were on the Show-Title Listings.
+- Looking into MyAnimeList.net slightly for Anime Recommendations... til I went to go eat and cut my forum post short.  Nothing much on this to note just yet, thinking of saving this idea for a later version... so I'll have pleanty more time to research and wrap my head around how I want to go about it.
+- Making visited episodes display as well with the addition of UserAccountLogin and OnlineBookmarks.
+- Online Bookmarks - Add/Remove ContextMenuItems - Not tested yet.
+- Setting up a menu for listing Online Bookmarks from a Registered Account with KissAnime.com.  Not quite ready yet.
+- Addon-Settings has a place for an Account's Username and Password, but Account info is NOT setup to be used at this time.
+- General Tab in Addon-Settings now includes the additional settings and options.
+- New Graphics for the addon being worked, but not included yet.
+- Addon not usable at the moment.  Security issues being dealt with.
+- Custom Proxy Option - Used only for pages with title listings.  The rest of pages don't use it.
+- Multi-Attempt upto a set # of tries for UrlGetting in order to attempt a work-a-round for the sites current host.
+
 [B]Version 0.3.9[/B]
 - Another Fix to allow us KissAnime Fan XBMC-Users to continue to enjoy our beloved Kiss Anime!
 - Leaving out the updated settings.xml until it's time for the new graphics options.

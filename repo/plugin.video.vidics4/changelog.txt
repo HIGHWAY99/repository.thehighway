@@ -1,3 +1,6 @@
+[B]Version 0.2.7[/B]
+- Added icon.png and fanart.jpg by jokster.
+
 [B]Version 0.2.6[/B]
 ### Some url's now still have watch- and some have text after the -YEAR, so I've dealt with that as well.
 - Due to changes in the site, I had to redo the parsing for Items.  Host parsing and playable link methods seem unchanged as far as I've tested.
