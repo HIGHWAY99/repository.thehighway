@@ -1,3 +1,6 @@
+[B]Version 0.4.1[/B]
+- Fixed Supernatural and Super Power Graphics.
+
 [B]Version 0.4.0[/B]
 - Addong is working again.
 - Recent NEW graphics by Marquerite.
