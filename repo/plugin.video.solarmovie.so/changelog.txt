@@ -1,3 +1,11 @@
+[B]Version 0.3.0[/B]
+- Waiting for TV Show Changes to be made on the site so I can adjust "Latest Added" menu.
+- Slight adjustments for required imports.
+- Movie and TV Show MetaData forced-set to use Metahandler for now.
+- Noticed Metadata wasn't showing poster images.
+- Movies Section Fixes due to Site Changes.
+- Noticed Site Changes
+
 [B]Version 0.2.9[/B]
 - Quick Temp. Fix for TV Searches.  Seems TV Searches are bringing up Episodes instead of TV Show Titles.
 - nURL() function added to teh_tools.py for fetching webpages.  A better function method that I've put together since doing a later project.
