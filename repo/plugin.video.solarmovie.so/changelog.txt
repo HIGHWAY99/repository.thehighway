@@ -1,8 +1,10 @@
+[B]Version 0.3.2[/B]
+- Import Handling Changes.
+- Improved Domain Handling.
+- Custom Domain Setting for -Enable- and -Url- (remember to include http://)
+
 [B]Version 0.3.1[/B]
 - Fix for Title (Year) fetching.
-- 
-- 
-- 
 
 [B]Version 0.3.0[/B]
 - Waiting for TV Show Changes to be made on the site so I can adjust "Latest Added" menu.
