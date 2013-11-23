@@ -2,7 +2,7 @@
 
 
 # Current Version of XBMC Fixes!
-'/addon/':'Tools_XBMCFixes_[2013-11-22].zip'
+'/addon/':'Tools_XBMCFixes_[2013-11-23].zip'
 
 # IMPORTANT MAIN-ADDON Updates!
 '/addon/':'Common-Files_common-py_AsciiFix_[2013-11-06].zip'
