@@ -11,6 +11,7 @@
 # Host Plugins for UrlResolver
 '/addon/resources/urlresolver/':'Host-Plugin_PACKAGE-Group-4-Anime-N-Cartoons_[2013-11-07].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_vidxden_temp-fix_[2013-11-05].zip'
+'/addon/resources/urlresolver/':'Host-Plugin_videovalley_for-Cartoon-World_[2013-11-30].zip'
 
 # Repositories
 
