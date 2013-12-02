@@ -1,5 +1,9 @@
+[B]Version 0.3.3[/B]
+- Attempting to setup proxy use.  Free UK Proxies that I could find didn't want to work at all....  Some links simply won't work still, as the addon like life itself just aint perfect.
+- nURL(url) fetching method(s) added.
+- Option to Show/Hide URL's.
+
 [B]Version 0.3.2[/B]
-- 
 - error handling for unicode.
 - rtmp changes.
 - *^ stands for issue with users 'Outside The UK'.
