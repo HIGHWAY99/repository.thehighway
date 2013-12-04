@@ -1,3 +1,9 @@
+[B]Version 0.4.2[/B]
+- Timer Before Display of Video Links (###x###.flv,###x###.mp4).
+- Timer for AntiTag... sleep timer between page fetch retries.
+- Updated Default Proxy Url:Port.
+- Catching of message "You're browsing too fast! Please slow down." from kissanime.com.
+
 [B]Version 0.4.1[/B]
 - Fixed Supernatural and Super Power Graphics.
 
