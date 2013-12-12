@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.thebinaryhighway"
-       name="[COLOR white]The [COLOR blue][B]Binary[/B][/COLOR] [COLOR tan]Highway[/COLOR] [I]00111001 00111001[/I][/COLOR]"
+       name="The [COLOR blue][B]Binary[/B][/COLOR] [COLOR tan]Highway[/COLOR] [I][COLOR white]00111001 00111001[/I][/COLOR]"
        version="1.0.0"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="1.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" 	library="default.py">
-		<provides>video</provides>
+		<provides>video audio image</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">This addon is a 3rd Party Plugin for XBMC.</summary>
@@ -15,8 +15,7 @@
     <disclaimer lang="en">This Project is designed for XBMC Gotham (v13.x) originally. It gets a slight bit of testing as I use it myself, on a Windows 7 OS. Ocassionally I get the chance to test my addon(s) on XBMC Frodo (v12.2) as well, but not always.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
     <language>en</language>
     <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-addons/</forum>
-    <website>http://github.com/HIGHWAY99?tab=repositories</website>
-    <email></email>
+    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
+    <website>http://www.xbmchub.com/</website>
   </extension>
 </addon>
