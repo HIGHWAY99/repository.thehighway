@@ -1,3 +1,11 @@
+[B]Version 0.3.3[/B]
+- Starting the initial shift from t0mm0 common modules to Eldorado's for the newer python version in Frodo/Gotham and less Broken messages.
+- Python Required version set to 2.1.0 in addon.xml.
+- listLinks() Fixes for Movies. when loading Source(s) / Host(s) list.
+
+[B]Version 0.3.2.1[/B]
+- Addon Name Coloring Adjustment.
+
 [B]Version 0.3.2[/B]
 - Import Handling Changes.
 - Improved Domain Handling.
