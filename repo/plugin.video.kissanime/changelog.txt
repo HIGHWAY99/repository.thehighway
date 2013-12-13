@@ -1,3 +1,6 @@
+[B]Version 0.4.3[/B]
+- Resolution Page (Links #x#.[flv|mp4]) Fix.
+
 [B]Version 0.4.2[/B]
 - Timer Before Display of Video Links (###x###.flv,###x###.mp4).
 - Timer for AntiTag... sleep timer between page fetch retries.

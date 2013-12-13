@@ -215,7 +215,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.4.2"
+       version="0.4.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.0"/>
@@ -229,8 +229,9 @@
   	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
+  	<forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.video.kissanime/</website>
+  	<email></email>
   </extension>
 </addon>
 
