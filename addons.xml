@@ -5,7 +5,7 @@
        version="0.3.0"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   	<import addon="plugin.video.youtube" version="4.4.6"/>
   </requires>
@@ -28,7 +28,7 @@
        version="0.3.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -50,7 +50,7 @@
        version="0.3.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -72,7 +72,7 @@
        version="0.3.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.urlresolver" version="2.0.9"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   	<import addon="script.module.metahandler" version="2.0.3"/>
@@ -218,7 +218,7 @@
        version="0.4.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -240,7 +240,7 @@
        version="0.3.0"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.urlresolver" version="2.0.9"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   	<import addon="script.module.metahandler" version="2.0.3"/>
@@ -265,7 +265,7 @@
        version="0.2.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   	<import addon="plugin.video.youtube" version="4.4.6"/>
   </requires>
@@ -309,7 +309,7 @@
        version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="1.0.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
     <import addon="script.module.urlresolver"  	version="1.0.0"/>
     <import addon="script.module.t0mm0.common" 	version="1.1.0"/>
     <import addon="script.common.plugin.cache" 	version="0.9.1"/>
@@ -373,7 +373,7 @@
        version="0.2.7"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" 								version="2.1.0"/>
   	<import addon="script.module.urlresolver" version="2.0.9"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   </requires>
