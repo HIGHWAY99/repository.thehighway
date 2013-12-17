@@ -9,6 +9,11 @@ Please use it to register if you don't have an account.  It not's not much but i
 ========= ========= ========= ========= ========= ========= ========= ========= ========= ========= 
 ========= ChangeLog: =========
 
+[B]Version 1.0.0[/B] [I][2013-12-17][/I] - The Binary Highway
+- Many forgotten changes over the past months.
+- Adjustments to common.py
+- Fix for XBMC Gotham Alpha 10+.
+
 [B]Version 1.0.0[/B] - The Binary Highway
 - ! ! ! C O D E    C L E A N U P ! ! !
 - Tons more work added to RamFM Sub-Addon.
