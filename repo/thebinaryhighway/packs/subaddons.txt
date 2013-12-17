@@ -1,5 +1,8 @@
 ### List of Addons ###
 
+'/addon/':'Common-Files_Overall_Update_[2013-12-17].zip'
+
+
 '/addon/':'Menu_Anime_[2013-10-17].zip'
 '/addon/':'Addons_Anime_Anime44_[2013-10-17].zip'
 '/addon/':'Addons_Anime_AnimeGet_[2013-10-17].zip'
@@ -22,6 +25,7 @@
 '/addon/':'Menu_Movies-and-TV_[2013-10-17].zip'
 '/addon/':'Addons_Movies-TV_MerDBru_[2013-10-17].zip'
 '/addon/':'Addons_Movies-TV_MovieFork_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_PopcornFlix_v0.0.5_[2013-12-17].zip'
 '/addon/':'Addons_Movies-TV_PopcornFlix_[2013-10-17].zip'
 '/addon/':'Addons_Movies-TV_SingleLinkMoviez_[2013-10-17].zip'
 
