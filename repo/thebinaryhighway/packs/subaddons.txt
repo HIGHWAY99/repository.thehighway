@@ -24,6 +24,7 @@
 '/addon/':'Addons_Audio_Streema-Radio_[2013-10-24].zip'
 
 '/addon/':'Menu_Movies-and-TV_[2013-10-17].zip'
+'/addon/':'Addons_Movies-TV_Watchin-it_v0.0.1_[2014-01-01].zip'
 '/addon/':'Addons_Movies-TV_MerDBru_[2013-10-17].zip'
 '/addon/':'Addons_Movies-TV_MovieFork_[2013-10-17].zip'
 '/addon/':'Addons_Movies-TV_PopcornFlix_v0.0.5_[2013-12-17].zip'
