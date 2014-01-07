@@ -1,3 +1,8 @@
+[B]Version 0.3.1[/B]
+### No support for eden anymore, supports Gotham, and trying to support frodo still.
+### Fix for Frodo.
+- Some adjustments that had been made over time.
+
 [B]Version 0.3.0[/B]
 ### These Favorite Folders can be Labeled with custom names and can be hidden by disabling them in Addon Settings.
 ### You can Add/Remove/Empty/List Favorites as well as Adding from one Favorites folder to another.
