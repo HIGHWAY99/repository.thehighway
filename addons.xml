@@ -237,7 +237,7 @@
 
 <addon id="plugin.video.merdb"
        name="MerDB.ru"
-       version="0.3.1"
+       version="0.3.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -255,8 +255,7 @@
   	<language>en</language>
   	<platform>all</platform>
   	<forum>http://www.xbmchub.com/forums/</forum>
-  	<website>http://github.com/HIGHWAY99/plugin.video.merdb/</website>
-  	<email></email>
+  	<website>http://www.xbmchub.com/</website>
   </extension>
 </addon>
 

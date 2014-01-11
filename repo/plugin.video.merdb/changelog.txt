@@ -1,3 +1,7 @@
+[B]Version 0.3.2[/B]
+- 
+- settings.xml: enableMeta set to true by default.
+
 [B]Version 0.3.1[/B]
 ### No support for eden anymore, supports Gotham, and trying to support frodo still.
 ### Fix for Frodo.
