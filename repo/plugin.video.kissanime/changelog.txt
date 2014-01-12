@@ -1,3 +1,9 @@
+[B]Version 0.4.4[/B]
+- RefreshList function.
+- Context menu items for Mark, Unmark and Empty Visits.
+- Episodes checked as watched when starting to play a video.
+- Visit check for episodes
+
 [B]Version 0.4.3[/B]
 - Resolution Page (Links #x#.[flv|mp4]) Fix.
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.4.3"
+       version="0.4.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
+  	<import addon="xbmc.python" version="2.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -16,7 +16,6 @@
   	<language>en</language>
   	<platform>all</platform>
   	<forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-  	<website>http://github.com/HIGHWAY99/plugin.video.kissanime/</website>
-  	<email></email>
+  	<website>http://xbmchub.com/</website>
   </extension>
 </addon>
