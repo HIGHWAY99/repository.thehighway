@@ -1,3 +1,6 @@
+[B]Version 0.2.8[/B]
+- The Site looks to have been shut down.
+
 [B]Version 0.2.7[/B]
 - Added icon.png and fanart.jpg by jokster.
 
