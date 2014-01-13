@@ -1,3 +1,7 @@
+[B]Version 0.4.5[/B]
+- OVA and Movie slapped onto the front menu below Search.
+- OVA,Movie,Music moved to front of the genres list.
+
 [B]Version 0.4.4[/B]
 - RefreshList function.
 - Context menu items for Mark, Unmark and Empty Visits.
