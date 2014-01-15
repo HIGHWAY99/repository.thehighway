@@ -1,0 +1,7 @@
+[B]Version 0.0.2[/B]
+- Adding "labelformatting.py"
+- Slight adjustments on "proxies.py"
+- Initial Release.
+
+[B]Version 0.0.1[/B]
+- Initial Testing.

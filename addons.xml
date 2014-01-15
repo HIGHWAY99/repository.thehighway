@@ -420,7 +420,7 @@
 
 <addon id="script.module.highway.common"
 	     name="TheHighway's Common Addon Modules"
-	     version="0.0.1"
+	     version="0.0.2"
 	     provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
