@@ -1,3 +1,7 @@
+[B]Version 0.4.6[/B]
+- Removal of Default Proxy, as it seems no longer needed.
+- Testing of common Proxies module.
+
 [B]Version 0.4.5[/B]
 - OVA and Movie slapped onto the front menu below Search.
 - OVA,Movie,Music moved to front of the genres list.
