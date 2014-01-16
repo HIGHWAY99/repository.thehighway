@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.audio.ramfmradio"
-       name="RAM FM Radio" version="0.0.4"
+       name="RAM FM Radio" version="0.0.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" 								version="2.1.0"/>
