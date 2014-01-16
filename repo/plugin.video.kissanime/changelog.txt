@@ -1,3 +1,13 @@
+[B]Version 0.4.7[/B]
+- 
+- Added Option to Addon Settings for Left-Side @ on Episode Titles.  Otherwise is marked on the Right Side.
+- Added Option to Addon Settings for Left-Side @ on Show Titles.  Otherwise is marked on the Right Side.
+- listItems() - Coloring Plot descriptions differently for Site Data and Meta Data.
+- Changes to GRABMETA() function in teh_tools.py.
+- Adjusted '+' to '%2B' for Anime Show Titles sent to MetaHandler.
+- Added Option to Addon Settings for Show/Hide Site Artwork for missing Artwork when MetaData is enabled.  (An Old Forum Request.)
+- Changes to listItems() function in default.py.  Pretty much re-did the metadata and sitedata setup in this function.
+
 [B]Version 0.4.6[/B]
 - Removal of Default Proxy, as it seems no longer needed.
 - Testing of common Proxies module.
