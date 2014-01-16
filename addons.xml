@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.audio.ramfmradio"
+       name="RAM FM Radio" version="0.0.4"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" 								version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" 	library="default.py">
+		<provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This addon is a 3rd Party Plugin for XBMC.</summary>
+    <description lang="en">http://ramfm.org</description>
+    <disclaimer lang="en">This addon is mainly setup for XBMC versions 12.x Frodo and Gotham Alpha verions.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://ramfm.org/</website>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.searchmp3mobi"
        name="SearchMP3.mobi"
        version="0.3.0"
