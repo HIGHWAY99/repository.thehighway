@@ -1,3 +1,8 @@
+[B]Version 0.3.4[/B]
+- urlresolver and metahandler added back to required modules.
+- Blue (handled) / Red (not handled) Coloring on Host/Source Links list.
+- valid_url() function setup for host names on Links list.
+
 [B]Version 0.3.3[/B]
 - Starting the initial shift from t0mm0 common modules to Eldorado's for the newer python version in Frodo/Gotham and less Broken messages.
 - Python Required version set to 2.1.0 in addon.xml.
