@@ -1,5 +1,12 @@
+[B]Version 0.4.8[/B]
+- Page jumps backward and forward for every 10th page when available.
+- Added Last, Previous, and First... Page Links to the Title Lists.
+- Added The Page number for the Next Link's page.
+- Removed the debugging-to-file enabled requirement for Bookmarks to be seen on main menu.  It still only shows up if the account stuff is enabled.
+- Added colored @ to Related Titles.  This can be thrown some for series that have multiple seasons seperate and such or titles of shows that are within another title.
+- Fixed the Related Titles on the Episode Lists.
+
 [B]Version 0.4.7[/B]
-- 
 - Added Option to Addon Settings for Left-Side @ on Episode Titles.  Otherwise is marked on the Right Side.
 - Added Option to Addon Settings for Left-Side @ on Show Titles.  Otherwise is marked on the Right Side.
 - listItems() - Coloring Plot descriptions differently for Site Data and Meta Data.
