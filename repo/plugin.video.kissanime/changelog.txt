@@ -1,3 +1,6 @@
+[B]Version 0.4.9[/B]
+- Fix for Plot Description on Show Listings with Metadata turned off.
+
 [B]Version 0.4.8[/B]
 - Page jumps backward and forward for every 10th page when available.
 - Added Last, Previous, and First... Page Links to the Title Lists.
