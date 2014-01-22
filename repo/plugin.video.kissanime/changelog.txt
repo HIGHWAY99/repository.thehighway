@@ -1,3 +1,8 @@
+[B]Version 0.5.0[/B]
+- Option under Metadata section to put Genres (from Metadata-only) onto the top of the Plot Description.
+- Debugging to File - Enabled...  Stopped Array of items found frin being printed to xbmc.log on Title Lists.
+- Debugging to File - Enabled...  Stopped HTML of page being printed to xbmc.log on Title Lists.
+
 [B]Version 0.4.9[/B]
 - Fix for Plot Description on Show Listings with Metadata turned off.
 
