@@ -1,3 +1,11 @@
+[B]Version 0.3.5[/B]
+- Still no Latest Episodes Listings at this time.  I just haven't felt up to dealing with trying to fix up the Latest Comments to filter out the tv shows
+- Fix for Listings in Coming Soon section.
+- Fix for Coming Soon By-Date path.
+- Fix for Links Listings.
+- Fix for TV and Movies Listings.
+- "Enable Metadata" option is now visible in Metadata section of Addon Settings.
+
 [B]Version 0.3.4[/B]
 - urlresolver and metahandler added back to required modules.
 - Blue (handled) / Red (not handled) Coloring on Host/Source Links list.
