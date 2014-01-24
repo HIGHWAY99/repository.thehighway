@@ -9,6 +9,8 @@
 
 # Host Plugins for UrlResolver
 
+'/addon/resources/urlresolver/':'Host-Plugin_vidspot_[2014-01-24].zip'
+'/addon/resources/urlresolver/':'Host-Plugin_mooshare_biz_[2014-01-24].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_slickvid_[2014-01-24].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_megavids_[2014-01-24].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_sharevid_[2014-01-24].zip'
