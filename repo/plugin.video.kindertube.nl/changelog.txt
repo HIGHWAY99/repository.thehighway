@@ -1,0 +1,8 @@
+
+[B]v0.0.1[/B]
+- Browse forward to other Pages.
+- Play videos for Youtube and Vimeo.
+- 3 Types of parsing done on the pages.
+- Main menu with links for each of the main buttons
+- No search function yet.
+
