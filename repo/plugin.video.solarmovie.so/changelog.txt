@@ -1,3 +1,13 @@
+[B]Version 0.3.7[/B]
+- Note: Watched State is currently only setup to work when metahandler is installed and MetaData is enabled.
+- Attempting to have the addon set a movie/episode as unwatched if player.play() errors.
+- Barring any unforeseen side-effects elsewhere, I've got the PlayVideo function for movies and episode links setup to mark things as watched right before playing the video.
+- Ability to Change Watched State on Movies - Seems to work currently.
+- Ability to Change Watched State on TVShows - Attempted but seemed to fail, so I hid the ContextMenuItem.
+- Ability to Change Watched State on Episodes - Seems to work currently.
+- MetaData on Episodes
+- MetaData on Seasons
+
 [B]Version 0.3.6[/B]
 - Lot of html-coding fixes for parsing to come up to date with the site changes that have occurred over time.
 - API Search - Setup to use metahandler when Metadata is enabled and sitedata from fetched pages when its disabled.
