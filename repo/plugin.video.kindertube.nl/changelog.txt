@@ -2,6 +2,11 @@ Addon Name: 		Kindertube.NL
 Addon Author: 	The Highway
 Thanks to Marquerite for finding the site and work her on Translations and Graphics.
 
+[B]v0.0.3[/B]
+- N/A graphic.
+- Fix for Populair.
+- Color change on page links.
+
 [B]v0.0.2[/B]
 - Cleaned up the settings.xml file for addon settings.
 - Moved About to the bottom of the main menu list.
