@@ -1,3 +1,19 @@
+[B]Version 0.5.1[/B]
+- Fix for TV Series Episode listings when linked from Favorites.  Not sure if any bug might come up for movies/ovas/specials due to this.
+- Trying to add IMDB_ID to new favorites and from there pass them onto episodes list.
+- Fix for MessedupText in Episode Title and Plot Descriptions.
+- Addon Settings - Started a Customize tab where you can edit "some" of the text.  Please be careful when changing some text.
+- Removed optional overlay:7 when found in visited for Series, as it was showing up by default for those not visited.
+- An option for Genres-View has been added to auto-view section of addon settings.
+- Genres List browsing set a tvshows for content so that other view types can be used to see plot data.
+- Checking over the list of Genres and seeing what's been added.
+- Added "Dub" genre to the Genres' List.
+- /yawn /sigh /yawn [Break Time].  I seem to spend too much time coding and studying coding, and not enough time sleeping.
+- Manual Tweak for "Golden Time" to include " (2013)", to show the right MetaData.
+- Watched Check marks seem to be showing up alongside of the @'s now.  :)
+- Option in Addon Settings for Enabling Episode MetaData, where available.
+- Episode Metadata, where available.  For now, it seems to work on "some" series for season 1's.  Not enough capability to setup for other seasons at the moment.
+
 [B]Version 0.5.0[/B]
 - Option under Metadata section to put Genres (from Metadata-only) onto the top of the Plot Description.
 - Debugging to File - Enabled...  Stopped Array of items found frin being printed to xbmc.log on Title Lists.
