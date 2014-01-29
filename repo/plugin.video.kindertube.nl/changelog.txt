@@ -1,3 +1,19 @@
+Addon Name: 		Kindertube.NL
+Addon Author: 	The Highway
+Thanks to Marquerite for finding the site and work her on Translations and Graphics.
+
+[B]v0.0.2[/B]
+- Cleaned up the settings.xml file for addon settings.
+- Moved About to the bottom of the main menu list.
+- Hid ID-Tags on playable links.
+- Added some information in NL's language for users.
+- Graphics by Marqueite.
+- Moved green show pages to a different category.
+- Hid page urls.
+- Color changes.
+- Added Video Host Marking for NPO.NL, but is a stream host that I can't currently grab the url for easily.
+- Fixed Video Host Check.
+
 
 [B]v0.0.1[/B]
 - Browse forward to other Pages.
