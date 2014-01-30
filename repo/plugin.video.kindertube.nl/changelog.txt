@@ -2,6 +2,10 @@ Addon Name: 		Kindertube.NL
 Addon Author: 	The Highway
 Thanks to Marquerite for finding the site and work her on Translations and Graphics.
 
+[B]v0.0.4[/B]
+- Set total items on links so to make the progress bar in the lower right corner work.
+- I calculated the url for the graphics for those shows without one available on the page.
+
 [B]v0.0.3[/B]
 - N/A graphic.
 - Fix for Populair.
