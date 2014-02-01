@@ -1,3 +1,9 @@
+[B]Version 0.5.2[/B]
+- Added Series/Show Plot Description from SiteData as well.  Again there's an option to Show/Hide this.
+- Haven't tested it yet, but there are options in Addon Settings under Anime to Show/Hide Views, Status, Genres in the episode list.
+- Took an idea from MediaPi about genres and thus in the Episode List, I've placed Views, Status and Genres as link items. Genres clickable, but Status and Views are just there to be seen.
+- Fix for Lasted Anime Visited... to include image and imdb_id.
+
 [B]Version 0.5.1[/B]
 - Fix for TV Series Episode listings when linked from Favorites.  Not sure if any bug might come up for movies/ovas/specials due to this.
 - Trying to add IMDB_ID to new favorites and from there pass them onto episodes list.
