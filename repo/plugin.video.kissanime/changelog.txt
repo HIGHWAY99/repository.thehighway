@@ -1,3 +1,9 @@
+[B]Version 0.5.3[/B]
+- Re-organized menus and such in Addon Settings.
+- Episode List - Fix for Series Plot Description.  Seems to be some series that needed alternative scraping method taken into consideration.
+- Episode List - Error handling for some of the things.
+- Episode List - Show Title under Status and Views.
+
 [B]Version 0.5.2[/B]
 - Added Series/Show Plot Description from SiteData as well.  Again there's an option to Show/Hide this.
 - Haven't tested it yet, but there are options in Addon Settings under Anime to Show/Hide Views, Status, Genres in the episode list.
