@@ -6,20 +6,63 @@ Contents:
  - - SearchMP3.mobi
  - - RadioPlayer.co.uk
  - - TheFunkStation
+ - - The Binary Highway
+ - - RAM FM Radio
+ - - 
+ - - 
+ - - 
+ - Picture
+ - - KissManga
+ - - The Binary Highway
  - - 
  - - 
  - - 
  - Video
  - - Funimation (U/C)
- - - Movie Fork
- - - Solarmovie.so
- - - The Anime Highway (Many Subbed and Dubbed Anime Sites)
- - - Vidics4 (U/C)
- - - TheDareTV [with TheDareRadio] by The_Silencer and The Highway
+ - - Anime44 (Shelf)
+ - - AnimeGet (Shelf)
+ - - The Anime Highway (Many Subbed and Dubbed Anime Sites) (Shelf)
+ - - SolarMovie.so
+ - - Code Lyoko Evolution
+ - - MovieFork.com
+ - - MerDB.ru
+ - - Vidics4 (Shelf)
+ - - TheDareTV [with TheDareRadio] by The_Silencer and The Highway.  Radio section was removed from the site. (Shelf)  Check out The_Silencer 's repo for current versions of the addon.
+ - - The Binary Highway
+ - - Example of a Video Addon - [Tutorial]
+ - - Kindertube.NL.  This is for people in the Netherlands that want some content for children.
+ - - KissAnime.  Check out http://www.kissanime.com/.  They now have a mobile version for some mobile devices @ http://www.kissanime.com/M.
  - - 
  - - 
  - - 
- - TheHighway's Repository
+ - Programs
+ - - The Binary Highway
+ - - Connect 4
+ - - FTP HUB - FTP Server
+ - - 
+ - - 
+ - - 
+ - Games
+ - - Connect 4.  2 Player game, Human vs. Human locally.
+ - - 
+ - - 
+ - - 
+ - Common Module Projects
+ - - TheHighway's Common Addon Modules.  Has a module for handling/fetching Proxies thats been ran through some testing, as well as, a labelformatting.py module that hasn't been tested yet.
+ - - 
+ - - 
+ - - 
+ - Service Projects
+ - - FTP HUB - FTP Server.  A basic FTP/FTPD Server using a slightly modified version of pyftpdlib 1.3.0.
+ - - 
+ - - 
+ - - 
+ - Repositories
+ - - TheHighway's Repository
+ - - TheHighway's Easy Fresh Install Addon Collection.  This one is pretty much outdated and not kept up anymore, mainly just old stuff.
+ - - 
+ - - 
+ - - 
  
-contact:
- private message via forum at xbmchub.com
+Contact:
+ Private message via forum at xbmchub.com.
