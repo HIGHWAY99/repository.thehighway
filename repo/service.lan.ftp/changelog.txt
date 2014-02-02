@@ -1,0 +1,65 @@
+[B]Read permissions[/B]:
+    "e" = change directory (CWD, CDUP commands)
+    "l" = list files (LIST, NLST, STAT, MLSD, MLST, SIZE commands)
+    "r" = retrieve file from the server (RETR command) 
+[B]Write permissions[/B]:
+    "a" = append data to an existing file (APPE command)
+    "d" = delete file or directory (DELE, RMD commands)
+    "f" = rename file or directory (RNFR, RNTO commands)
+    "m" = create directory (MKD command)
+    "w" = store a file to the server (STOR, STOU commands)
+    "M" = change mode/permission (SITE CHMOD command) New in 0.7.0 
+
+
+[B]FTP HUB[I] - FTP Server[/I] - 1.0.0[/B]
+- Initial Public Release.
+- Uploading for Staff Viewing before Public Release.
+- Added Remainder of graphics made by Surfer.
+- Execute command on the account buttons.
+- Auto-Back Option, to take user back to the main menu after clicking "Show Setting", "Enable Server", or "Disable Server".
+- Auto-View for Menu Look/Style. Default set to 500 for Thumbnail View.
+- Added graphics made by Surfer.
+
+[B]FTP HUB[I] - FTP Server[/I] - 0.0.5[/B]
+- Staff Release for testing.
+- ArtPath setup and filenames for images in place.
+- Graphics being made by Surfer.
+- Name has been chosen: FTP [B]HUB[/B][/I] - FTP Server[/I]
+- Addon Settings - "Menu" tab:  Provides the ability to show/hide whichever you want on the addon's main menu.
+- default.py - Current Menu Items:  "Local IP @ Network Settings", "Restart XBMC", ftp url example(s), Anonymous + 1-10 user accounts (enabled only), server status, enable server, disable server, show settings.  Also "Please Restart XBMC" if you have not restarted xbmc after installing the addon.
+- switched "shutdownmenu" to "111" for better support with mutliple-skins.  Thanks to BlazeTamer and Bstrdsmkr for the information.
+
+[B]FTP Server - 0.0.4[/B]
+- switched from [I].replace(pFindWhat,"|tag|").replace("|tag|",pReplaceWith)[/I] to [I]xbmc.validatePath[/I].  Thanks to Bstrdsmkr.
+- "Please restart XBMC." menu item will now open Shutdown Menu window.  Thanks to BlazeTamer for the idea.
+
+[B]FTP Server - 0.0.3[/B]
+- Time for another test phase.
+- A Time-out setting is in Addon Settings now, which basically determines how often the server is restarted/checked to see if the setting for running is enabled/disabled.  This can probably be tweaked some, slightly, by advanced users.
+- default.py via Program Addons - Added menu with the following: Enable/Disable-Server, Show Settings, Server Status.
+- Finally the server will now do a lot better job starting/stopping/restarting/stopping-again.
+- Many attempts to sort out shutdown of the ftpd server.
+- Should hopefully block future "new" ip's from connecting if server is disabled in addon settings. #FTPServer()._accept_new_cons()
+
+[B]FTP Server - 0.0.2[/B]
+- Fix for Anonymous-Account-Enable check.
+- Fix for Account-Enable check.
+- *I need to test and see if anonymous account will really be read only
+- Attempted Fix for default user name issue.  *I need to test this more.
+- Color coded text in Addon Settings.
+- Upped the # of accounts, besides anonymous, from 4 to 10.
+- Fixed Text in Addon Settings.
+- [U]Tested on[/U]: Gotham Alpha 6 (Win7 x64), Frodo 12.2 (Win7 x64), Frodo 12.3 (Win7 x64)
+- Taking a Pole on what to name the project.
+
+
+
+[B]FTP Server - 0.0.1 - [U]Initial Version[/U][/B]
+- To Turn OFF the server, for now, you'll have to uncheck "Enable Server" and restart XBMC.
+- Stopping server currently seems flawed.
+- Can start server by clicking "Enable Server" in addon settings.
+- FTP Server is set as executable with default.py so that addon settings can be gotten to more easily.
+- Attempting to setup this python ftpd lib as a xbmc service.
+- Credit for pyftpdlib goes to http://code.google.com/p/pyftpdlib/
+### pyftpdlib-1.3.0.tar.gz
+### ### Current release (working with python from 2.4 to 3.4)   Featured

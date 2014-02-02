@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.lan.ftp"
+       name="FTP [B]HUB[/B][I] - FTP Server[/I]" version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>A Python FTPD Server.  Restart XBMC once after installing before use.  Graphics by Surfer.</summary>
+  	<description>Graphics by Surfer.  This is basically a service project to handle the running of a nice FTP Server I found code for, as noted in the changelog.txt.  This is ment to eventually be for quick and easy use of even semi-newb-users, but for now is mainly meant for Advanced Users, until things get weeded out and more people come to understand how it works.  Restart XBMC once after installing before use.</description>
+  	<disclaimer lang="en">This Project is designed for XBMC v13.0.x originally and currently being kept up on one of the monthly xbmc v13.0.x alpha builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Most other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+  	<website>http://www.xbmchub.com/</website>
+  	<source>https://github.com/HIGHWAY99/</source>
+  </extension>
+</addon>
