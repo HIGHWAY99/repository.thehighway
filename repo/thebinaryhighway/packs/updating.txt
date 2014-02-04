@@ -9,6 +9,7 @@
 
 # Host Plugins for UrlResolver
 
+'/addon/resources/urlresolver/':'Host-Plugin_uploadcrazynet_[2014-02-04].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_trollvid_[2014-02-04].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_nosvideo_updated_[2014-01-17].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_vidxden_updated_[2014-01-17].zip'
