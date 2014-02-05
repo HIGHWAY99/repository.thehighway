@@ -1,0 +1,15 @@
+
+[B]AnimeFATE - 0.0.2[/B]
+- 
+- 
+- 
+- Moved the Series Link above the Episode Link on Latest Episodes menu.
+- Fixed tiny size of thumbnail images for anime series, gotten from the site.
+- Trying out the graphics from my KissAnime Addon for the time being.
+- Adjusting settings.xml for addon settings on stand-a-lone version (full addon).
+
+[B]AnimeFATE - 0.0.1[/B]
+- Host plugins: TrollVid (new), UploadCrazy (updated)
+- Initial Sub-Addon for TheBinaryHighway
+
+
