@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="service.lan.ftp"
-       name="FTP [B]HUB[/B][I] - FTP Server[/I]" version="1.0.0"
+       name="FTP [B]HUB[/B][I] - FTP Server[/I]" version="1.0.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -18,6 +18,6 @@
   	<platform>all</platform>
   	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
   	<website>http://www.xbmchub.com/</website>
-  	<source>https://github.com/HIGHWAY99/</source>
+  	<source>https://github.com/HIGHWAY99/service.lan.ftp/</source>
   </extension>
 </addon>
