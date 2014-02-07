@@ -138,8 +138,8 @@
 </addon>
 
 <addon id="plugin.video.animefate"
-       name="A[COLOR orange][I]nime[/I][/COLOR] [COLOR purple]Fate[/COLOR]"
-       version="0.0.2"
+       name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

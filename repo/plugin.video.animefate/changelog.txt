@@ -1,8 +1,15 @@
 
+[B]AnimeFATE - 0.0.3[/B]
+- Currently noticed video hosts: vidcrazy.net, uploadcrazy.net, vidvalley.net, animeonair.com
+- Added missing coding from [I]TheBinaryHighway[/I].
+- addon name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]".  Adjusted colors and uncolored the F on Fate.
+- Graphic change(s) - icon.png altered version of the KissAnime icon.png with chibi's moved around and text changed, KA spins removed for AF icon.png.
+- Graphic Note: Most of the graphics are either by Marquerite or Originally by her and where made originally for use in my KissAnime addon.  Some graphics are being reused to save space of images in cached storage, while the main menu button image are being tweaked by myself.
+- Graphic Change(s) - most buttons @ the main menu.
+### purple #976dba
+### purple-white #e5d0f6
+
 [B]AnimeFATE - 0.0.2[/B]
-- 
-- 
-- 
 - Moved the Series Link above the Episode Link on Latest Episodes menu.
 - Fixed tiny size of thumbnail images for anime series, gotten from the site.
 - Trying out the graphics from my KissAnime Addon for the time being.
