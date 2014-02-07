@@ -1,4 +1,16 @@
 
+[B]AnimeFATE - 0.0.4[/B]
+- Attempting to setup slight handling for Movies.  Nothing major like metadata yet.
+- Change on the File naming: Show Title - s#e# ## - Episode Title.mp4.  The ## will be the Episode Number as shown on the site.
+- Added overall Episode Number as shown on the site, Season Number, and Season's Episode Number to the Plot Description.  Of course, it got some color.
+- Fixed Last Episode's Episode Number.
+- Episode MetaData should now work where available for Seasons 1 and 2.  Seasons 3 and greater May work as well, but will have to double check things when I find a series with enough seasons.
+- When certain things are not found when getting from the current season it will record the previous episode number and shift the season number up 1.
+- Episodes will for now on be displayed with season 1 episode 1 being displayed first.  This is for sake of episode metadata.
+- Note: A "TTT OOO NNN" of testing went into this version's improved setup for episode metadata.  This should help out my other addons too.
+- Nearly all text, other than Blue-colored text, got switched over to the new color scheme.
+- Text Coloring - Added new Text-coloring function, AFColoring().
+
 [B]AnimeFATE - 0.0.3[/B]
 - Currently noticed video hosts: vidcrazy.net, uploadcrazy.net, vidvalley.net, animeonair.com
 - Added missing coding from [I]TheBinaryHighway[/I].
