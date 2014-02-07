@@ -4,7 +4,7 @@
 
 
 '/addon/':'Menu_Anime_[2013-10-17].zip'
-'/addon/':'Addons_Anime_AnimeFATE_v0.0.2_[2014-02-04].zip'
+'/addon/':'Addons_Anime_AnimeFATE_v0.0.3_[2014-02-06].zip'
 '/addon/':'Addons_Anime_KidsWB-DCNation_[2013-12-20].zip'
 '/addon/':'Addons_Anime_Anime44_[2013-10-17].zip'
 '/addon/':'Addons_Anime_AnimeGet_[2013-10-17].zip'
