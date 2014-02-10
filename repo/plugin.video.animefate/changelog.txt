@@ -1,4 +1,11 @@
 
+[B]AnimeFATE - 0.0.5[/B]
+- Additional graphics by Marquerite.  Fanart, Mutants (genre), Animation (genre).
+- Added "Empty List" to context menu on favorites.
+- Fixed Last Show art when using Favorites.
+- Last Episode (Host Menu).
+- Last Show (Episode Menu).
+
 [B]AnimeFATE - 0.0.4[/B]
 - Attempting to setup slight handling for Movies.  Nothing major like metadata yet.
 - Change on the File naming: Show Title - s#e# ## - Episode Title.mp4.  The ## will be the Episode Number as shown on the site.
