@@ -1,0 +1,25 @@
+
+[B]JustAnimeStream - 0.0.1[/B]
+- 
+- 
+- Common Function for Fixing a limited number of Anime Names for MetaData use.
+- Added support for nvs.php method for uploadcrazy and vidcrazy file hosts.  There HAS got to to BE a better method for catching the url's than this.  Setup of each and every host abbreviation one by one is a pain.
+- Latest Episodes.
+- Setup of more HIDDEN genres.  Please let me know if you find a url with a decent (most or full) list of genres for this site.
+- Change of Temp. Fanart.jpg
+- Setup of Temp. Icon.png.
+- Setup of Stand-a-lone Full-Addon version.
+- I still need to setup parsing for alternative listing method used for Latest Updates.
+- Pagination for: Next page, Last page, Previous page.
+- Search Feature.
+- Favorites, Popular, Genres Menu, Anime/Cartoon/Movie List A-Z Menu, Ongoing Anime.
+- JDownloader and File Downloader should be working.
+- Parsing major hassles of making some of the host playble.  This was major hell.
+- Handling for resetting to season 1 when doing Episode 1... for sake of having multiple types on a page (subbed, dubbed).
+- Parsing for Episodes.
+- Parsing for default Show Listing method.
+- Main Menu.
+- Graphics mostly by Marquerite and TheHighway.  Currently the stuff used in my addons for AnimeFATE/KissAnime.
+- Initial Sub-Addon for TheBinaryHighway.
+
+
