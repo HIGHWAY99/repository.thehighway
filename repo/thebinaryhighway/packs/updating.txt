@@ -9,6 +9,8 @@
 
 # Host Plugins for UrlResolver
 
+'/addon/resources/urlresolver/':'Host-Plugin_auengine_[2014-02-10].zip'
+
 '/addon/resources/urlresolver/':'Host-Plugin_uploadcrazynet_[2014-02-06].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_vidcrazynet_[2014-02-06].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_videovalley_[2014-02-06].zip'
