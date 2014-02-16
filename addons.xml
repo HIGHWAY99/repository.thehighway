@@ -139,7 +139,7 @@
 
 <addon id="plugin.video.animefate"
        name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]"
-       version="0.0.5"
+       version="0.0.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -261,7 +261,7 @@
 
 <addon id="plugin.video.juastanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -332,8 +332,8 @@
 </addon>
 
 <addon id="plugin.video.merdb"
-       name="MerDB.ru"
-       version="0.3.2"
+       name="MerDB.cn"
+       version="0.3.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

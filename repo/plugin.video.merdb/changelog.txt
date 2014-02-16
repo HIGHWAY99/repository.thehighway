@@ -1,5 +1,7 @@
+[B]Version 0.3.3[/B]
+- Domain update for merdb.cn.
+
 [B]Version 0.3.2[/B]
-- 
 - settings.xml: enableMeta set to true by default.
 
 [B]Version 0.3.1[/B]

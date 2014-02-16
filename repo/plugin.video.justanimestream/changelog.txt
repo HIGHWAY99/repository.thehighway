@@ -1,7 +1,18 @@
 
+[B]JustAnimeStream - 0.0.2[/B]
+- Changes made to common.py for stand-a-lone version.
+### Added Refresh MetaData ContextMenuItem for shows.  Basically Re-used some code from the 1Channel addon for the time being, for a couple functions.
+### Removed Default ContextMenuItems.
+### Added Checking functionality for Favorites.
+### 'Remove' now displayed in place of the Add ContextMenuItem where the favorite list already contains the item.
+- Favorites Names on Favorites Folders' ContextMenuItems
+- ...
+- Note: This patch is to the Stand-a-lone version of this addon only.
+- ContextMenuItems for Visited/Watched Status.
+- @ markings for Watched Status (Visited).
+- Visited/Watched Status varaibles and functions.
+
 [B]JustAnimeStream - 0.0.1[/B]
-- 
-- 
 - Common Function for Fixing a limited number of Anime Names for MetaData use.
 - Added support for nvs.php method for uploadcrazy and vidcrazy file hosts.  There HAS got to to BE a better method for catching the url's than this.  Setup of each and every host abbreviation one by one is a pain.
 - Latest Episodes.

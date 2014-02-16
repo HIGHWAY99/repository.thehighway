@@ -1,4 +1,15 @@
 
+[B]AnimeFATE - 0.0.6[/B]
+- Changes made to common.py for stand-a-lone version.
+### Added Checking system for Favorites.
+### 'Remove' now displayed in place of the Add ContextMenuItem where the favorite list already contains the item.
+- Favorites Names on Favorites Folders' ContextMenuItems
+- ...
+- Note: This patch is to the Stand-a-lone version of this addon only.
+- ContextMenuItems for Visited/Watched Status.
+- @ markings for Watched Status (Visited).
+- Visited/Watched Status varaibles and functions.
+
 [B]AnimeFATE - 0.0.5[/B]
 - Additional graphics by Marquerite.  Fanart, Mutants (genre), Animation (genre).
 - Added "Empty List" to context menu on favorites.
