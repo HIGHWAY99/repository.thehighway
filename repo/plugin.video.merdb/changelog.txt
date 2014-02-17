@@ -1,4 +1,12 @@
-[B]Version 0.3.3[/B]
+[B]Version 0.3.5[/B]
+- Error handling for items listed on movies/tvshows/episodes/hosts, so that if one errors it should still show the rest.
+- Added MetaData for Episodes.
+- Fixed Episodes List.
+- Fixed TV Show Parsing.
+- removed: sql imports.
+- requirement: script.module.addon.common.
+
+[B]Version 0.3.4[/B]
 - Domain update for merdb.cn.
 
 [B]Version 0.3.2[/B]

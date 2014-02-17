@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.merdb"
        name="MerDB.cn"
-       version="0.3.3"
+       version="0.3.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver" version="2.0.9"/>
-  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  	<import addon="script.module.addon.common" version="2.0.0"/>
   	<import addon="script.module.metahandler" version="2.0.3"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
