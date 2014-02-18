@@ -1,4 +1,7 @@
 
+[B]JustAnimeStream - 0.0.3[/B]
+- 2 Genre graphics added.
+
 [B]JustAnimeStream - 0.0.2[/B]
 - Changes made to common.py for stand-a-lone version.
 ### Added Refresh MetaData ContextMenuItem for shows.  Basically Re-used some code from the 1Channel addon for the time being, for a couple functions.

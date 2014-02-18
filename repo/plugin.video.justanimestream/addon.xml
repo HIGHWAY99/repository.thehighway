@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.juastanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

@@ -261,7 +261,7 @@
 
 <addon id="plugin.video.juastanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -311,10 +311,12 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.5.3"
+       version="0.5.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.metahandler" version="2.0.0"/>
+  	<import addon="script.module.addon.common" version="2.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>

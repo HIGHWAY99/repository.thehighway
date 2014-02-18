@@ -1,3 +1,14 @@
+[B]Version 0.5.4[/B]
+- Fixed variable animename's line that replaced common non-name tags.
+- Fixed cover and backdrop urls on non-AutoPlay episode links.
+- Add Favorites changed to Add/Remove Favorites in ContextMenuItems of Show Listings.  This way items can be removed from listings from more than just the favorites menus.
+- Added "Refresh MetaData" to ContextMenuItems.
+- Season/Status varaible naming fix on episode listings.
+- Flipped the episode order on episode listings.
+- error handling for metahandlers import(s).
+- Setup to handle "addon.common" in place of "t0mm0.common".
+- Fixed common "Addon" import in config.py.
+
 [B]Version 0.5.3[/B]
 - Re-organized menus and such in Addon Settings.
 - Episode List - Fix for Series Plot Description.  Seems to be some series that needed alternative scraping method taken into consideration.
