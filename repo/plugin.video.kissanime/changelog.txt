@@ -1,3 +1,14 @@
+[B]Version 0.5.5[/B]
+- Fixed "Last Video [AutoPlay]".
+- Even more additional Episode Number error-handling.
+- Additoinal AutoPlay settings.  If a video does not play with these additional #x#.___ settings, try turning off auto-play and back out before the episode list then re-enter it and check the link list to see what is available.  Not all videos have the same resolutions listed.  Please do not ask for further features to this setting.  Any further improvements to this feature will come in time when I feel up to it, so please don't give me any headaches over it.
+- Added a quick little length check on the imdb_id varaiable so that it wont bother with episode metadata fetching if it can't be found.
+- Additional Episode Number error-handling.  This includes ##.#.
+- Max Episode Limit Setting for Episode MetaData has been added.
+- Re-did the Episode Number catching method.  This now does away with stuff like " (720p)" and also handles 001-002 and such.
+- "episodeSort" setting added to SiteData section.  You can set the it to sort episodes sorting with last episode first by disabling this when you got metadata turned off.  For those who use MetaData like myself, you can do the same thing by both turning it off in the same place and also disabling Episode MetaData while leaving normal MetaData on.
+- "Default" removed from "autoplay-select" setting used for Auto-Play.  Option seems to no longer be there on the web pages.
+
 [B]Version 0.5.4[/B]
 - Fixed variable animename's line that replaced common non-name tags.
 - Fixed cover and backdrop urls on non-AutoPlay episode links.
