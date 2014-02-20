@@ -9,6 +9,8 @@
 
 # Host Plugins for UrlResolver
 
+'/addon/resources/urlresolver/':'Host-Plugin_putlocker_(updated)_[2014-02-16].zip'
+'/addon/resources/urlresolver/':'Host-Plugin_videoboxone_[2014-02-14].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_auengine_[2014-02-10].zip'
 
 '/addon/resources/urlresolver/':'Host-Plugin_uploadcrazynet_[2014-02-06].zip'
