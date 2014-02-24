@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.streamrecord"
+       version="0.1.0" name="Stream Recorder"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Download what your watching.</summary>
+  	<description>Downloads the file (video or music) currently playing.</description>
+  	<disclaimer lang="en">This Project is designed for an xbmc v13.x (Alpha versions prior to Gotham Alpha-10).  I take no responsibility for any problems this plugin might in any way, form, shape or size cause.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+  	<website>http://www.xbmchub.com/</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>

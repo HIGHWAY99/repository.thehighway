@@ -1,0 +1,32 @@
+[B]v0.1.0[/B]
+- Can be ran via a button or such from elsewhere, such as VideoOSD.xml in nearly any Confluence skin.
+			<control type="button" id="206">
+				<posx>330</posx>
+				<posy>0</posy>
+				<width>55</width>
+				<height>55</height>
+				<label>Download</label>
+				<font>-</font>
+				<texturefocus>OSDRecordFO.png</texturefocus>
+				<texturenofocus>OSDRecordNF.png</texturenofocus>
+				<onleft>200</onleft>
+				<onright>202</onright>
+				<onup>1000</onup>
+				<ondown>1000</ondown>
+				<onclick>XBMC.RunPlugin(plugin://plugin.program.streamrecord/?mode=Record)</onclick>
+			</control>
+- Optional naming methods in Add-on Settings.
+- Menu via Video or Program Add-ons.
+
+[B]About[/B]
+- This addon can be used to download what your currently watching.
+- It grabs information from XBMC on what what's currently running in the player.
+- Currently it can download either Music as .mp3 or Video as .flv.  You can always rename things later.
+- At the moment, this will not work for live streaming content that doesn't handle being saved as-is.
+- This method actually downloads a 2nd copy of what your watching.
+- Currently, I do not have information on how to catch the buffering cache of what is being watched.
+- For my own use, I've edited VideoOSD.xml to put a record button that I can siply click on to start the download.
+- There are some naming-options in Addon Settings.
+- For those wanting a copy of my VideoOSD.xml, which should work for most Confluence skins, I've included it.  I do not have a method setup currently to copy it over since there is so many possible skin.
+
+
