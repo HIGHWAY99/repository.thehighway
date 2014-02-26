@@ -1,7 +1,8 @@
+[B]Version 0.3.3[/B]
+- Mature Content Check with option in Addon Settings.
+- Added nURL() function.  Is not really in use yet.
+
 [B]Version 0.3.2[/B]
-- 
-- 
-- 
 - Slight Adjustments made to the Download Function(s).
 - Along with Genre(Select), the OldMenu feature now provides a method to view the Last... stuff in a submenu in order to work around any issues with refreshing the main menu when ran from a shortcut on the MainScreen of XBMC.
 - Check out Settings for a Genre and All|#|A-Z Style changer to change the graphics for the 2 folder listings.  At this moment it looked like some links with -'s were having problems so some icons for 'ALL' don't seem to want to show up.  Please go easy on switching between these as to not bombard the remote hosts.
