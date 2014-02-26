@@ -1,3 +1,9 @@
+[B]v0.1.1[/B]
+- Addon's Name changed to "Dreamcatcher", Addon's ID changed to "plugin.program.dreamcatcher".
+- "\skin\720p\VideoOSD.xml" and "\skin\media\" with "OSDRecord2.png", "OSDRecordFO.png", "OSDRecordNF.png", "OSDRecordOff.png" are now packaged with this addon for your use if you choose to make use of them.
+- Note: "OSDRecordFO.png" and "OSDRecordNF.png" don't seem available in the confluence skin's default theme's textures' file.
+- Added 2nd path in Addon Settings for saving Audio to.  If empty, the path should direct to the default/video path.
+
 [B]v0.1.0[/B]
 - Can be ran via a button or such from elsewhere, such as VideoOSD.xml in nearly any Confluence skin.
 			<control type="button" id="206">
@@ -13,7 +19,7 @@
 				<onright>202</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
-				<onclick>XBMC.RunPlugin(plugin://plugin.program.streamrecord/?mode=Record)</onclick>
+				<onclick>XBMC.RunPlugin(plugin://plugin.program.dreamcatcher/?mode=Record)</onclick>
 			</control>
 - Optional naming methods in Add-on Settings.
 - Menu via Video or Program Add-ons.
