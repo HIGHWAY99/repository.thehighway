@@ -1,0 +1,139 @@
+﻿For installing GitHub on Linux there are some great walk-throughs  that can help get it set up for you.
+
+1) Setup a GitHub account – https://help.github.com/articles/set-up-git
+	Install git-core using terminal and apt-get   code: sudo apt-get install git-core
+	Or install git-core using a package manager like synaptic.
+
+2) Setup an ssh key (optional) – https://help.github.com/articles/generating-ssh-keys
+	For using instead of typing your password in every time you do push.
+
+3) Create a repository on GitHub and locally – two ways:
+	3.a) Use terminal – https://help.github.com/articles/create-a-repo
+		This will create an example repository named Hello-World both on GitHub and locally that you an delete later 
+		Or name it repository.your_github_name and then just push your iles to it. It will also create a README.txt file that you will stage, 
+		commit, and push to your GitHub repository.
+
+	3.b) Use a GUI to create a repository on GitHub and locally – (recommended)
+		Create your GitHub repository. In your internet browser, open your GitHub web page. 				
+		Click New Repository, and enter the name of your new repo 	(ie.repository.your_github_name). 
+		On the page that opens, set your repository to public, initialize with a README.txt file, then click Create Repository. 
+		Take note of the “Clone using ssh url or http url” in lower right corner (above download zip), You will need to use one of these later.
+		ssh url – git@github.com:your_github_name/repository.your_github_name.git
+		https url –https://github.com/your_github_name/repository.your_github_name.git
+		Thats it. Your all setup on GitHub.
+
+		Install Git-Cola and create your local repository. – two ways
+			1) Install Git-Cola GUI using terminal and apt-get.
+				code: sudo apt-get install git-cola
+			2) Install Git-Cola using a package manager like synaptic.
+				When run, you will first be given the options of :
+				Open – Opens an existing local repository folder
+				Clone – Copies an existing GitHub repository to a new local repo folder.
+				New – Creates a new repository folder
+				Close – uhmm, duh
+
+		Create your local repository. – (the recommended way)
+			Clone your GitHub repository to your local repository. – (recommended)
+			Open Git-Cola. In the window that opens click Clone. The next window will ask for the url for your GitHub repository. 
+			If you created an ssh key, then just enter the ssh url that you made note of earlier. If not, then use 	the https url. It will then open a
+			window asking which directory to place your local repo in. The default is your home folder. If thats ok, just click 	open. 
+			If you check the directory you told it, you will then see your new repository folder. Inside of that, your README.txt file and a .git folder.
+			This repository folder is the folder in which you will place your addons and addon-repo to push to GitHub.
+			Thats it. Your done with the initial setup.
+
+4) Create your addon and addon-repo in your local repository 
+	Open the local repository folder (example: repository.your_github_name) that you have already 	set up. This is the folder to place your files
+	in for doing a “stage, commit, and push” to GitHub.
+	You can do all your work in this folder or create another work folder to do initial creating,editing, 	zipping and finally, for using
+	addons_xml_generator.py to create the addons.xml and addons.md5 	files.
+
+	The file structures for your addon and your addon-repo.
+		Your basic addon (ie, plugin.video.your_addon) will have a few files:
+			addon.xml – Info about your addon version
+			changelog.txt – Info about changes to your addon
+			default.py	
+			icon.png
+			fanart.jpg (optional)
+			lib (folder, optional)
+
+		Your basic addon-repo (ie. repository.your_github_name) will have these files:
+			addon.xml –  Info about your most recent addon-repo version.
+			changelog.txt – Info about changes and additions to your addon-repo.
+
+5) Package your repository.
+	Once you have fully tested your addon in XBMC and created all the files necessary you are ready to package it for GitHub.
+	Open your local repository folder, or whichever folder that has your addon and addon-repo in.
+	The minimum folders in your local repository folder should be:
+		.git – (if your working in your local repository folder)
+		 plugin.video.your_addon
+		 repository.your_github_name
+	Add/Create a folder called zips and open it.
+	Inside of that zips folder, create two sub-folders called:
+		 plugin.video.your_addon
+		repository.your_github_name
+	Zip up your addon and repository folders adding their version numbers to the zip file names.
+	Move them in their respective sub-folders within the zips folder.
+	Copy the addons.xml, changelog.xml, any icon files, and fanart files from each and also place them in their respective sub-folders within the
+	zips folder.
+	Next place the  addons_xml_generator.py file in the  local repository folder or the folder your working in.
+	To run the addons_xml_generator.py file you will need Python v2.7 or earlier installed (v3.x+  will not work). 
+	One option is to use IDLE(using Python-2.7)
+	Open IDLE. In the IDLE window Click file, then open. Navigate to your folder and click on 
+	addons_xml_generator.py.
+	In the new window that opens ,with the  addons_xml_generator.py code, click Run, then Run Module. 
+	Ignore the errors in the first window. 
+	If you look in your folder you will now see the two files add that the program created. 
+	You can delete any others that it made.
+	Copy/paste the 2 files (addons.xml and addons.xml.md5) and three folders (plugin.video.your_addon, repository.your_github_name, and
+	zips) into your local repository folder if they arent already there
+	
+	Your local repository will have these files and folders:
+	repository.your_github_name – Your local repository folder.
+		README.txt – (optional) Created when your first set up your local repository.
+		.git – Created when you first setup your local repository. Will not appear on GitHub.
+		plugin.video.your_addon – Your addons name. Multiple folders for multiple addons.
+			**See above example for a basic addon and place the files and folders here.**
+		repository.your_github_name –  Your addon-repos name
+ 	   		**See above example for a basic addon-repo and place the files here.**
+		zips – folder to hold the zipped files.
+			plugin.video.your_addon – Multiple folders for multiple addons.
+				addon.xml – Copied from your most recent addon version .
+				changlog.txt –  Copied from your most recent addon version.
+				icon.png
+				plugin.video.your_addon-0.0.1.zip – All versions.  Multiple files.
+					**All versions must have their version numbers in the name.**
+			repository.your_github_name
+				addon.xml – Copied from your most recent repo version.
+				changelog.txt – Copied from your most recent repo version.
+				repository.your_github_name-0.1.0.zip – All versions. Multiple files.***
+					**All versions must have their version number in the name.**
+					*** This location on GitHub is the one given to distribute your repo***	
+		addons.xml* – Has info about the entire repo and addons.
+		addons.xml.md5* – Used to tell xbmc if the repo has changed.
+			*Created automatically when you run addons_xml_generator.py.	        
+		addons_xml_generator.py –  (optional on GitHub) Needed in your working folder to create addons.xml and addons.xml.md5.
+	Thats it. You are ready to push your repository to GitHub.
+
+6) Push your repository to GitHub using Git-Cola.
+	Open Git-Cola. In the window that opens. Select your local repository and click Open.
+	In the panel on the right you will see your files listed. Double click the files sothat they have a green icon and are in the staging area of the
+	 panel.
+	In the input dialog box that reads Commit summery, type in Initial Commit.
+	At this point the Commit button to the right of the dialog box should become availible. Click it.
+	Next click Actions in the upper menu bar. Then click Push in the drop down menu.
+	If you used the https url it might ask you for your username and password for GitHub.
+	If you used ssh url then it should pop up a progress box .
+	When its done, check your GitHub page. Your repository files should now be there.
+	Next, on GitHub, navigate to the page with your repository.your_github_name-0.1.0.zip file
+	Copy the link for that page. It should look something like this:
+	https://github.com/your_github_name/repository.your_github_name/tree/master/zips/repository.your_github_name
+	/repository.your_github_name-0.1.0.zip
+	This is the link to give to others for installing your repo in XBMC.
+Thats it. You are done.
+	
+	
+	
+
+
+	
+
