@@ -1,3 +1,9 @@
+[B]v0.1.2[/B]
+- icon.png
+- Handling for more file extentions.
+- Code Tag Removal for filenames.
+- Fixes to VideoOSD.xml.
+
 [B]v0.1.1[/B]
 - Addon's Name changed to "Dreamcatcher", Addon's ID changed to "plugin.program.dreamcatcher".
 - "\skin\720p\VideoOSD.xml" and "\skin\media\" with "OSDRecord2.png", "OSDRecordFO.png", "OSDRecordNF.png", "OSDRecordOff.png" are now packaged with this addon for your use if you choose to make use of them.
@@ -15,8 +21,8 @@
 				<font>-</font>
 				<texturefocus>OSDRecordFO.png</texturefocus>
 				<texturenofocus>OSDRecordNF.png</texturenofocus>
-				<onleft>200</onleft>
-				<onright>202</onright>
+				<onleft>205</onleft>
+				<onright>250</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>XBMC.RunPlugin(plugin://plugin.program.dreamcatcher/?mode=Record)</onclick>
