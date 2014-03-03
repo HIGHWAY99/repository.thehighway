@@ -1,3 +1,10 @@
+[B]Version 0.5.6[/B]
+- Fixed Repeated Playback loop. on the Last Video (played and autoplay).
+- Attempting Image fix to Last Video (played and autoplay).
+### Repeated Playback may still happen for now.
+- Additional Error handling.
+- Hopeful fix for line 1279 use of 'genre' key in labs[].
+
 [B]Version 0.5.5[/B]
 - Fixed "Last Video [AutoPlay]".
 - Even more additional Episode Number error-handling.

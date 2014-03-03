@@ -9,6 +9,7 @@
 
 # Host Plugins for UrlResolver
 
+'/addon/resources/urlresolver/':'Host-Plugin_mp4upload_[2014-03-02].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_sharesix_(updated)_[2014-02-26].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_putlocker_(updated)_[2014-02-26].zip'
 '/addon/resources/urlresolver/':'Host-Plugin_sockshare_[2014-02-26].zip'
