@@ -1,3 +1,8 @@
+[B]Version 0.5.7[/B]
+- Added a menu for Browser Shortcuts.
+- The Page's HTML for Lists of Series / Shows had changed slightly.  Thus, a Fix for that.  It seems that only the show listings were effected by this, but there are a LOT of those.
+- Number parsing fixes for Episode List. (ie: Stuff like Guilty Crown.)
+
 [B]Version 0.5.6[/B]
 - Fixed Repeated Playback loop. on the Last Video (played and autoplay).
 - Attempting Image fix to Last Video (played and autoplay).
