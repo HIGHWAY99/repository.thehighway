@@ -35,10 +35,11 @@
 '/addon/':'Addons_Movies-TV_SingleLinkMoviez_[2013-10-17].zip'
 
 '/addon/':'Menu_Live-Streams_[2013-10-17].zip'
+'/addon/':'Addons_Live-Streams_iLiveTo_v0.0.6_[2014-03-08].zip'
+'/addon/':'Addons_Live-Streams_MegaFun_v0.0.2_[2014-03-07].zip'
 '/addon/':'Addons_Live-Streams_CastAlbaTV_[2013-10-17].zip'
 '/addon/':'Addons_Live-Streams_GetLiveStreamOnlineCom_[2013-10-17].zip'
 '/addon/':'Addons_Live-Streams_iGUiDE_[2013-10-17].zip'
-'/addon/':'Addons_Live-Streams_iLiveTo_v0.0.2_[2013-10-17].zip'
 '/addon/':'Addons_Live-Streams_NaviXtreme_v0.0.2_[2013-10-15].zip'
 '/addon/':'Addons_Live-Streams_NaviXtreme_[2013-10-17].zip'
 
