@@ -1,3 +1,6 @@
+[B]Version 0.5.8[/B]
+- Fix for varaiable e_no when using MetaData on episodes without a number like some Previews.
+
 [B]Version 0.5.7[/B]
 - Added a menu for Browser Shortcuts.
 - The Page's HTML for Lists of Series / Shows had changed slightly.  Thus, a Fix for that.  It seems that only the show listings were effected by this, but there are a LOT of those.
