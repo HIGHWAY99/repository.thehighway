@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.anime44"
        name="Anime44"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="TheHighway">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
@@ -21,5 +21,6 @@
     <platform>all</platform>
     <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
     <website>http://www.xbmchub.com/</website>
+    <broken>Merged with others.  Can be found in TheAnimeHighway and TheBinaryHighway.</broken>
   </extension>
 </addon>

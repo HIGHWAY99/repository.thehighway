@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.codelyokoevolution"
        name="[COLOR white][COLOR purple]C[/COLOR][COLOR cornflowerblue]o[/COLOR]de Ly[COLOR cornflowerblue]o[/COLOR]k[COLOR cornflowerblue]o[/COLOR] Ev[COLOR cornflowerblue]o[/COLOR]luti[COLOR cornflowerblue]o[/COLOR]n[/COLOR]"
-       version="0.1.3"
+       version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
-  	<import addon="script.module.urlresolver" version="0.0.1"/>
-  	<import addon="script.module.requests" version="1.1.0"/>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" />
+  	<import addon="script.module.requests" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>

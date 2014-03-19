@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.vidics4"
        name="Vidics4.com - [Broken - Site Shutdown]"
-       version="0.2.8"
+       version="0.2.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
-  	<import addon="script.module.urlresolver" version="2.0.9"/>
-  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver"  />
+  	<import addon="script.module.t0mm0.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -19,5 +19,6 @@
   	<platform>all</platform>
     <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
     <website>http://www.xbmchub.com/</website>
+    <broken>The site (vidics4.com) has been shut down.</broken>
   </extension>
 </addon>
