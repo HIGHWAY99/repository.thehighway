@@ -1,3 +1,6 @@
+[B]Version 0.3.4[/B]
+- Update for XBMC Gotham.
+
 [B]Version 0.3.3[/B]
 - Mature Content Check with option in Addon Settings.
 - Added nURL() function.  Is not really in use yet.
