@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon version="0.0.4" id="repository.thehighway.bb" name="TheHighway's Backup Repo on BitBucket" provider-name="The[COLOR tan]Highway[/COLOR]">
+<addon version="0.0.5" id="repository.thehighway.bb" name="TheHighway's Backup Repo on BitBucket" provider-name="The[COLOR tan]Highway[/COLOR]">
 	<extension point="xbmc.addon.repository" name="TheHighway's Backup Repo on BitBucket">
-		<info compressed="false">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/d55e64e489cdf3837a5323c85321438cce8f3f2e/addons.bb.xml</info>
-		<checksum>http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/d55e64e489cdf3837a5323c85321438cce8f3f2e/addons.bb.xml.md5</checksum>
-		<datadir zip="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/d55e64e489cdf3837a5323c85321438cce8f3f2e/repo/</datadir>
+		<info compressed="false">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml</info>
+		<checksum>http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml.md5</checksum>
+		<datadir zip="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons from the BB alternative location.</summary>
@@ -11,4 +11,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
