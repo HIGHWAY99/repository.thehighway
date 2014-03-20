@@ -1,0 +1,8 @@
+[B]Version 0.0.4[/B]
+- Backup Repo on BitBucket
+[B]Version 0.0.3[/B]
+- Fixes to addon.xml
+[B]Version 0.0.2[/B]
+- Fanart and Projects
+[B]Version 0.0.1[/B]
+- Initial version

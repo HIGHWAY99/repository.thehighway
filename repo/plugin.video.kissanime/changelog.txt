@@ -1,5 +1,9 @@
+[B]Version 0.5.9[/B]
+- Fixed regex and for loop variables for Online Bookmarks.
+
 [B]Version 0.5.8[/B]
 - Fix for varaiable e_no when using MetaData on episodes without a number like some Previews.
+### Thanks to solenz for the report and log file.
 
 [B]Version 0.5.7[/B]
 - Added a menu for Browser Shortcuts.
