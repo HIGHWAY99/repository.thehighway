@@ -1,4 +1,11 @@
 
+[B]AnimeFATE - 0.0.8[/B]
+- Archives by "/ Year /" and "/ Year / Month /".
+- Studdying the search method, but haven't setup anything for it yet.
+
+[B]AnimeFATE - 0.0.7[/B]
+- Fix to About
+
 [B]AnimeFATE - 0.0.6[/B]
 - Changes made to common.py for stand-a-lone version.
 ### Added Checking system for Favorites.
