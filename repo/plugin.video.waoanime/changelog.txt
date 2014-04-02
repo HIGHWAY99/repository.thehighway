@@ -1,0 +1,22 @@
+
+[B]WaoAnimeTV - 0.0.1[/B]
+- A ton of other common stuff passed down from other Anime addons and such.
+- MetaData.
+- Favorites.
+- Browsing Latest Episodes.
+- Browsing Hot This Season.
+- Browsing Movies.
+- Browsing Anime List (alphabet listings).
+- Browsing Genre Listings (including a ton of unlisted genres).
+- Browsing Episodes of a Random Anime Series.
+- Browsing Episodes.
+- Browsing the weird Host/Source listings.
+- Setup to play "S-O-M-E" videos, depending on the host(s).
+- 2017,2018 Anime Series Listings for future use (without button graphics).
+- 2015,2016 Anime Series Listings for future use (with button graphics).
+- 2013,2014 Anime Series Listings (with button graphics).
+- Host plugins: ....
+- Initial Sub-Addon for TheBinaryHighway.
+- Initial Full-Addon for XBMC.
+
+
