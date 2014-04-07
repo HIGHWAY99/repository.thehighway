@@ -1,4 +1,8 @@
 
+[B]JustAnimeStream - 0.0.4[/B]
+- Fixed Addon's ID
+- Fix to About
+
 [B]JustAnimeStream - 0.0.3[/B]
 - 2 Genre graphics added.
 
