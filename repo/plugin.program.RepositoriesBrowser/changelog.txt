@@ -1,0 +1,64 @@
+[B]Version 0.0.8[/B]
+- Added in some improved TYPE noting.
+- Added a SortBy method for Addons List.
+- Feature Added: Uninstall Addon. (special://home/addons/ only, does not uninstall from special://xbmc/addons/)
+- icon.png and fanart.jpg by Marquerite.
+
+[B]Version 0.0.7[/B]
+- Blue is for the special://home/ path while Grey is for the special://xbmc/ path on the + and * markings.
+- + and * for the Addons List has been moved to the end of the Version tag.
+- Addition to the Addons List to include a * (installed) or + (update available) symbol after the name of addons on the list.
+- Option for displaying art behind the list now works on the repos window as well.
+- Added to the Repositories category in Addon Settings: Divingmule, Eldorado (both addons and coremodule.betas).
+- Option for XBMC.org Repo(s) now doesn't check if it exists, as it now allows the seeing of Eden, Frodo, and Gotham repositories from xbmc.org.
+- Option for displaying art behind the list on the addons window.
+- Option for using a automatic fix on github repositories.
+- Title renaming everywhere.  Addon's new name is "1st Stop Repository Highway".
+- Addon renamed due to request in reguards to having the XBMCHUB name on it's title.
+
+[B]Version 0.0.6[/B]
+- Refreshes Addons List after installing an Addon.
+- Added some additional Animations.
+- Adjusted the window/addon closing functionality.
+- A lot of tweaking, cleaning up, and trying things.
+- Addedd <email> to the parsed items for addon listings.
+- Edited addon.xml.
+
+[B]Version 0.0.5[/B]
+- Code Clean-up.
+- Fixed path seperator on remote icon/fanart images.
+- Install/Update and Uninstall buttons have been disabled on Addons List Window.
+- Working on Functionality Window (Install/Update/Uninstall).
+- Working on Addons List Window.
+- Putting the selected Repo's FANART image behind the XBMCHUB logo background image.
+- Putting the selected Repo's ICON image within the TV screen area of the XBMCHUB logo background image.
+- Laying the my alternative XBMCHUB Logo background slightly different.
+- Laying the my alternative XBMCHUB Logo background.
+- Selection of repo goes to the second window.
+- Doing away with the extra stuff.
+- Fixing key movements.
+- Got most stuff seperated, still more to do later. Starting work on the Repo list window now.
+- Splitting the change-over between Repo list and Addons list into 2 seperate windows.
+
+[B]Version 0.0.4[/B]
+- Install Functionality should now work.
+- Install will now extract the file.
+- Install will now download the file.
+- Got Install/Update buttons' movements working and functionality up to a Yes/No prompt.
+- Added Handling of Disabled state for Addons/Repos in the Addons List and on the Install Button.
+- Added Improved filename checking for the Addons##.db file.
+
+[B]Version 0.0.3[/B]
+- Made Buttons for Install/Update/Up-To-Date and Uninstall.  Not functional yet, but their text, enabled/visible states are working.
+- Grabbing current version installed for addons.
+- Checking if addons are currently installed to either location.
+- Fixes to Data Display for Addons.
+
+[B]Version 0.0.2[/B]
+- Addons List and information being parsed for the most part.
+- Still in Development stages.
+
+[B]Version 0.0.1[/B]
+- Some of the Initial coding of modules are from XBMCHUB's Wizard addon.
+- Some of the Initial Coding for this addon came from good friend, CrZen.
+- Initial Build.

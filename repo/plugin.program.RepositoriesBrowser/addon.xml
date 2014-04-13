@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.RepositoriesBrowser" provider-name="The[COLOR tan]Highway[/COLOR]"
+       version="0.0.8" name="1st Stop Repository Highway">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0" />
+  	<import addon="script.module.addon.common"  />
+  	<import addon="script.module.pysqlite" optional="true" />
+  	<import addon="script.module.sqlite" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>An alternative method to browsing your installed repositories.</summary>
+  	<description>A somewhat simple Repository Browser.  This is not a full replacement for XBMC's default repository browsing method(s).  Icon and Fanart artwork by Marquerite.  XBMCHUB backdrop by TheHighway (designed off the current default XBMCHUB logo).</description>
+  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+  	<website>http://www.xbmchub.com/</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
