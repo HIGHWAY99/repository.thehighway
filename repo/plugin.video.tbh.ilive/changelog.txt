@@ -1,0 +1,7 @@
+
+[B]CartoonWorld - 0.0.9[/B]
+- Setup of the Sub-Addon as a Full-Addon.
+- Graphics mostly by TwiztedZero and TheHighway.
+- Initial Sub-Addon for TheBinaryHighway.
+
+

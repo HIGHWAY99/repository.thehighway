@@ -1,0 +1,7 @@
+
+[B]KidsWB DC Nation - 0.0.1[/B]
+- Setup of the Sub-Addon as a Full-Addon.
+- Graphics mostly by TwiztedZero and TheHighway.
+- Initial Sub-Addon for TheBinaryHighway.
+
+

@@ -1,0 +1,7 @@
+
+[B]DubHappy.eu - 0.1.3[/B]
+- Setup of the Sub-Addon as a Full-Addon.
+- Graphics mostly by TwiztedZero and TheHighway.
+- Initial Sub-Addon for TheBinaryHighway.
+
+

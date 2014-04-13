@@ -1,0 +1,9 @@
+
+[B]MegaFun Channel Guide - 0.0.3[/B]
+- Setup of the Sub-Addon as a Full-Addon.
+- Graphics mostly by TwiztedZero and TheHighway.
+
+[B]MegaFun Channel Guide - 0.0.1[/B]
+- Initial Sub-Addon for TheBinaryHighway.
+
+
