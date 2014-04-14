@@ -1,3 +1,7 @@
+[B]Version 0.0.9[/B]
+- Fix for Addons-types that where showing as Services-types.
+- Handling for limiting the List of Addons shown to a given Type.
+
 [B]Version 0.0.8[/B]
 - Added in some improved TYPE noting.
 - Added a SortBy method for Addons List.
