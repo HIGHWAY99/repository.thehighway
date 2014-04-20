@@ -1,0 +1,9 @@
+
+[B]v0.0.1[/B]
+"SendTo Axel" ported from "Dreamcatcher" v0.1.3
+
+[B]About[/B]
+This addon was made to help in using the script.module.axel.downloader project.  
+You can use this addon to browse whats being played via an addon menu, your customize your confluence skin's VideoOSD.xml file like I do... to give you a easy-click button.
+
+
