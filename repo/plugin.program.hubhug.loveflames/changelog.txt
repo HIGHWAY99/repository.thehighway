@@ -1,0 +1,10 @@
+[B]Version 0.0.1[/B]
+- Initial Build.
+
+
+
+Flames game is a method to find out the status of a love relationship. Entering two names will give you the outcome of a relationship between them.
+
+FLAMES is a Love Test, a good old game of love which has helped lovers determine the scope of their love and relationship.
+
+Given below is a love game, a simple test of love using names only. FLAMES stands for Friends, Love, Affair, Marriage, Enmity and Sister.
