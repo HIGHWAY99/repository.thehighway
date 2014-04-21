@@ -1,3 +1,9 @@
+[B]Version 0.1.0[/B]
+- Improved on Type Checking a slight bit.
+- Added Repository Type.
+- Fixed ScreenSaver Type naming.
+- Adjusting the order of checking what Type addons are.
+
 [B]Version 0.0.9[/B]
 - Fix for Addons-types that where showing as Services-types.
 - Handling for limiting the List of Addons shown to a given Type.
