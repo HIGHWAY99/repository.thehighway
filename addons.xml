@@ -272,7 +272,7 @@
 </addon>
 
 <addon id="plugin.program.sendtoaxel"
-       version="0.0.2" name="SendTo Axel"
+       version="0.0.3" name="SendTo Axel"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
