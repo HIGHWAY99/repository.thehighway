@@ -1,4 +1,8 @@
 
+[B]v0.0.3[/B]
+- Added path for playurl and download functions.
+- Switched 'import proxy' to 'import axelproxy as proxy'
+
 [B]v0.0.2[/B]
 - Added an "Axel" category in Addon Settings.
 - Added in the optional use of Axel Downloader's download(...) function.  More work will need done to this as things continue to change in Axel Downloader.
