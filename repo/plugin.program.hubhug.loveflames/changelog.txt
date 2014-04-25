@@ -1,3 +1,7 @@
+[B]Version 0.0.2[/B]
+- Added HUB HUG Movement Series Fanart Graphic by Marquerite.
+- Added Graphics by Marquerite.
+
 [B]Version 0.0.1[/B]
 - Initial Build.
 
