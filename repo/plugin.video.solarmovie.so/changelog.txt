@@ -1,3 +1,9 @@
+[B]Version 0.3.8[/B]
+- Users Sections: Parsing for users.
+- Fixed domain usage in a few strings, so to better work with different domains.
+- Coming Soon Section: Fixed Area-Split data and Item Parsing regex.
+- TV Section: Fixed Area-Split data for narrowing down the area the right items are in... this was for Popular ("all time" and "new").
+
 [B]Version 0.3.7[/B]
 - Note: Watched State is currently only setup to work when metahandler is installed and MetaData is enabled.
 - Attempting to have the addon set a movie/episode as unwatched if player.play() errors.
