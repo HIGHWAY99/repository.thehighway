@@ -1,3 +1,6 @@
+[B]Version 0.3.4[/B]
+- Addded a couple additional regex's.
+
 [B]Version 0.3.3[/B]
 - Attempting to setup proxy use.  Free UK Proxies that I could find didn't want to work at all....  Some links simply won't work still, as the addon like life itself just aint perfect.
 - nURL(url) fetching method(s) added.
