@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.solarmovie.so"
        name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.3.8"
+       version="0.3.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

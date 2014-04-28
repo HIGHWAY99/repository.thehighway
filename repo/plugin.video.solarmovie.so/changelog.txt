@@ -1,3 +1,6 @@
+[B]Version 0.3.9[/B]
+- Fix for 'Cast' in labs... which caused an error on XBMC Gotham RC1.
+
 [B]Version 0.3.8[/B]
 - Users Sections: Parsing for users.
 - Fixed domain usage in a few strings, so to better work with different domains.
