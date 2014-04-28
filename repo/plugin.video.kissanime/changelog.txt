@@ -1,3 +1,9 @@
+[B]Version 0.6.0[/B]
+- ContextMenuItem added for PlayURL function on ###x###.___ links.
+- Hopefully got all xbmc.Player(...)'s adjusted to use GetPlayerCore().
+- GetPlayerCore() Function added to grab the option. and do the checks and retreive the chosen player, default to AUTO if an error accurs during the process of grabbing the player type.
+- PlayerCore option added to Addon Settings.
+
 [B]Version 0.5.9[/B]
 - Fixed regex and for loop variables for Online Bookmarks.
 
