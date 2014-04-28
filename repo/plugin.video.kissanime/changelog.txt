@@ -1,3 +1,7 @@
+[B]Version 0.6.1[/B]
+- NORMAL & OUYA(Gotham) options for Device in General Tab of Addon Settings.
+- Added some XBMC Version catching / logging.  Was having trouble getting the OS Device type information at this time.
+
 [B]Version 0.6.0[/B]
 - ContextMenuItem added for PlayURL function on ###x###.___ links.
 - Hopefully got all xbmc.Player(...)'s adjusted to use GetPlayerCore().
