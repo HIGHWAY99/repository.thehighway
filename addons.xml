@@ -71,7 +71,7 @@
        version="0.3.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.t0mm0.common" version="1.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -635,7 +635,7 @@
 
 <addon id="plugin.video.solarmovie.so"
        name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.3.9"
+       version="0.4.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
