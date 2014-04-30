@@ -1,3 +1,6 @@
+[B]Version 0.0.2[/B]
+- AspectRatio Fix
+
 [B]Version 0.0.1[/B]
 - Added Some Graphic(s) by Marquerite.
 - Added HUB HUG Movement Series Fanart Graphic by Marquerite.

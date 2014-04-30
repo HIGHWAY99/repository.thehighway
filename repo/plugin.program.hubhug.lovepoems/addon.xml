@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.hubhug.lovepoems" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.0.2" name="HUB-HUG Love Poems">
+       version="0.0.3" name="HUB-HUG Love Poems">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.addon.common"  />
