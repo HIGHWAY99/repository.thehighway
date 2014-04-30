@@ -1,0 +1,6 @@
+[B]Version 0.0.1[/B]
+- Added Icon Graphic by Marquerite.
+- Added HUB HUG Movement Series Fanart Graphic by Marquerite.
+- Added Some Graphic(s) by TheHighway.
+- Initial Build.
+
