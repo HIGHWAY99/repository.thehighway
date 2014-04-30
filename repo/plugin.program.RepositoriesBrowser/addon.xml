@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.RepositoriesBrowser" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.1.0" name="1st Stop Repository Highway">
+       version="0.1.1" name="1st Stop Repository Highway">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.addon.common"  />
