@@ -1,5 +1,11 @@
 
-[B]CartoonWorld - 0.0.9[/B]
+[B]iLiVE - 0.1.1[/B]
+- Some Player Tweaks for Gotham RC1.
+
+[B]iLiVE - 0.1.0[/B]
+- url resolving play issue #'d out for now.
+
+[B]iLiVE - 0.0.9[/B]
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
 - Initial Sub-Addon for TheBinaryHighway.
