@@ -11,6 +11,9 @@
     "M" = change mode/permission (SITE CHMOD command) New in 0.7.0 
 
 
+[B]FTP HUB[I] - FTP Server[/I] - 1.0.2[/B]
+- Fix for auto selecting the Lan IP rather than localhost for the server ip when non is written in the options setting.
+
 [B]FTP HUB[I] - FTP Server[/I] - 1.0.1[/B]
 - TiP variable set for [I]str(socket.gethostbyname_ex('')[2]).replace("'","").replace('[','').replace(']','')[/I].  This way theres only one place for it to accur. Other places use the variable.
 - error handling for: [I]str(socket.gethostbyname_ex('')[2]).replace("'","").replace('[','').replace(']','')[/I] seemed to error on openelec on a respberry pi.
