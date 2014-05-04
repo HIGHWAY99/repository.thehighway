@@ -1,3 +1,8 @@
+[B]Version 0.6.2[/B]
+- Fixed up 2 more menu images.
+- Other misc. information is now displayed even when no episodes are found.
+- New Section added: Upcoming Anime
+
 [B]Version 0.6.1[/B]
 - NORMAL & OUYA(Gotham) options for Device in General Tab of Addon Settings.
 - Added some XBMC Version catching / logging.  Was having trouble getting the OS Device type information at this time.
