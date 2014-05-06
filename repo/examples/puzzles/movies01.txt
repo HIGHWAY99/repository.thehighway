@@ -1,0 +1,71 @@
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
+||
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
++++++++++=+++++++++=+++++++++=
+||
+word1, word2, word3
+||
+HarryPotter, Transformers, XMEN, SMURFS, CaptainAmerica, 
+Area51, Drive, Hackers, Stargate, IceAge, Ferngully, TinkerBell, Rango, Rio, Brave, 
+GIJOE, LightItUp, JudgeDredd, JohnCarter, Ted, RedDawn, Taken, TheWatch, Tron, Gantz, Guyver, 
+StarshipTroopers, ToothFairy, TowerHeist, CowboysAndAliens, PussInBoots, RiseOfTheGuardians, WreckItRalph
+FromDuskTillDawn, IAmNumberFour, NimsIsland, BulletProofMonk, Batman, Superman, Spiderman, Supergirl, FrightNight, 
+Immortals, 7Boxes, Red, Red2, RobotJox, Mighty7, SonOfBatman, ManOfSteel, MonstersUniversity, DespicableMe, 
+Frozen, RobinHood, GrudgeMatch, BackToTheFuture, Thor, Gen13, IronMan, Solarman, MeteorMan, Avengers, GreenLantern, 
+Critters, Halloween, DoomRunners, AfterEarth, KnightRider, JurassicPark, Kingpin, IWantCandy, CantBuyMeLove, 
+MissNobody, BadTeacher, Super8, SpyKids, TheyLive, Dead Alive, Cars, Hellraiser, RealSteel, Catch44, 
+DoubleDragons, MortalKombat, HitAndRun, HIT&RUN, OutsideProvidence, NightOfTheComet, Brainscan, 21&Over, 
+RIPD, TheLoneRanger, TheWolverine, TheBlindSide, TheRightStuff, 2Guns, Elysium, GrownUps, Wings, Go, 
+Godzilla, GTO, Halloweentown, HeartbreakHotel, HopeFloats, HorseSense, IRobot, IdleHands, InvisibleDad, 
+JackFrost, JakobTheLiar, 007, Jawbreaker, JohnnyTsunami, Legionnaire, Lionheart, LethalWeapon, DieHard, 
+LittleBigLeague, Lost&Found, LostInSpace, MeetTheDeedles, Merlin, MercuryRising, MightyJoeYoung, Milo, 
+Mulan, SpaceJam, MyFavoriteMartian, ET, MysteryMen, NationalTreasure, NeverBeenKissed, NowYouSeeMe, 
+Oblivion, OfficeSpace, OlympusHasFallen, OvernightDelivery, Punks, PacificRim, Pain&Gain, Paulie, 
+Paycheck, MilkMoney, Pleasantville, PointBreak, Prometheus, Purgatory, PushingTin, LawnmowerMan, 
+SavingPrivateRyan, Scavengers, WaterWorld, ShesAllThat, GhostInTheShell, ShowGirls, SmallSoldiers, 
+SmartHouse, SnakeEyes, Snitch, Soldier, TheGoonies, Spawn, Species, Mosiac, TheCondor, StarTrek, StarWars, 
+TheFaculty, TheGreenMile, TheGeneralsDaughter, TheLandBeforeTime, Zorro, TheMatrix, TheMummy, TheNewGuy, 
+TheNinthGate, The9thGate, TheParentTrap, TheSixthSense, The6thSense, ThisIsTheEnd, ThreeKings, 3Kings, 
+TitanAE, Titanic, ToyStory, TreasurePlanet, UniversalSoldier, Genius, PercyJackson, TheTimeMachine, 
+EscapePlan, Carrie, Turbo, EndersGame, TheLastDaysOnMars, GhostBusters, FreeBirds, Flu, TreehouseHostage, 
+HomeAlone, DoubleDragons, JakeSpeed, GraveOfTheFireflies, Flipped, TheNaughtyList, HeroAtLarge, 
+DeliveryMan, Dumbbells, TheBookThief, TheLoveBug, TheNutJob, SavedByTheBell, Antboy, IFrankenstein, 
+GoingTheDistance, IronEagle, SlapShot, WarOfTheWorlds, GhostDad, WalkOfShame, Bill&Ted, TheLordOfTheRings, 
+SpiritedAway, Aliens, WALLE, 
