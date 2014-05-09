@@ -1,3 +1,6 @@
+[B]Version 0.4.2[/B]
+- Pagination Fix.
+
 [B]Version 0.4.1[/B]
 - Error handling around line 1310 in API_Browse().
 
