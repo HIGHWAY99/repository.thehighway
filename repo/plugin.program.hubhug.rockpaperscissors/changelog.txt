@@ -1,3 +1,9 @@
+[B]Version 0.0.3[/B]
+- Got the CountDown system to slightly function.
+- Hands Thrown down from the side now.
+- 3 2 1 Graphics added.
+- Left Hand graphics for the Right side of the screen added.
+
 [B]Version 0.0.2[/B]
 - AspectRatio Fix
 
