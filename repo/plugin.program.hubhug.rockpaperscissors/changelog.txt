@@ -1,3 +1,7 @@
+[B]Version 0.0.4[/B]
+- 2 Options in Addon Settings for the Count Down System.
+- Hand Shake Animations During Count Down System.
+
 [B]Version 0.0.3[/B]
 - Got the CountDown system to slightly function.
 - Hands Thrown down from the side now.

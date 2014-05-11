@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.hubhug.rockpaperscissors" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.0.3" name="HUB-HUG Rock Paper Scissors">
+       version="0.0.4" name="HUB-HUG Rock Paper Scissors">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.addon.common"  />
