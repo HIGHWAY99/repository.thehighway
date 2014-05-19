@@ -1,3 +1,9 @@
+[B]Version 0.6.4[/B]
+- Empty Favorites in place again.
+- Download Wallpaper put in place again.
+- Adjustments to fav__add() function.
+- Adjust ments to addon.xml
+
 [B]Version 0.6.3[/B]
 - Added some functions that I'm testing out.
 - Page Show's Page Url linkage for Status, Views and Show Plot on Episodes List menus.
