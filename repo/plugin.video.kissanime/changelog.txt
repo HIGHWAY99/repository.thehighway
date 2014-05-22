@@ -1,3 +1,9 @@
+[B]Version 0.6.5[/B]
+- filename renaming of packaged common modules
+- additional handling for StorageServer modules.
+- repacked StorageServer modules.
+
+
 [B]Version 0.6.4[/B]
 - Empty Favorites in place again.
 - Download Wallpaper put in place again.
