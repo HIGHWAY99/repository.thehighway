@@ -958,7 +958,7 @@
 
 <addon id="plugin.video.tbh.watchseries"
        name="Watch Series Plus"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -973,8 +973,12 @@
   <extension point="xbmc.addon.metadata">
   	<summary></summary>
   	<description>Adjust the domain in settings for the different sites.  One site is for Spanish content.</description>
+  	<description lang="es">Adjust the domain in settings to spainseries.tl for Spanish Content.</description>
+  	<description lang="es_AR">Adjust the domain in settings to spainseries.tl for Spanish Content.</description>
+  	<description lang="es_MX">Adjust the domain in settings to spainseries.tl for Spanish Content.</description>
+  	<description lang="es_VE">Adjust the domain in settings to spainseries.tl for Spanish Content.</description>
   	<disclaimer>This Project is developped for XBMC Gotham 13.0 RC1, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
+  	<language>en en_AU en_NZ en_US es es_AR es_MX es_VE</language>
   	<platform>all</platform>
     <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
     <website>http://www.xbmchub.com/</website>
