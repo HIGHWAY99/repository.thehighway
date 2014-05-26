@@ -1,362 +1,275 @@
+[B]Version 0.6.5[/B]
+- filename renaming of packaged common modules
+- additional handling for StorageServer modules.
+- repacked StorageServer modules.
+
+
+[B]Version 0.6.4[/B]
+- Empty Favorites in place again.
+- Download Wallpaper put in place again.
+- Adjustments to fav__add() function.
+- Adjust ments to addon.xml
+
+[B]Version 0.6.3[/B]
+- Added some functions that I'm testing out.
+- Page Show's Page Url linkage for Status, Views and Show Plot on Episodes List menus.
+- Adjusting Filters for Repository Commit Messages.
+
+[B]Version 0.6.2[/B]
+- Fixed up 2 more menu images.
+- Other misc. information is now displayed even when no episodes are found.
+- New Section added: Upcoming Anime
+
+[B]Version 0.6.1[/B]
+- NORMAL & OUYA(Gotham) options for Device in General Tab of Addon Settings.
+- Added some XBMC Version catching / logging.  Was having trouble getting the OS Device type information at this time.
+
+[B]Version 0.6.0[/B]
+- ContextMenuItem added for PlayURL function on ###x###.___ links.
+- Hopefully got all xbmc.Player(...)'s adjusted to use GetPlayerCore().
+- GetPlayerCore() Function added to grab the option. and do the checks and retreive the chosen player, default to AUTO if an error accurs during the process of grabbing the player type.
+- PlayerCore option added to Addon Settings.
+
+[B]Version 0.5.9[/B]
+- Fixed regex and for loop variables for Online Bookmarks.
+
+[B]Version 0.5.8[/B]
+- Fix for varaiable e_no when using MetaData on episodes without a number like some Previews.
+### Thanks to solenz for the report and log file.
+
+[B]Version 0.5.7[/B]
+- Added a menu for Browser Shortcuts.
+- The Page's HTML for Lists of Series / Shows had changed slightly.  Thus, a Fix for that.  It seems that only the show listings were effected by this, but there are a LOT of those.
+- Number parsing fixes for Episode List. (ie: Stuff like Guilty Crown.)
+
+[B]Version 0.5.6[/B]
+- Fixed Repeated Playback loop. on the Last Video (played and autoplay).
+- Attempting Image fix to Last Video (played and autoplay).
+### Repeated Playback may still happen for now.
+- Additional Error handling.
+- Hopeful fix for line 1279 use of 'genre' key in labs[].
+
+[B]Version 0.5.5[/B]
+- Fixed "Last Video [AutoPlay]".
+- Even more additional Episode Number error-handling.
+- Additoinal AutoPlay settings.  If a video does not play with these additional #x#.___ settings, try turning off auto-play and back out before the episode list then re-enter it and check the link list to see what is available.  Not all videos have the same resolutions listed.  Please do not ask for further features to this setting.  Any further improvements to this feature will come in time when I feel up to it, so please don't give me any headaches over it.
+- Added a quick little length check on the imdb_id varaiable so that it wont bother with episode metadata fetching if it can't be found.
+- Additional Episode Number error-handling.  This includes ##.#.
+- Max Episode Limit Setting for Episode MetaData has been added.
+- Re-did the Episode Number catching method.  This now does away with stuff like " (720p)" and also handles 001-002 and such.
+- "episodeSort" setting added to SiteData section.  You can set the it to sort episodes sorting with last episode first by disabling this when you got metadata turned off.  For those who use MetaData like myself, you can do the same thing by both turning it off in the same place and also disabling Episode MetaData while leaving normal MetaData on.
+- "Default" removed from "autoplay-select" setting used for Auto-Play.  Option seems to no longer be there on the web pages.
+
+[B]Version 0.5.4[/B]
+- Fixed variable animename's line that replaced common non-name tags.
+- Fixed cover and backdrop urls on non-AutoPlay episode links.
+- Add Favorites changed to Add/Remove Favorites in ContextMenuItems of Show Listings.  This way items can be removed from listings from more than just the favorites menus.
+- Added "Refresh MetaData" to ContextMenuItems.
+- Season/Status varaible naming fix on episode listings.
+- Flipped the episode order on episode listings.
+- error handling for metahandlers import(s).
+- Setup to handle "addon.common" in place of "t0mm0.common".
+- Fixed common "Addon" import in config.py.
+
+[B]Version 0.5.3[/B]
+- Re-organized menus and such in Addon Settings.
+- Episode List - Fix for Series Plot Description.  Seems to be some series that needed alternative scraping method taken into consideration.
+- Episode List - Error handling for some of the things.
+- Episode List - Show Title under Status and Views.
+
+[B]Version 0.5.2[/B]
+- Added Series/Show Plot Description from SiteData as well.  Again there's an option to Show/Hide this.
+- Haven't tested it yet, but there are options in Addon Settings under Anime to Show/Hide Views, Status, Genres in the episode list.
+- Took an idea from MediaPi about genres and thus in the Episode List, I've placed Views, Status and Genres as link items. Genres clickable, but Status and Views are just there to be seen.
+- Fix for Lasted Anime Visited... to include image and imdb_id.
+
+[B]Version 0.5.1[/B]
+- Fix for TV Series Episode listings when linked from Favorites.  Not sure if any bug might come up for movies/ovas/specials due to this.
+- Trying to add IMDB_ID to new favorites and from there pass them onto episodes list.
+- Fix for MessedupText in Episode Title and Plot Descriptions.
+- Addon Settings - Started a Customize tab where you can edit "some" of the text.  Please be careful when changing some text.
+- Removed optional overlay:7 when found in visited for Series, as it was showing up by default for those not visited.
+- An option for Genres-View has been added to auto-view section of addon settings.
+- Genres List browsing set a tvshows for content so that other view types can be used to see plot data.
+- Checking over the list of Genres and seeing what's been added.
+- Added "Dub" genre to the Genres' List.
+- /yawn /sigh /yawn [Break Time].  I seem to spend too much time coding and studying coding, and not enough time sleeping.
+- Manual Tweak for "Golden Time" to include " (2013)", to show the right MetaData.
+- Watched Check marks seem to be showing up alongside of the @'s now.  :)
+- Option in Addon Settings for Enabling Episode MetaData, where available.
+- Episode Metadata, where available.  For now, it seems to work on "some" series for season 1's.  Not enough capability to setup for other seasons at the moment.
+
+[B]Version 0.5.0[/B]
+- Option under Metadata section to put Genres (from Metadata-only) onto the top of the Plot Description.
+- Debugging to File - Enabled...  Stopped Array of items found frin being printed to xbmc.log on Title Lists.
+- Debugging to File - Enabled...  Stopped HTML of page being printed to xbmc.log on Title Lists.
+
+[B]Version 0.4.9[/B]
+- Fix for Plot Description on Show Listings with Metadata turned off.
+
+[B]Version 0.4.8[/B]
+- Page jumps backward and forward for every 10th page when available.
+- Added Last, Previous, and First... Page Links to the Title Lists.
+- Added The Page number for the Next Link's page.
+- Removed the debugging-to-file enabled requirement for Bookmarks to be seen on main menu.  It still only shows up if the account stuff is enabled.
+- Added colored @ to Related Titles.  This can be thrown some for series that have multiple seasons seperate and such or titles of shows that are within another title.
+- Fixed the Related Titles on the Episode Lists.
+
+[B]Version 0.4.7[/B]
+- Added Option to Addon Settings for Left-Side @ on Episode Titles.  Otherwise is marked on the Right Side.
+- Added Option to Addon Settings for Left-Side @ on Show Titles.  Otherwise is marked on the Right Side.
+- listItems() - Coloring Plot descriptions differently for Site Data and Meta Data.
+- Changes to GRABMETA() function in teh_tools.py.
+- Adjusted '+' to '%2B' for Anime Show Titles sent to MetaHandler.
+- Added Option to Addon Settings for Show/Hide Site Artwork for missing Artwork when MetaData is enabled.  (An Old Forum Request.)
+- Changes to listItems() function in default.py.  Pretty much re-did the metadata and sitedata setup in this function.
+
+[B]Version 0.4.6[/B]
+- Removal of Default Proxy, as it seems no longer needed.
+- Testing of common Proxies module.
+
+[B]Version 0.4.5[/B]
+- OVA and Movie slapped onto the front menu below Search.
+- OVA,Movie,Music moved to front of the genres list.
+
+[B]Version 0.4.4[/B]
+- RefreshList function.
+- Context menu items for Mark, Unmark and Empty Visits.
+- Episodes checked as watched when starting to play a video.
+- Visit check for episodes
+
+[B]Version 0.4.3[/B]
+- Resolution Page (Links #x#.[flv|mp4]) Fix.
+
 [B]Version 0.4.2[/B]
-- Pagination Fix.
+- Timer Before Display of Video Links (###x###.flv,###x###.mp4).
+- Timer for AntiTag... sleep timer between page fetch retries.
+- Updated Default Proxy Url:Port.
+- Catching of message "You're browsing too fast! Please slow down." from kissanime.com.
 
 [B]Version 0.4.1[/B]
-- Error handling around line 1310 in API_Browse().
+- Fixed Supernatural and Super Power Graphics.
 
 [B]Version 0.4.0[/B]
-- Switched the default custom domain in settings.xml.
-- Slight additional tweaks to domain fixing and regex(s).
+- Addong is working again.
+- Recent NEW graphics by Marquerite.
+- Graphics for most other menu items setup.
+- "ArtSite" A-Z Theme setup.
+- Inserted new icon.png and linked up new genre graphics for "ArtSite" Genre Style.
+- Pireviews of the new Genre graphics are looking good so far.
+- Listings for Related Shows has been added to the episode listings Menu.  No ContextMenuItems included for this atm like were on the Show-Title Listings.
+- Looking into MyAnimeList.net slightly for Anime Recommendations... til I went to go eat and cut my forum post short.  Nothing much on this to note just yet, thinking of saving this idea for a later version... so I'll have pleanty more time to research and wrap my head around how I want to go about it.
+- Making visited episodes display as well with the addition of UserAccountLogin and OnlineBookmarks.
+- Online Bookmarks - Add/Remove ContextMenuItems - Not tested yet.
+- Setting up a menu for listing Online Bookmarks from a Registered Account with KissAnime.com.  Not quite ready yet.
+- Addon-Settings has a place for an Account's Username and Password, but Account info is NOT setup to be used at this time.
+- General Tab in Addon-Settings now includes the additional settings and options.
+- New Graphics for the addon being worked, but not included yet.
+- Addon not usable at the moment.  Security issues being dealt with.
+- Custom Proxy Option - Used only for pages with title listings.  The rest of pages don't use it.
+- Multi-Attempt upto a set # of tries for UrlGetting in order to attempt a work-a-round for the sites current host.
 
 [B]Version 0.3.9[/B]
-- Fix for 'Cast' in labs... which caused an error on XBMC Gotham RC1.
+- Another Fix to allow us KissAnime Fan XBMC-Users to continue to enjoy our beloved Kiss Anime!
+- Leaving out the updated settings.xml until it's time for the new graphics options.
+- Adjusting things and making new additions for future upcoming graphic changes.
 
 [B]Version 0.3.8[/B]
-- Users Sections: Parsing for users.
-- Fixed domain usage in a few strings, so to better work with different domains.
-- Coming Soon Section: Fixed Area-Split data and Item Parsing regex.
-- TV Section: Fixed Area-Split data for narrowing down the area the right items are in... this was for Popular ("all time" and "new").
+- Great Thanks to KissAnime.com and their Staff!
+- Great Thanks also to Heiren!
+- Great Thanks to ME for a couple 12+ hour days going at it non-stop!
+- Won't say whats what, but how about hows how or just forget my funny attempts at humor and go watch you some anime!  And Visit https://www.facebook.com/kissanimeweb and tell KissAnime.com THANK YOU for you LOVE KISS ANIME and XBMC and XBMCHUB and ME too!
 
 [B]Version 0.3.7[/B]
-- Note: Watched State is currently only setup to work when metahandler is installed and MetaData is enabled.
-- Attempting to have the addon set a movie/episode as unwatched if player.play() errors.
-- Barring any unforeseen side-effects elsewhere, I've got the PlayVideo function for movies and episode links setup to mark things as watched right before playing the video.
-- Ability to Change Watched State on Movies - Seems to work currently.
-- Ability to Change Watched State on TVShows - Attempted but seemed to fail, so I hid the ContextMenuItem.
-- Ability to Change Watched State on Episodes - Seems to work currently.
-- MetaData on Episodes
-- MetaData on Seasons
+- Another Day, Another Problem
+- /url got changed to http:// url in iframe.
+- Handling of a form post, but can't seem to see where it's using any form data.
+- Also setup things to try and use/load/save cookies.  Some of the cookie data though may not be included that I find via my Browser, due to some of the stuff called for at load time.
+- Temp Fx, view site, view show's page, then view show's episode list in XBMC, then link list and hopefully watch video.
 
 [B]Version 0.3.6[/B]
-- Lot of html-coding fixes for parsing to come up to date with the site changes that have occurred over time.
-- API Search - Setup to use metahandler when Metadata is enabled and sitedata from fetched pages when its disabled.
-- API Search - Converting coding to use metahandler rather than self fetched metadata functions.
-- API_Browse - Fixed IMDB_ID to Value string.
-- Ton of fixes to the SiteData fetches/parsing.
-- Fix for Search [API].
+- Still Fixing the video block issues.
 
 [B]Version 0.3.5[/B]
-- Still no Latest Episodes Listings at this time.  I just haven't felt up to dealing with trying to fix up the Latest Comments to filter out the tv shows
-- Fix for Listings in Coming Soon section.
-- Fix for Coming Soon By-Date path.
-- Fix for Links Listings.
-- Fix for TV and Movies Listings.
-- "Enable Metadata" option is now visible in Metadata section of Addon Settings.
+- 
 
 [B]Version 0.3.4[/B]
-- urlresolver and metahandler added back to required modules.
-- Blue (handled) / Red (not handled) Coloring on Host/Source Links list.
-- valid_url() function setup for host names on Links list.
+- Adjusted coding for a-d-Check(s) that caused videos to blocked.
 
 [B]Version 0.3.3[/B]
-- Starting the initial shift from t0mm0 common modules to Eldorado's for the newer python version in Frodo/Gotham and less Broken messages.
-- Python Required version set to 2.1.0 in addon.xml.
-- listLinks() Fixes for Movies. when loading Source(s) / Host(s) list.
-
-[B]Version 0.3.2.1[/B]
-- Addon Name Coloring Adjustment.
+- Right-Click ContextMenuItem for Latest ... episode (item) noted when there's a '</a>' in the LInfo data area.
+- New option in Settings for hiding items that have not been aired yet, since that normally means there isn't yet anything to watch for them.
+- '[Completed]' and '[Not yet aired]' tags added to the plot description when they appear in the LInfo data area (Latest Episode Category).
+- Added Latest Episode category and updated/hot image area data to what is parsed in listItems().
 
 [B]Version 0.3.2[/B]
-- Import Handling Changes.
-- Improved Domain Handling.
-- Custom Domain Setting for -Enable- and -Url- (remember to include http://)
+- Slight Adjustments made to the Download Function(s).
+- To use either download Feature, remember to dissable the Auto-Play option in Settings so you can view the list of links.
+- JDownloader Feature Made Available.  This could use a short little test by those who have it setup, with dropping me a message on the forum or IRC Chat to let me know how well it's working.
+- Download Feature Made Available.  This includes the same type of Download-Methods as in my SolarMovie.so addon.
+- Along with Genre(Select), the OldMenu feature now provides a method to view the Last... stuff in a submenu in order to work around any issues with refreshing the main menu when ran from a shortcut on the MainScreen of XBMC.
+- Check out Settings for a Genre and All|#|A-Z Style changer to change the graphics for the 2 folder listings.  At this moment it looked like some links with -'s were having problems so some icons for 'ALL' don't seem to want to show up.  Please go easy on switching between these as to not bombard the remote hosts.
+- Ability to Add a Favorite from one folder to another... Thus allowing you to move them... for now you still have to click remove after you click add if you dont want to keep it there too.
+- Fanart Image now gets transfered to Favorites when adding a New Favorite Item.
+- Main-Menu and AutoPlay tabs added to Addon/Plugin Settings Window/Dialog since there was getting to be quite a bit in the General tab.
+- More items added to MainMenu: Last Video [Played|AutoPlay] and Last Anime Visited.  These only show up if enabled (True by default) and have a value which will happen after u visit/play one the first time.
+### AutoPlay feature seems to be working now for: Default (Default URL) | Next (Next Url is usually the highest quality Url I think.) | Last (Last is usually the lowest quality Url I think.).
+### I've switched from enables for alternative autoplay options to a enum switch under General tab in Settings.
+### In the end I had to save info at listEpisodes() to call later to go back to there after play, so to prevent the continual re-play issue.
+### Tried a check via the title and url... that didn't help much if any at all.
+### Many problems with list auto-refreshes causing it to be hard to get out of playing a video with auto-play on.
+- Working on an AutoPlay Feature.
+- listEpisodes() - Date Stamp Display changes.
+- Option added to Settings for dissabling the view of Favorites 2-4.
+- Another Code Cleanup.  Removed old methods since start of KissAnime/KissManga projects and some more of the older stuff from SolarMovie.so project days.
+### Due to this, I'm converting the select menus to folder menus.
+### Finding out that the select sort method select screen list has a problem of showing up again cause of some darn refreshing issue.
+- Working on setting up a normal genre folder listing with the select sort method system.
+- Plot fix for KeyError: (u'\u2014',) due to the adding of plot data from metadata.
+- Added handling for catching the previously missing metadata tags in listItems() in default.py.
+- Added some missing metadata tags to GRABMETA() in teh_tools.py.
 
 [B]Version 0.3.1[/B]
-- Fix for Title (Year) fetching.
+- Major Break-through!  Addon can now pass playable links for multiple resolutions in .flv/.mp4/exc... formats available on the site.
+- Moving "some" content type data to config.py to better keep the default.py simular in nature for KissAnime and KissManga.
+- More Stuff done in listEpisode().  Label name parsing, Date information and Plot filled with misc info for easy viewing.
+- Dated added to end of Episode Name like in KissManga addon.
 
 [B]Version 0.3.0[/B]
-- Waiting for TV Show Changes to be made on the site so I can adjust "Latest Added" menu.
-- Slight adjustments for required imports.
-- Movie and TV Show MetaData forced-set to use Metahandler for now.
-- Noticed Metadata wasn't showing poster images.
-- Movies Section Fixes due to Site Changes.
-- Noticed Site Changes
+- After a few seconds thought I did go ahead and add in an option in the Settings Window for having the old style method displayed as well.
+- Old items on the MainMenu Removed/Hidden for genre/sortmethod folder list instead of the new select list.  Let me know if there's any interest in putting those back in, with a setting option to display them or not.
+- Favorites Folder No. 3 and 4 have been added.  Remember that you can customize their names in the Settings Menu.
+- _DoGetItems(), Select_AZ(), Select_Sort(), Select_Genre() added for the new choice list(s) method.  You can now choose All, Numbers (0-9), or A-Z for the Anime List.
+- MetaHandler import added to addon.xml as a requirement.
 
 [B]Version 0.2.9[/B]
-- Quick Temp. Fix for TV Searches.  Seems TV Searches are bringing up Episodes instead of TV Show Titles.
-- nURL() function added to teh_tools.py for fetching webpages.  A better function method that I've put together since doing a later project.
-- "Search  [API]" added for Movies and for TV (with movies as well).
-- Alright, I think I finally got the ContextMenuItems setup and the Metadata showing for all available movie and tv show titles on the "Search  [API]" feature.
-- Adjusted the [TV] and [MOVIE] tags to the front of labels to be more viewable.  Also added the [Country(s)] tag back on to the end of labels. (in the "Search  [API]" feature)
+- Normal Search - .replace(' ','+') - Fix was more for KissManga than for KissAnime, but it still works on both.
+- Favorites - Fixed mode to 'GetEpisodes' to make it work.
 
 [B]Version 0.2.8[/B]
-- Note:  Keep an eye out for my upcoming Remake Project thats sort of taken a spin into a even huger project.  I'll be having an addon in the future that will handle adding Host Plugin updates to urlresolver's plugin folder.
-- UrlResolver Check disabled to increase speed !!dramatically!!.  This also allows for displaying those that might not be handded yet, which lets us find out about them and you to find out about them... and thus report them to us.
-- #XBMCHUB @ irc.Freenode.net message window.
-- Quick Fix for New Threads (now Latest Comments).
-- Fix to 'prtItem' in listItems() thanks to lukin visiting me on irc.
+- Some Slight changes using additional settings in config.py to make things easier to update in both kissanime and kissmanga addons.
+- Side-Note: I am looking into how simular KissManga.com is to KissAnime.com... browsing looks 
+- Backdrop/Fanart, Cover/Thumbnail, and some other metadata information setup  to be used when the User ENABLES the option in the Addon/Plugin Settings under Metadata.
+- Metahandler setup (Thanks to The_Silencer for some code from TheDareTV).
+- Metahandler import(s) moved from default.py to teh_tools.py.
+- Additional Changes Made for Anime Settings in Settings Window.
+- Favorites Empty fixed in Settings Window.
+- Changed made to the displaying of Anime Series Names with color-tagging special tags.
+- Favorites - Seems to be working fine.  I made a slight edit on the Displayed Names to do away with Year (and other such text) which is not included in this site's provided information.
+- Changed made to the displaying of Episode Names.
 
 [B]Version 0.2.7[/B]
-- Fix made to plugin name and .py file name for Favorite Folder Empty command in Settings Window.
+- Project still needs a lot of code clean up and some more work, but I'm going to go ahead and release this version for people to use since it can now play videos, and has numerous features and categories to browse.
+- Search - Feature added (Normal Search).
+- listLinks() - The downloadable choices dont seem to wanna work reguardless of what I toss at it.  The contentURL finally works to play the videos.
+- listEpisodes() - seems to be working so far.
+- BrowseByAZ() - currently bugged.  By-passed for the time being, so no 0/A-Z... just All by default.
+- BrowseByGenre() - working.
+- listItems() - seems to be working so far.
+- Main Menu - setup.
 
 [B]Version 0.2.6[/B]
-### Currently by default this setting's value is set to 9999, which there should hopefully not be any movies and/or episodes that have higher than that.
-- listLinks() - An option in the Settings Window for limiting the number of Host Links displayed.  This is an attempt to speed up the displaying Host Menus which can take a long while when they have a high number like 200 links.
-- listItems() - Movies now show their No. of Links.
-### It also means that the list will be longer, in some cases 130 items even, so its a good thing I don't currently have it slowed down with a urlresolver check.
-### This means some shown host links may not play if they are not supported by urlResolver or are no longer found on the host.
-- listLinks() - Fixes to both speed up and more accurately display as many of the links as possible.
-- listLinks() - Fixes to try to speed up the searching process.
-
-[B]Version 0.2.5[/B]
-### To see the updated graphic in the Favorites Folder, you currently have to back up a page and re-enter the Favorites Folder that way.
-### At first I had it set to forward back to the Favorites Folder after changing the fanart (with the updated graphic.  A problem accured when trying to go back from that menu, you'd end up at the update stage, so I did away with the page forward.
-### I might see about adding this for movies at a later time.
-### A new feature for TV Shows in Favorites.
-- (2013-08 -23) New Feature: Change Fanart.
-- New Graphics: fanart.jpg and icon.png have been updated.
-
-[B]Version 0.2.4[/B]
-- Fixed Plot Descriptions to now display for Movies in the Favorite Folder(s).
-### Once fanart has been saved to the Wallpaper Folder, you then may set it as a background or use it as you wish.  The method for setting the background(s) in skins may very, so I have not setup a method for handling this within the addon/plugin at this time.
-### Movie fanart tend to "currently" be around 300x169.  I might look into getting the larger sized ones at a later time.
-### TV Show fanart tend to be .jpg's around 1280x720.  Some are greater or lesser in size.
-### Wallpaper Folder path added to Settings too.
-### Added to in Favorites Folders as well as the most common other folders that allow for Fanart MetaData.
-- "Download Wallpaper" added to ContextMenuItems for Movies and TV Shows where possible.
-
-[B]Version 0.2.3[/B]
-### *Feature Dedication* Note: jDownloader Download Method(s) -- HeLikesIt (XBMCHUB Forums) for his request of this feature.
-### Currently there is no check to make sure that the jDownloader plugin actually exists on your copy of XBMC, so please make sure you have it installed in the default, usual, folder and have it and jDownloader setup as needed by the jDownloader plugin.
-### It's been a while since I've used jDownloader much and I haven't used the xbmc plugin for it yet.  So, I'm looking into which link is better to use or if I need to adjust the inital links a bit more.  I'm probably thinking things through too much, but I was trying to keep in mind for those who might want to add the link to jdownloader for "later" user rather than imediately downloading it... or those who want to pause and resume later.
-### The 2 DL Methods are: 1.) via Stream_Url, and 2.) via Link.
-### 2 Download Method's added for jDownloader for testing to see which I'll need.  Please give me some feed-back on this.  
-### I wanted to see about adding a ContextMenuItem, but cause of how I got things setup I'd have to make another function just to parse out the links like I've done for a few other things... so, I decided to try adding it to my current download method that has an option for the download method.
-- Add Download to jDownloader via jDownloader plugin.
-
-[B]Version 0.2.2[/B]
-- Setup listEpisodes to work with ZeroLinks Setting.
-- Addon Settings >> Show Episodes with 0 (Zero) Links.
-- Fixed Next-Page link to not be added if your on the last page for listItems().
-### re.compile('&#(.+?);').findall() >> .replace("&#"+match+";" ,"").  This should hide any simular ascii thats not already setup to be parsed in the future.
-### .replace('&#xE2;' ,"a")
-### .replace('&#xE9;' ,"e")
-- Additions to ParseDescription().
-- Fixed Next-Page links in listItems() to include the missing section variable to allow for TV shows to display right after clicking Next-Page.
-
-[B]Version 0.2.1b[/B]
-### Thank you, RickDeckard, for posting a log on this issue.
-- Removed a seemingly unused import that caused a scripterror on load for for Mac OS user(s).
-
-[B]Version 0.2.1[/B]
-### shows information on pages such as: http://www.solarmovie.so/profile/MasterofMovies120/
-- "Users" section >> * >> Person >> "Account"
-- Added: Listing for Latest Searches.
-### Contact information should be found @ http://www.solarmovie.so/contacts.html
-### Rules should be found @ http://www.solarmovie.so/rules.html
-- Added: Terms of Service ( Mostly a copy from http://www.solarmovie.so/terms.html )
-- Added: Privacy Policy ( Mostly a copy from http://www.solarmovie.so/privacy-policy.html )
-- Fix: setview working correctly for Favorites List.
-- Removed extra -Comin Soon- from Movies Category list.
-
-[B]Version 0.2.0[/B]
-### https://github.com/HIGHWAY99/plugin.video.solarmovie.so/wiki
-- Might have forgotten to meantion, but I've been working a ton on the plugin's Wiki pages. So please check them out.
-### ### Favorites - Uses the same listing methods as Uploads.
-### ### Uploads - I made a new listing method for these pages.  This new method displays both Movies and TV Episodes together, for pages that use this less-information style of listing.  There is currently less metadata and information displayed.
-### ### Watch List (TV Shows) - Uses the same as Watch List (Movies), just with 'tv' marked as the section.
-### ### Watch List (Movies) - Uses the old default listItems() method, but with a 2nd parse string included now.
-### For a moment the areas include: 
-- Users >> Moderators|Linkers|Uploaders|Users >> Person >> Once you have chosen a person yo ucan then select what area of their recorded data you wish to browse.
-- Users >> Choose From Moderators, Linkers, Uploaders, or Users to Sort Users by.
-- Users - New Section to this plugin to address the Browsing of Users for sake of future posible features and browsing methods.
-- Latest Threads -- This allows you to check out the Latest Threads sectcion of the main page @ http://www.solarmovie.so/
-- Play Trailer -- For use with the "Coming Soon" section.
-- New section: "Coming Soon" for upcoming movie listings.
-
-[B]Version 0.1.9b[/B]
-- Quick Fix: Play Video was wanting to download cause of setting in ListLink, is now fixed to play videos again.
-
-[B]Version 0.1.9[/B]
-### If the progressBG part causes the plugin to not run at all, please let me know and I'll look into another method.
-### I'm hoping this feature will allow people with Nightly Release and such (those above Frodo stable release) to use ProgressBG method.
-### I'm going to leave this option open though in case anyone wants to use it or play around with fixing it.
-### Canceling Downloads seems to be major issues atm.  This is both on Progress and ProgressBG.
-### Progress and ProgressBG should both download where possible.
-### Testing is for my use, and Hidden isn't completely tested, but should download.
-### 4 Methods setup: DialogProgress | DialogProgressBG | Test (for my use in making another method) | Hidden.
-- Links Listing >> Download Video -- Needs pleanty of testing and some more work yet.
-### There is still the option to dissable the metadata on Episodes in the settings window, if want to.
-### Things seem to be working, well enough for now, with Episodes and Episode MetaData.
-- I Also a quick fix to catch the  episodes with only a Single "Link" that was getting missed by the call for "Links</a>"
-- OK, I did a fix to where Seasons goto the individual Season page instead of the Main Show Page. This seems to fix things for shows like Doctor who or at least limits the prob to the season with the messed up stuff in it.
-### If anyone has a suggestion to fix this little issue, please let me know on #xbmchub @ irc.freenode.net (user: HIGHWAY99).
-### Weird enough, it seems to work fine on Hell's Kitchen which has 11+ seasons.
-### Can be laggy yet on episode listings for shows that have a HUGE number of seasons/episodes, such as doctor who with 7+ seaons.
-- Fixed the annoyingly huge lag issue I had for a while with Episode Listings.
-- Settings >> Added option to dissable Metadata for default Episode Listings' Plot Description.
-- Settings >> Added option to dissable Metadata for default Episode Listings.
-- Item Listings >> Page Number Handling for End Page, Last Page, and Next Page given a major overhaul and super Fix!
-- Settings >> Configured Number of Pages for Item Listings is now used.
-- Settings >> Configured Enable Setting for View-Modes.
-- Settings >> Configured Value Settings for View-Modes.
-- Setup a Dummy-Proofing sysytem in Settings to keep people with buggy mice or who are click-happy or even lagged... from accidental clicking of "Clear Favorites".  Once you've filled them with nice shows, it's a drag to loose them on accident.  PS: Razor Naga mice migt be a nice idea, but man does it suck once they go bad... so easily.
-- Addon / Plugin - Settings >> Added Several Settings for upcoming changes.  Not currently active yet.
-- Quick Fix: setview to episodes for tv >> lateast watched .
-
-[B]Version 0.1.8[/B]
-- Fix: Latest Watched -- Now links to Get-Links instead of Get-Seasons.
-- Library >> TV >> Play From Library -- Feature works. I still need to work on label fixes for the player.
-- Library >> TV >> Add Library -- Feature works.
-- Library >> Movies >> Play From Library -- Feature works.
-### Feature Requested on IRC Chat, #XBMCHUB @ irc.freenode.net.
-### Thanks to author of SimplyMovies for their good example of how Library stuff works.
-- Library >> Movies >> Add Library -- Feature works.
-- Disabled "unicodedata" import, and made a quick & dirty fix to remove_accents() to deal with stuff elsewhere that used it. This should finally take care of that nasty unicode bunch of issues that had been plagueing me for ages.
-- Partial work on an Advanced Search Feature.  Yes, some options do work in it, atm.  This feature brings up a menu and lets you select which type of information you want to change and loops back to the list of search options again until you click cancel or do-search.
-- Forgot to make meantion of a bit of graphics updates. FYI, those with the 'primal' skin (which I got installed but don't use myself), you'll get to use the genre graphics from it... else my 1ch PrimeWire theme graphics... else 1ch Glossy_Black theme graphics... else the graphic set as '_artSun'.
-- Settings -- Added a feature to let the user set the a Category-Type name or whatever text they want for the differant groups of Favorites. ( example: 'Current Series', 'Other Series', and 'Toons and Anime' )
-- Settings -- Added the option to hide Empty Favorites #(s) options from the Menu Lists.
-- A lot of code cleanup, some code compression.
-- Updated Settings Window -- Hid the Metadata option.  Added the additional Empty Favorites #(s).
-- I've edited listItems() to only show "tv" / "movies" depending on which section they are in, to prevent items of the other section type from being displayed with possibly bad links or being routed to the wrong plugin function next.  This helped for "Latest Watched", but should also allow for more easily doing stuff like other people's Favorites or Watch List. I'll think on adding some functionality for that another time.
-- Noticed that "Latest Watched" had TV Shows in it too, not just movies. So, I've now added it to the TV section as well.
-- Favorites -- Multi Groupings. This means you can save favorites to multiple groups. This is currently setup for 2 movie groups and 3 tv show groups. ( Example: Favorites, Favorites 2, Favorites 3 )  This should be nice when you want to save many TV Show favorites of differant types, such as general, family, anime, or *adult*.
-- ( Movie | TV) >> BrowseByCountry (catches flag icons from the net).
-
-[B]Version 0.1.7[/B]
-- Quick Additions of adding ContextMenuItems for Removing Favorites.
-
-[B]Version 0.1.6[/B]
-- Favorites >> ( TV | Movie ) -- Addition of database ID for TV side of things and empty placeholder for Movie.
-- TV >> Season -- Displayed Label Coloring.
-- TV >> Season >> Episode -- Plot / Description / Overview of the Episode (not show)
-- TV >> Season >> Episode -- Displayed Label Coloring.
-- TV >> Season >> Episode -- Check to make sure the TheTVDB image is actually there and not a 404.
-- TV >> Season >> Episode -- Episode Name Fix via TheTVDB data for those episodes without names on solarmovie.so.
-- TV >> Season >> Episode -- Episode Screenshots.
-- TV >> Season >> Episode -- Fanart and Poster / Thumbnail.
-- TV >> Season -- Fanart and Poster / Thumbnail.
-- Slight fix to allow for parsing out text [CODES] and year out of Title passed to plugin for AirDate Searches.
-- Slight fix for Poster / Thumbnail - Image for TV Show Listings without one on solarmovie.so.
-- Labeling for Favorites.
-- Favorites >> Movie >> Working: ( Empty | Add | List ) | Untested: ( Remove ).
-- Favorites >> Movie >> Working: ( Empty )
-- Favorites >> TV >> Working: ( Empty | Add | List ) | Untested: ( Remove ). I still need to cleanup the code a bit on all of it.
-- Adding Favorites Feature.
-- Some slight fixes for the Search Feature, as well as for ContextMenuItems for searching with 1Channel/Primewire.
-- Notification methods: sunNote() for good news, deadNote() for bad news.  Decided to use the nice sun image and colored text for good news and the deadplanet (astriod) for bad news.
-- The config.py file has been filled up with tons of stuff, yet I'm too tired or I would try to finish filling it some more.
-- Added more first letter-coloring.
-- Added some of the color scheming to the config.py for easier changing.
-- Movied Change Log and News paths to the config.py.
-### For TV Shows
-if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.solarmovie.so'):
-	contextmenuitems.append(('Search Solarmovie.so', 'XBMC.Container.Update(%s?mode=%s&section=%s&title=%s)' % ('plugin://plugin.video.solarmovie.so/','Search','tv',title)))
-### For Movies
-if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.solarmovie.so'):
-	contextmenuitems.append(('Search Solarmovie.so', 'XBMC.Container.Update(%s?mode=%s&section=%s&title=%s)' % ('plugin://plugin.video.solarmovie.so/','Search','movies',title)))
-- Search Feature: Normal Search is now available and working to Search via Movie or TV Show Title.
-
-[B]Version 0.1.5[/B]
-- metadata(my hard way of doing things) >> TV Shows ( thetvdb.com ) >> (ID | Fanart)
-- metadata(my hard way of doing things) >> Movies ( themoviedb.org ) >> (Plot | Image | Fanart)
-- infoLabel data Fixes made. infoLabels, such as plot description, now working for Movies, TV Show Titles, and somewhat for TV Latest Episodes.
-
-
-[B]Version 0.1.4[/B]
-- Messed up at some point in my data fetching function and lost descriptions. Made temp fix for that fixed up what issues it was throwing for tv shows/movies too new to have a plot description.
-- TV >> Latest -Episodes- (Parsing Fixed) >> Play
-- Movies >> Latest >> Play
-- Added a configurable function.  Feeding the html to it, it checks the list of objects you request and parses them out with many differant get-Methods.
-- Added a functions to fetch the item page and filter stuff out quite a bit for easier data-fetching later.
-- Added art404 varaible | Fixes in set_view() | Added ease-to-use [TAG]text[/TAG] functions.
-- Cleanup of some code in default.py | Some added Functions in default.py and teh_tools.py | Lots of notation commenting
-- Working on better handling of dependencies. | Added t0mm0_common_addon.py and t0mm0_common_net.py to folder as well as storageserverdummy.py and StorageServer.py
-- Studing "t0mm0.common.addon" further to better my coding.
-- Adding of config.py.  Attempted yet again to study global file setting better, and failing for the most part, thus resorting to function handling as usual.
-
-[B]Version 0.1.3[/B]
-Example:
-if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.solarmovie.so'):
-	contextmenuitems.append(('Find AirDates', 'XBMC.Container.Update(%s?mode=%s&title=%s)' % ('plugin://plugin.video.solarmovie.so/','SearchForAirDates',title)))
-if os.path.exists(xbmc.translatePath("special://home/addons/") + 'plugin.video.theanimehighway'):
-	contextmenuitems.append(('Find AirDates', 'XBMC.Container.Update(%s?mode=%s&name=%s)' % ('plugin://plugin.video.theanimehighway/','1801',title)))
-- Added Feature: Find AirDates.  This can be linked to from other addons too. You can set it to bring up a keyboard for title entry or send a &title=snowname.
-- Search Movie Title with 1Channel / Primewire. (setup for both plugin.video.1channel and plugin.video.primewire incase it changes.)
-- Search TV Title Title with 1Channel / Primewire. (setup for both plugin.video.1channel and plugin.video.primewire incase it changes.)
-
-[B]Version 0.1.2[/B]
-= Working: Movie >> (Genre|Year|Popular[NEW|HD|OTHER]) >> Hoster >> Play
-= Working: TV >> (Genre|Year|Popular[NEW|ALL TIME]) >> (Season >> Season:Episode|SeasonxEpisode) >> Hoster >> Play
-= Working: Settings | UrlResolver Settings | View News | View Changelog
-? Note: Some Hosters work better than others.
-- TV >> Year now displays on Player.
-- TV >> Season # >> Episode # >> Hoster >> Playable.
-- MainMenu >> (Local Changelog, Online Changelog, Latest News[Online])
-- TextWindows loadable from Url and Local File.
-- Added TV >> Season >> Episode Listings
-- Added TV >> Season Listings
-- Some Re-accuring problems with urlresolver and that annoying dialog popup message. Sometimes it takes clicking it then waiting then clicking it a 2nd time.
-- Title and Studio Labels setup for Player.
-
-[B]Version 0.1.1[/B]
-- Added: TV >> Popular (NEW|ALL TIME)
-- Added: Movie >> Popular (NEW|HD|OTHER)
-- Split Popular into subgroups
-
-[B]Version 0.1.0[/B]
-= Working: Movie List (Genre|Year|Popular), TV Show List (Genre|Year), Hoster List (Movie), Plays Movie
-- Player >> Seems to be working again without that error dialog. I can only hope it'll stay that way.
-- Movies >> Popular - working
-- Movies >> Latest is currently bugged. Not sure how to fix this one, atm.
-- Player >> problems with error dialog coming up even though the video plays.
-- Handling for Hoster Site Listings.
-- Initial setup for MetaData Handling... I may change how this is getting handled as it seems to fail for now.
-- Added View Types and Set View #. (Nothing in Settings window yet.)
-- Added Sort Methods.  Auto-Sorting currently bugged.
-- contextMenuItems >> Show Information
-- Listings for TV Shows -with- year and image.
-- Listings for Movies Titles -with- year and image.
-- Page Handling >> Next Page
-- Page Handling >> Viewing of multiple pages at once. (A default # will be set within the code for now.)
-- Parsing of much of the cruel-hearted ascii and such....
-- LineBreak removing and tons of ascii stuff added.
-- Keep having to change a lot of things around cause of these stupid ascii issues.
-- Had to change getURL method... twice.
-- Head-2-Desk'ing over darn darn and more darn(s)... ascii and troubling matters.
-- Added: Menu - SectionMenu >> Genre, Year
-- Added: Menu - MainMenu >> Movies, TV Shows, Resolver Settings, Settings
-- Setup for easier debug information "print"(s).
-- Setup for easier Artwork usage.
-- Setup for Paths/Folders.
-- Added List of Genres.
-- Testing use of _ infront of variables to see if they truely act as global variables.
-- Added my 'teh_tools.py' from my other project(s). Still has much in it for use in other projects, so I'll have to clean it up some later. 
-- trying to stick mainly with "t0mm0.common.addon" usage where possible.
-- Handling for Params and Settings.
-- Handling for Debugging via log file and notification()'s.
-- Added a few things to the Settings Window.
-- Initial setup for solarmovie.so domain.
-
-
-
-
-
-
-
-
-[B]To-DO List:[/B]
-- 
-- 
-- Larger Movie Fanart Images.
-- Setup and Testing for use of common SQL database method(s).
-- Setup and Testing for use of common MetaHandler and MetaContainer.
-- Users >> Person >> Blogs -- Not sure what might be done with these pages.
-### ....
-### ...
-### ...
-### Online Watchlist Folder
-### Online Favorites Folder
-### View User's own Profile
-### Messages
-### Account Login
-- Register-User Perks
-- Account Info
-### https://twitter.com/solarmovie
-### https://mobile.twitter.com/solarmovie
-- Find a quick, easy, and simple method to fetch Twitter Time-Lines for solarmovie
-- More Settings
+- Initial Build forked from plugin.video.solarmovie.so to plugin.video.kissanime for current project.
 
 
 

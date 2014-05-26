@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.solarmovie.so"
-       name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.4.2"
+<addon id="plugin.video.kissanime"
+       name="KissAnime"
+       version="0.6.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.metahandler" />
-  	<import addon="script.module.urlresolver" />
-  	<import addon="script.module.addon.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.pysqlite" optional="true" />
+  	<import addon="script.module.sqlite" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>Handles Videos for SolarMovie.so</summary>
-  	<description>Play Movies and TV shows from SolarMovie.so.  Some of the Features:  Custom Labels for Multiple-Folder Favorites, Libraries, Find Air-Dates, Search, Advance Search, Some Download compatibility.  Make sure that if you dont already have them installed to also install metahandlers, urlresolver, either t0mm0.common or addon.common and simple cache.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 RC1, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<summary>Handles Videos for kissanime.com.  New Graphics by Marquerite.</summary>
+  	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.</description>
+  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/plugin.video.solarmovie.so/</source>
-  	<email></email>
+  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+  	<website>http://www.kissanime.com/</website>
+  	<source>https://github.com/HIGHWAY99/plugin.video.kissanime/</source>
   </extension>
 </addon>
