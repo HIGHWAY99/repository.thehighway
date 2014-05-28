@@ -958,7 +958,7 @@
 
 <addon id="plugin.video.tbh.watchseries"
        name="Watch Series Plus"
-       version="0.0.3"
+       version="0.0.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
