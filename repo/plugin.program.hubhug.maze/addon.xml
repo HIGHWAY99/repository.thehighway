@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.hubhug.maze" provider-name="The[COLOR tan]Highway[/COLOR]"
+       version="0.0.1" name="HUB-HUG Exit The Maze">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0" />
+  	<import addon="script.module.addon.common"  />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>This is part of the HUB-HUG movement, to release playful addons of a fun, enjoyable nature... to inspire happiness, togetherness, and good vibes.  Let's all work together to promote joyful, peaceful, even playful movements online.  Down with the bad tidings, up with the HUB.  ONWARDS AND HUBWARDS.</summary>
+  	<description>This text-style MAZE-type game is best played with a keyboard (arrow keys), a controller, a remote, or other such device.</description>
+  	<disclaimer>This Project is developped for XBMC Gotham 13.0 RC 1, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+  	<website>http://www.xbmchub.com/</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
