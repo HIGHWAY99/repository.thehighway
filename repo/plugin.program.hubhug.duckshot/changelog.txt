@@ -1,0 +1,9 @@
+[B]Version 1.0.0[/B]
+- Public Release.
+- Much coding and graphic work went into preparing this project for public release.
+
+[B]Version 0.0.1[/B]
+- Added HUB HUG Movement Series Fanart Graphic by Marquerite.
+- Added Graphics by Marquerite.
+- Initial Build.
+
