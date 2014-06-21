@@ -1,0 +1,71 @@
+[B]Version 0.2.3[/B] [I]06-11-2014[/I]
+- Adjustments and packaging.
+
+[B]Version 0.2.2[/B] [I]06-11-2014[/I]
+- Adjustments to File Updater.
+
+[B]Version 0.2.1[/B] [I]06-11-2014[/I]
+- File Updater.
+
+[B]Version 0.2.0[/B]
+
+[I]06-11-2014[/I]
+- Some sturdy testing for map issues and base optoins.
+- Additional customizable values.
+- Additional sounds.
+- Text Map options auto calculated according to the permitted Width values for the Visual Display.
+- Changes to base options.
+- Changes to Settings.xml.
+
+[B]Version 0.1.8[/B]
+- SUPER MODE looses it's color for the last two moves before it turns off.
+- SUPER MODE setup and ready.
+- Fix for Display of Game Stats.
+- Attempt @ Battle Coding.
+- Additional Game Stats.
+- SaveGame (stats) now has a yes/no popup to ask if you want to save.
+- LoadGame (stats) on initial startup of game client.
+- SaveGame (stats) on exit.
+- Additoinal Customizable settings for map files.
+
+[B]Version 0.1.6[/B]
+- Fixed Left/Right movement of mobs.
+
+[B]Version 0.1.5[/B]
+- Facing Directions for SOME of the USER graphics.
+- More Monster Graphics.
+- More USER Graphics.
+
+[B]Version 0.1.2[/B]
+
+[I]06-08-2014[/I]
+- Made a Fun little wide open map for testing movement coding and such.
+- Some slight straight-directional Monster Movement within so much distance of the user.  Currently no diagnal movement.  Currently Monsters only see in a straight line.  Currently Monsters don't start a battle with you, unless you move onto their position.
+- Text Map's View Distance.
+- Extra Layer of Images for Floor Graphic underneath transparent game graphics.  This way other floor/path styles can be used at times.
+- Customizable Graphic,Sound,Text Message settings in map files.  Some settings are customizable, but not all at this time.
+- Added Additional Graphics.
+- Initial Setup for Direction the User is facing, for later coding.
+- Fixed some graphics.
+- Changed some graphics.
+
+[I]06-??-2014[/I]
+- ....
+- ....
+
+[B]Version 0.1.0[/B]
+- Many advancements.
+
+[I]06-??-2014[/I]
+- ....
+- ....
+
+[I]05-??-2014[/I]
+- ....
+- ....
+
+[B]Version 0.0.1[/B]
+- Added HUB HUG Movement Series Fanart Graphic by Marquerite.
+- Added Some Graphic(s) by TheHighway.
+- Initial Build.
+
