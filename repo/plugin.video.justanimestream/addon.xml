@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.justanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.4"
+       version="0.0.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" version="2.1.2"/>
-  	<import addon="script.module.metahandler" version="2.0.0"/>
-  	<import addon="script.module.addon.common" version="2.0.0"/>
+  	<import addon="script.module.urlresolver"  />
+  	<import addon="script.module.metahandler"  />
+  	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aJustAnimeStream.py">
   	<provides>video</provides>
