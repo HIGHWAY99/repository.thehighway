@@ -838,10 +838,10 @@
 
 <addon id="plugin.video.solarmovie.so"
        name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.4.4"
+       version="0.4.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.metahandler" />
   	<import addon="script.module.urlresolver" />
   	<import addon="script.module.addon.common" optional="true" />
