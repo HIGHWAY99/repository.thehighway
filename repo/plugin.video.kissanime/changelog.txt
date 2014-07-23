@@ -1,8 +1,20 @@
+[B]Version 0.6.6[/B]
+- addon.xml 's requirement setting for script.common.plugin.cache got the optional state removed.
+- [###x###] version links setup for a change I've noticed lately, incase the others don't show up.
+- _Opening ### and _Ending ### fixes to episode list titles.  Thanks to MediaPi for noticing this.
+- Just realized I already had the Upcoming Animes list being handled, so I've removed the link to the newer version of the section.
+- Upcoming List added.  No metadata used here, only site information.  Information used: Title, url, poster image, summary, date aired.
+- All Anime and Uncategorized default categories added for Bookmark list.
+- Added Categories markings to Bookmark list.
+- Temp. reverting of changes for video pages.
+- Attempting fix for video pages.
+- Testing functionality for a plaussible Splash Screen system.
+- Splash Screen option.  Set to off by default.
+
 [B]Version 0.6.5[/B]
 - filename renaming of packaged common modules
 - additional handling for StorageServer modules.
 - repacked StorageServer modules.
-
 
 [B]Version 0.6.4[/B]
 - Empty Favorites in place again.
