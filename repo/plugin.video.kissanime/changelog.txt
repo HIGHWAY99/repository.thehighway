@@ -1,3 +1,30 @@
+[B]Version 0.6.7[/B]
+- I think I've pretty much taken care of the add favorites method to insert the data into the show table as well.  Same for when listing episodes, so to cover stuff from old CC method Favorites.
+- Download Wallpaper functionality added to the ContextMenu in more places.
+- Will need to view a normal item listing or search listing containing shows before they will show up in the SQL version of visited and favorites.  Items might not show up in SQL-visited and SQL-favs if they have not been on a normal listing, such as if you goto old common cache method of favorites and then add them from there.
+- The cache common methods removed from the add/remove/empty functions.
+- Setup of SQL tables for the new favorites' checking system.
+- Setup of SQL tables for favorites.
+- Tweaking History 201 listings to use data from the shows table, so to include plot data.
+- A quick fix addition, 2nd attempt addItem for episodes when AutoPlay is enabled.
+- List refreshing removed for Visited Add/Remove manual commands.  It got annoying when wanting to do multiple items.
+- Attempting to add SQL functionality for Visited's add/remove/empty.  Episodes not removed when doing empty.
+- For the time being Add/Remove/Empty will not work for visited and watched states via SQL.
+- Data pushed from Common Cache to SQL as it's found again.
+- List count limiter added in [General] tab of Addon Setting for History 101 and History 201 listings.  You can set it to ALL (default) or one of the many number values available.
+- Show listings now checks SqlData before using MetaData and/or SiteData.
+- Updates showid in shows table of the sql db on episode listings.  This is because the id shows up on the show's page, not in in the list of shows.
+- HIstory Menu now cotnains Visited 101, History 101, and History 201.
+- History201 lists anime recorded data from the sql db.  I plan on eventually using this data to draw from rather than metahandler when it exists.
+- Shows table information is now filled when listing shows.  I hope to make use of this in the addon at a later time.
+- Show Visited State now checks both common cache and sql.
+- History 101 menu, for sql visited data.
+- Episode Watched State now checks both common cache and sql.
+- Show Visited and Episode Watched states now saved in visited table of SQL DB now.  May eventually weed out the common cache method eventually.
+- Working on some SQL stuff.
+- Title value added to variables being passed for Last Visited from main menu.
+- A slight little test page for Visited Listings.
+
 [B]Version 0.6.6[/B]
 - addon.xml 's requirement setting for script.common.plugin.cache got the optional state removed.
 - [###x###] version links setup for a change I've noticed lately, incase the others don't show up.
