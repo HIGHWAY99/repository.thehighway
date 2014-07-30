@@ -1,3 +1,6 @@
+[B]Version 0.6.8[/B]
+- A quick SQL Fix.
+
 [B]Version 0.6.7[/B]
 - I think I've pretty much taken care of the add favorites method to insert the data into the show table as well.  Same for when listing episodes, so to cover stuff from old CC method Favorites.
 - Download Wallpaper functionality added to the ContextMenu in more places.
