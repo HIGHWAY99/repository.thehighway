@@ -1,3 +1,7 @@
+[B]Version 0.7.0[/B]
+- Set 2ndary link type display to True by default.
+- File exention added to displayed link / resolution names for the newer method.
+
 [B]Version 0.6.9[/B]
 - A quick Variable Fix in episode listings..
 
