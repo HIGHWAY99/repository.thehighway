@@ -1,3 +1,11 @@
+[B]v0.0.4[/B]
+Online Sepcial List(s).
+Dev's Featured List changed from local list to online list.
+
+[B]v0.0.3[/B]
+Further attempts at catching the streamkey or a playable stream url.
+Dev's Featured List.
+
 [B]v0.0.2[/B]
 Fixed up the next page calls again.
 
