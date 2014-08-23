@@ -1,3 +1,11 @@
+[B]v0.0.8[/B]
+Next-Page system fixed with thanks to Shani.
+Temp method with Debug usage to allow for streamkey / youtubeId catching.
+
+[B]v0.0.7[/B]
+Local Lists.
+Some misc. testing and code mods.
+
 [B]v0.0.6[/B]
 Fixed next-page system again.
 Site-featured streams.
