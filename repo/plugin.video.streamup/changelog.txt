@@ -1,3 +1,6 @@
+[B]v0.0.9[/B]
+Additional fixes to Playing functionalities and removing the visual side of the debugging.
+
 [B]v0.0.8[/B]
 Next-Page system fixed with thanks to Shani.
 Temp method with Debug usage to allow for streamkey / youtubeId catching.
