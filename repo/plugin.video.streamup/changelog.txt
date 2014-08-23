@@ -1,3 +1,7 @@
+[B]v0.1.0[/B]
+Tweaks and fixes.
+Additional graphics.
+
 [B]v0.0.9[/B]
 Additional fixes to Playing functionalities and removing the visual side of the debugging.
 
