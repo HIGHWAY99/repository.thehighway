@@ -1,3 +1,11 @@
+[B]Version 0.7.3[/B]
+- Online Bookmark: Regex fixed for latest episode information.
+- Episode List: Added Comma (,) fix for No. of views.
+- Episode List: Add/Remove Bookmarks (if logged in).  Please be careful with this as there is some room for error which could cause some trouble.  Both options (Add and Remove) are always available, so make sure you choose the right one.  This feature is preferably for use by Advanced Users, who understand things more easily.  Don't QQ to me if you mess things up.
+
+[B]Version 0.7.2[/B]
+- Spelling correction for .3gp and some additions for it.
+
 [B]Version 0.7.1[/B]
 - A regex fix for old style links.
 - Remove and Empty ContextMenuItems for History101.
