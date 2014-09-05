@@ -1,3 +1,6 @@
+[B]v0.1.2[/B]
+...
+
 [B]v0.1.1[/B]
 Addition of History 101 graphic and menu.
 SQL data handling for channel data.

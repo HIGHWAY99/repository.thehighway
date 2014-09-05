@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.streamup"
        name="StreamUP"
-       version="0.1.1"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
+       version="0.1.2"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" optional="false" />
-  	<import addon="script.module.metahandler" optional="false" />
-  	<import addon="script.module.addon.common" optional="true" />
-  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.addon.common" optional="false" />
+  	<import addon="script.common.plugin.cache" optional="false" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -21,7 +20,7 @@
   	<platform>all</platform>
     <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
     <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <source>https://github.com/HIGHWAY99/plugin.video.streamup/</source>
     <email></email>
   </extension>
 </addon>
