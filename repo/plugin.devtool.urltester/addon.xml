@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.devtool.urltester"
+       name="Url Tester Tool"
+       version="0.0.2"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" optional="false" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Test Urls with or without urlresolver.</summary>
+  	<description>Test Urls with or without urlresolver.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>

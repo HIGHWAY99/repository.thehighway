@@ -90,6 +90,85 @@
   </extension>
 </addon>
 
+<addon id="plugin.devtool.texteditor"
+       name="Text Editor"
+       version="0.0.1"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="false" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+	<extension point="xbmc.python.script" library="default.py">
+  	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>A Simple Text Editor.</summary>
+  	<description>A Simple Text Editor.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.devtool.textreader"
+       name="Text Reader"
+       version="0.0.1"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="false" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+	<extension point="xbmc.python.script" library="default.py">
+  	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>A Simple Text Reader.</summary>
+  	<description>A Simple Text Reader.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.devtool.urltester"
+       name="Url Tester Tool"
+       version="0.0.2"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" optional="false" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Test Urls with or without urlresolver.</summary>
+  	<description>Test Urls with or without urlresolver.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.image.kissmanga"
        name="KissManga"
        version="0.3.5"
@@ -562,6 +641,32 @@
   </extension>
 </addon>
 
+<addon id="plugin.stream.vaughnlive.tv"
+       name="Vaughn Live"
+       version="0.0.2"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="false" />
+  	<import addon="script.common.plugin.cache" optional="false" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>For PC with a Default Browser.  Streams are now playable in XBMC.</summary>
+  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in XBMC.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.anime44"
        name="Anime44"
        version="0.0.2"
@@ -868,14 +973,13 @@
 
 <addon id="plugin.video.streamup"
        name="StreamUP"
-       version="0.1.1"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
+       version="0.1.2"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" optional="false" />
-  	<import addon="script.module.metahandler" optional="false" />
-  	<import addon="script.module.addon.common" optional="true" />
-  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.addon.common" optional="false" />
+  	<import addon="script.common.plugin.cache" optional="false" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -888,7 +992,7 @@
   	<platform>all</platform>
     <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
     <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <source>https://github.com/HIGHWAY99/plugin.video.streamup/</source>
     <email></email>
   </extension>
 </addon>
