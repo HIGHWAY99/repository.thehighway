@@ -1,0 +1,8 @@
+[B]v0.0.2[/B]
+- Thanks to Shani for help figure out how to keep the stream playing, and the Token parsing.
+
+[B]v0.0.1[/B]
+- The rtmp:// protocol stream url's do not currently play more than around 7 seconds with the current rtmplib.dll that I'm using in my copy of XBMC.
+- Initial Addon
+
+
