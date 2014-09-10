@@ -869,8 +869,8 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.7.3"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
+       version="0.7.4"
+       provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.metahandler" />
@@ -886,11 +886,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for kissanime.com.  New Graphics by Marquerite.</summary>
   	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. I ocassionally use them on AFtv (Android) and .Smart (MXLinux-like) devices for normal use or if a bug is made known to me.  Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.kissanime.com/</website>
+  	<forum>http://forums.tvaddons.ag/threads/13583-Video-Addon-Kiss-Anime</forum>
+  	<website>http://tvaddons.ag/</website>
   	<source>https://github.com/HIGHWAY99/plugin.video.kissanime/</source>
   </extension>
 </addon>
