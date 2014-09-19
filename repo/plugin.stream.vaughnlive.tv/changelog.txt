@@ -1,3 +1,10 @@
+[B]v0.0.4[/B]
+- TopBar added to list with Browse, as an alternative browsing method.
+- Thank you to forum user al101 for information about another url method for profile and background images.  Still no luck with screenshot thumbnails yet.
+
+[B]v0.0.3[/B]
+- Sorting out issues with the extra stream sites handled.
+
 [B]v0.0.2[/B]
 - Thanks to Shani for help figure out how to keep the stream playing, and the Token parsing.
 
