@@ -1,5 +1,25 @@
+[B]Version 0.7.8[/B]
+- KA Site Advertisements functionality, to help support them.
+- More Browser Links
+
+[B]Version 0.7.7[/B]
+- MyList Menu List: Add / Remove ContextMenuItems.
+- MyList Menu List: List / Add / Remove / RemoveIt.
+- Menu List for MyList items so you can collect lists from friends.
+[B]Version 0.7.6[/B]
+- Menu Item and Addon Setting for /MyList/[number] url.
+
+[B]Version 0.7.5[/B]
+- Labels Formatting method now setup for Upcoming Animes List as well.
+- The method for "Series/Movies Labels Formatting" has now been made into set of functions.
+- Additional Addon Settings.
+- Series/Movies Labels Formatting.
+- More possible Label/title markings.
+
 [B]Version 0.7.4[/B]
-Slight fix for Episode watched/visited state handling.
+- Updated addon.xml.
+- Updated fanart.jpg.
+- Slight fix for Episode watched/visited state handling.
 
 [B]Version 0.7.3[/B]
 - Online Bookmark: Regex fixed for latest episode information.
