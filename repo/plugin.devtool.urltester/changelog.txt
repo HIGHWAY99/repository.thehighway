@@ -1,7 +1,10 @@
+[B]v0.0.3[/B]
+- Fixed Regex.
+
 [B]v0.0.2[/B]
-...
+- ...
 
 [B]v0.0.1[/B]
-- Initial Addon
+- Initial Addon.
 
 
