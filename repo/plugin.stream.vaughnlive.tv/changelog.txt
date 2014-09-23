@@ -1,3 +1,22 @@
+[B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
+
+[B]v0.0.8[/B]
+- Channel List sorting option: By Channel Name.
+
+[B]v0.0.7[/B]
+- Function Renaming.
+- Optional Screenshot/Thumbnail usage instead of Profile Avatar image.  So far, the screenshots don't seem to show up within xbmc(kodi) though.
+
+[B]v0.0.6[/B]
+- Some Variable(s) and Function(s) adjustments, additions, and so on.
+- Functions: grbPlyr,grbPlyrCORE,getBg,getThumb
+
+[B]v0.0.5[/B]
+- Merging some common stuff into function(s).
+- Fixes to graphics @ play time.
+- Change to the re.compile try/except method.
+- Change to the playable stream url format.
+
 [B]v0.0.4[/B]
 - TopBar added to list with Browse, as an alternative browsing method.
 - Thank you to forum user al101 for information about another url method for profile and background images.  Still no luck with screenshot thumbnails yet.
