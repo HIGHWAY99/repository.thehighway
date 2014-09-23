@@ -144,7 +144,7 @@
 
 <addon id="plugin.devtool.urltester"
        name="Url Tester Tool"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -158,12 +158,12 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>Test Urls with or without urlresolver.</summary>
-  	<description>Test Urls with or without urlresolver.</description>
+  	<description>Test Urls with or without urlresolver.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
     <email></email>
   </extension>
@@ -643,7 +643,7 @@
 
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
-       version="0.0.4"
+       version="0.0.8"
        provider-name="The[COLOR tan]Highway[/COLOR], Shani">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -656,7 +656,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC).</summary>
-  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
+  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
@@ -869,7 +869,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.7.8"
+       version="0.8.0"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -885,7 +885,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for kissanime.com.  New Graphics by Marquerite.</summary>
-  	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.</description>
+  	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>

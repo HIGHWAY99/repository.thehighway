@@ -1,3 +1,11 @@
+[B]Version 0.8.0[/B]
+- Episodes List: Genres fix.
+- Episodes List: Some fixes to Icon / Fanart for Series.
+- Episodes List: Removed Series Title from Date Aired item.
+
+[B]Version 0.7.9[/B]
+- Regex fix for Episode numbers.  Was set to 0 (Zero), now set to -1 (negative one).
+
 [B]Version 0.7.8[/B]
 - KA Site Advertisements functionality, to help support them.
 - More Browser Links
