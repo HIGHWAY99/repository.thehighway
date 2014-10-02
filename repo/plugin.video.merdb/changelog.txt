@@ -1,3 +1,7 @@
+[B]Version 0.3.7[/B]
+- Additional character fixing on search title.
+- Search +Descriptions will include the description in the search.
+
 [B]Version 0.3.6[/B]
 - Fixed the regex for Movie Listings.
 
