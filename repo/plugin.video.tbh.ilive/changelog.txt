@@ -1,4 +1,8 @@
 
+[B]iLiVE - 0.1.2[/B]
+- Code Cleanup.
+- Fixed Player Function.
+
 [B]iLiVE - 0.1.1[/B]
 - Some Player Tweaks for Gotham RC1.
 
