@@ -1,3 +1,6 @@
+[B]iLiVE - 0.1.6[/B]
+- Changing playable link to 3rd of 3 possible links.
+
 [B]iLiVE - 0.1.5[/B]
 - Working on Player Function.
 
