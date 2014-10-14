@@ -1124,7 +1124,7 @@
 
 <addon id="plugin.video.tbh.ilive"
        name="i[COLOR white]L[COLOR lime]i[/COLOR]VE[/COLOR]"
-       version="0.1.6"
+       version="0.1.7"
        provider-name="The[COLOR tan]Highway[/COLOR],TwiztedZero,Blazetamer">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

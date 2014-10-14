@@ -1,3 +1,9 @@
+[B]iLiVE - 0.1.7[/B]
+- Setting: Sleep Time before Play Attempt.
+- Setting: Time-out of Stream url to be played.
+- Setting: Default Link Type
+- Added ContextMenuItems... Play (HLS,RTMP,RTSP), Channel Information.
+
 [B]iLiVE - 0.1.6[/B]
 - Changing playable link to 3rd of 3 possible links.
 
