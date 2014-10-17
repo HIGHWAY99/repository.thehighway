@@ -869,7 +869,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.0"
+       version="0.8.1"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

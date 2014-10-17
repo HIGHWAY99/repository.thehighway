@@ -1,3 +1,9 @@
+[B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
+
+[B]Version 0.8.1[/B]
+- Episode Watched States fix.
+- IRC Button.
+
 [B]Version 0.8.0[/B]
 - Episodes List: Genres fix.
 - Episodes List: Some fixes to Icon / Fanart for Series.
