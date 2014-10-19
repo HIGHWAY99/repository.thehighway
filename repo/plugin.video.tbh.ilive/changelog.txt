@@ -1,3 +1,7 @@
+[B]iLiVE - 0.1.8[/B]
+- ilive usage for Playback.
+- Thanks goes out to al101 and L2501 for help with 3rd function for ilive page decryption.
+
 [B]iLiVE - 0.1.7[/B]
 - Setting: Sleep Time before Play Attempt.
 - Setting: Time-out of Stream url to be played.
