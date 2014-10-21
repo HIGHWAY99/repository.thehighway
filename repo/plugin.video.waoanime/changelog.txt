@@ -1,4 +1,8 @@
 
+[B]WaoAnimeTV - 0.0.2[/B]
+- Text fixes in addon.xml.
+- About Tweak.
+
 [B]WaoAnimeTV - 0.0.1[/B]
 - A ton of other common stuff passed down from other Anime addons and such.
 - MetaData.
