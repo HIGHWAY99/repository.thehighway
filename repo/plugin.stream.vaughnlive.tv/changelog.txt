@@ -1,5 +1,12 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.0[/B]
+- Fixed playable stream url for new Hash method.
+- Addon Settings: TimeOut value.
+
+[B]v0.0.9[/B]
+- Addon Settings: Server Number option for playable server list.
+
 [B]v0.0.8[/B]
 - Channel List sorting option: By Channel Name.
 
