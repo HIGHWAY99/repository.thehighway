@@ -1,5 +1,13 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.2[/B]
+- Attempting some fixes for use on XBMC-Frodo.
+### HttpError usage.
+### Cookie usage.
+
+[B]v0.1.1[/B]
+- SWF Path url fetched from the channel url.
+
 [B]v0.1.0[/B]
 - Fixed playable stream url for new Hash method.
 - Addon Settings: TimeOut value.
