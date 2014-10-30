@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.streamup"
        name="StreamUP"
-       version="0.1.2"
+       version="0.1.3"
        provider-name="The[COLOR tan]Highway[/COLOR], Shani">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -20,7 +20,7 @@
   	<platform>all</platform>
     <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
     <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/plugin.video.streamup/</source>
+    <source>http://github.com/HIGHWAY99/plugin.video.streamup/</source>
     <email></email>
   </extension>
 </addon>

@@ -1,3 +1,8 @@
+[B]v0.1.3[/B]
+Regex string updated for channel listings.
+Regex string updated for search listings.
+Regex string updated for user search listings.
+
 [B]v0.1.2[/B]
 ...
 
