@@ -1,3 +1,6 @@
+[B]iLiVE - 0.1.9[/B]
+- Message dialogs on Channel Playback attempts for premium and offline channels.
+
 [B]iLiVE - 0.1.8[/B]
 - ilive usage for Playback.
 - Thanks goes out to al101 and L2501 for help with 3rd function for ilive page decryption.
