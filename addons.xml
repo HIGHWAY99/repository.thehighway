@@ -643,8 +643,8 @@
 
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
-       version="0.1.2"
-       provider-name="The[COLOR tan]Highway[/COLOR], Shani">
+       version="0.1.3"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="false" />
@@ -655,7 +655,7 @@
   	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC).</summary>
+  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
   	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
@@ -869,7 +869,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.1"
+       version="0.8.2"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -892,6 +892,34 @@
   	<forum>http://forums.tvaddons.ag/threads/13583-Video-Addon-Kiss-Anime</forum>
   	<website>http://tvaddons.ag/</website>
   	<source>https://github.com/HIGHWAY99/plugin.video.kissanime/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kisscartoon"
+       name="KissCartoon"
+       version="0.8.2"
+       provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.metahandler" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache"  />
+  	<import addon="script.module.pysqlite" optional="true" />
+  	<import addon="script.module.sqlite" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for kisscartoon.me.  Graphics by TheHighway, Marquerite, and konbon.</summary>
+  	<description>Play videos from kisscartoon.me.  This project has been ported from the current version of my own KissAnime addon.  This project may end up getting re-ported from my KissAnime Re-write project, once that gets finished.  Remember to check out KissCartoon.me's site whenever your at a PC.  Don't forget to try KissAnime.com for Anime and KissManga.com for Manga.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://forums.tvaddons.ag/threads/27419-Kiss-Cartoon</forum>
+  	<website>http://tvaddons.ag/</website>
+  	<source></source>
   </extension>
 </addon>
 

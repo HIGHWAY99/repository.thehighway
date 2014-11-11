@@ -1,5 +1,11 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.2[/B]
+- Added 3 new genre images.
+- Search Series: listItems() will forward to listEpisodes() if it displays a show page instead of search results.
+- MetaData Grab Type adjustments.
+- Genre Plot fixed for when there's not one found.
+
 [B]Version 0.8.1[/B]
 - Episode Watched States fix.
 - IRC Button.
