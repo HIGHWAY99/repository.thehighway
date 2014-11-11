@@ -1,6 +1,27 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
-[B]Version 0.8.1[/B]
+[B]Version 0.8.2[/B]
+- Added 3 new genre images.
+- Search Series: listItems() will forward to listEpisodes() if it displays a show page instead of search results.
+- Added the new Kiss Cartoon -style graphics 4 SortBy method buttons.  Forgot about them when having konbon make graphics, so I did these ones up fast on my own from the psd template the 3 of us have worked on over time.  It did mean using a different font, as I didn't have the other font(s).
+- Episode MetaData Grab Season number adjustments.
+- Title MetaData Grab Type adjustments.
+- Setup for new images completed, except for genres.
+- Got konbon from our IRC channel to help me with redo the graphics that I had made a mistake on while saving all of.
+- Realized a mistake I made when re-doing the graphics for KissCartoon.
+- Got konbon from our IRC channel to help me with some more of the graphics.
+- Main Menu: OVA removed.
+- Genre Plot fixed for when there's not one found.
+- Genres List changed over for Kiss Cartoon.
+- Graphic changes for Kiss Cartoon style of looks.
+
+[B]Version 0.8.1[/B] - Kiss Cartoon
+- New icon.png and fanart.jpg for my Kiss Cartoon addon.
+- Tons of little adjustments.
+- ...
+- Ported my own Kiss Anime addon over to work for Kiss Cartoon.
+
+[B]Version 0.8.1[/B] - Kiss Anime
 - Episode Watched States fix.
 - IRC Button.
 
