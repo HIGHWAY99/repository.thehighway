@@ -1,4 +1,10 @@
 
+[B]JustAnimeStream - 0.0.7[/B]
+- Went through and fixed most all regex strings.
+
+[B]JustAnimeStream - 0.0.6[/B]
+- ...
+
 [B]JustAnimeStream - 0.0.5[/B]
 - Added url fixing for m4s to MP4Star.com.  MP4Star.com still needs a host plugin made for it.
 - Added url fixing for vnest to VideoNest.net.  VideoNest.net still needs a host plugin made for it.

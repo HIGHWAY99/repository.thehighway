@@ -819,7 +819,7 @@
 
 <addon id="plugin.video.justanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.6"
+       version="0.0.7"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
