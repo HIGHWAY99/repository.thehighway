@@ -1,5 +1,12 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.3[/B]
+- List Episodes: Related: using Addon's Fanart instead of Addon's Thumbnail/Icon for background/fanart by default.
+- List Series: [CR]'s removed @ visited check for series.
+- List Episodes: [CR]'s removed @ visited check for related series.
+- List Episodes: Show Title: Fetched ShowTitle from page when not carried over from previous list.
+- List Episodes: Show Title: [CR]'s removed.
+
 [B]Version 0.8.2[/B]
 - Added 3 new genre images.
 - Search Series: listItems() will forward to listEpisodes() if it displays a show page instead of search results.
