@@ -1,3 +1,7 @@
+[B]v0.0.5[/B]
+- Tweaking to GetMedia function.
+- Regex string adjusted.
+
 [B]v0.0.4[/B]
 - Splash added with About window.
 - Popular url fixed.
