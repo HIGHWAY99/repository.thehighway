@@ -1,3 +1,10 @@
+[B]iLiVE - 0.2.2[/B]
+- Api list on one of the sites seem to be back up again.
+- Old Menu system somewhat working for the moment.
+- Additional optional domain regex.
+- Adding additional fall-back catching for url calls.
+- Addon Settings: option for which domain to use.
+
 [B]iLiVE - 0.2.1[/B]
 - Channel list url adjusted.
 
