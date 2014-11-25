@@ -1,3 +1,9 @@
+[B]AnimeFATE - 0.1.0[/B]
+- Tons of regex string adjustments, and some replace commands.
+- The site seems to be functioning again.
+
+[B]AnimeFATE - 0.0.9[/B]
+- ...
 
 [B]AnimeFATE - 0.0.8[/B]
 - Archives by "/ Year /" and "/ Year / Month /".

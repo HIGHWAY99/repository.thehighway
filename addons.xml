@@ -218,30 +218,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.eden.RepositoriesBrowser" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.1.2" name="1st Stop Repository Highway (Eden)">
-  <requires>
-  	<import addon="xbmc.python" version="1.0" />
-  	<import addon="script.module.addon.common"  />
-  	<import addon="script.module.pysqlite" optional="true" />
-  	<import addon="script.module.sqlite" optional="true" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>An alternative method to browsing your installed repositories.</summary>
-  	<description>This branch of Repository Highway is an attempt to make addons available for Eden too..  A somewhat simple Repository Browser.  This is not a full replacement for XBMC's default repository browsing method(s).  Icon and Fanart artwork by Marquerite.  XBMCHUB backdrop by TheHighway (designed off the current default XBMCHUB logo).</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.xbmchub.com/</website>
-  	<source></source>
-  	<email></email>
-  </extension>
-</addon>
-
 <addon id="plugin.program.hubhug.3shells" provider-name="The[COLOR tan]Highway[/COLOR]"
        version="0.0.1" name="HUB-HUG 3 Shells">
   <requires>
@@ -667,35 +643,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.anime44"
-       name="Anime44"
-       version="0.0.2"
-       provider-name="TheHighway">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-    <import addon="script.module.elementtree" version="1.2.7"/>
-    <import addon="script.module.cryptopy" version="1.2.6"/>
-    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="anime44.py">
-	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Anime44 video plugin</summary>
-    <description lang="en">Videos from anime44.com</description>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <broken>Merged with others.  Can be found in TheAnimeHighway and TheBinaryHighway.</broken>
-  </extension>
-</addon>
-
 <addon id="plugin.video.animefate"
        name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]"
-       version="0.0.9"
+       version="0.1.0"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -709,38 +659,12 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Addon for AnimeFATE suggested by darkorical via IRC Chat.</summary>
   	<description>Video Addon for AnimeFATE.com.  Graphics by Marquerite and TheHighway.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/threads/18927-AnimeFate</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.animeget"
-       name="AnimeGet"
-       version="0.0.2"
-       provider-name="TheHighway">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-    <import addon="script.module.elementtree" version="1.2.7"/>
-    <import addon="script.module.cryptopy" version="1.2.6"/>
-    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="animeget.py">
-	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">AnimeGet video plugin</summary>
-    <description lang="en">Videos from animeget.com</description>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <broken>Merged with others.  Can be found in TheAnimeHighway and TheBinaryHighway.</broken>
   </extension>
 </addon>
 
@@ -759,30 +683,6 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for http://codelyokoevolutionfan.webs.com/</summary>
   	<description>http://codelyokoevolutionfan.webs.com/</description>
-  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.example"
-       name="Example of a Video Addon - [Tutorial]"
-       version="0.1.0"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
-  <requires>
-  	<import addon="xbmc.python" version="2.0"/>
-  	<import addon="script.module.urlresolver" version="2.0.9"/>
-  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
-  	<import addon="script.module.metahandler" version="2.0.3"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>A tutorial example of to start people off on making a new video addon for xbmc.</summary>
-  	<description>This example has been made for the XBMCHUB community.</description>
   	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
@@ -1223,31 +1123,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tbh.megafun"
-       name="MegaFun Channel Guide"
-       version="0.0.3"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" version="2.1.2"/>
-  	<import addon="script.module.metahandler" version="2.0.0"/>
-  	<import addon="script.module.addon.common" version="2.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="lMegaFun.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary></summary>
-  	<description>Video Addon.  Graphics by TwiztedZero and TheHighway.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.tbh.watchseries"
        name="Watch Series Plus"
        version="0.0.5"
@@ -1279,30 +1154,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.theanimehighway"
-       name="Anime [COLOR tan]Highway[/COLOR]"
-       version="0.1.4"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
-    <import addon="script.module.urlresolver"  	version="1.0.0"/>
-    <import addon="script.module.t0mm0.common" 	version="1.1.0"/>
-    <import addon="script.common.plugin.cache" 	version="0.9.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" 	library="theanimehighway.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">The Anime [COLOR tan]Highway[/COLOR] is a 3rd Party Video Plugin for XBMC</summary>
-    <description lang="en">This plugin now handles videos from animeget.com, anime44.com, animeplus.tv, gooddrama.net, and more. I'm aware that GoodDrama isn't anime, but it was a simular site linked to by one or more of the others... so I tossed it into the plugin as well for you jdrama fans. I'm still learning with it comes to python and having the most basic of flaws throw trouble at me, so there's bound to be some features lacking as well as some extra code left in at times that may not have gotten cleaned up at release time.</description>
-    <disclaimer lang="en">This Project is designed for xbmc v12.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.thebinaryhighway"
        name="The [COLOR blue][B]Binary[/B][/COLOR] [COLOR tan]Highway[/COLOR] [I][COLOR white]00111001 00111001[/I][/COLOR]"
        version="1.0.0"
@@ -1321,30 +1172,6 @@
     <platform>all</platform>
     <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
     <website>http://www.xbmchub.com/</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.vidics4"
-       name="Vidics4.com - [Broken - Site Shutdown]"
-       version="0.2.9"
-       provider-name="The[COLOR tan]Highway[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver"  />
-  	<import addon="script.module.t0mm0.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>Handles Videos for Vidics4.com</summary>
-  	<description>The site has been shut down.</description>
-  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.  FYI: This site does contain some adult content.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <broken>The site (vidics4.com) has been shut down.</broken>
   </extension>
 </addon>
 
@@ -1401,19 +1228,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons from the BB alternative location.</summary>
 		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon version="0.0.1" id="repository.TheHighwaysEasyInstallRepo" name="TheHighways Easy Fresh Install Addon Collection" provider-name="The[COLOR tan]Highway[/COLOR]">
-	<extension point="xbmc.addon.repository" name="TheHighway's Easy Fresh Install Addon Collection">
-		<info compressed="false">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml</info>
-		<checksum>http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml.md5</checksum>
-		<datadir zip="true">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
-		<description>For Myself and those who want to use it.  Basically for when you need to do a fresh install and don't want to hunt up the IMPORTANT things in life in each and every little spot (some unknown to man).  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
