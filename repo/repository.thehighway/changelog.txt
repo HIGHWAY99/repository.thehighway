@@ -1,10 +1,16 @@
+[B]Version 0.0.5[/B]
+- Updating for Gotham/Helix additional methods.
+
 [B]Version 0.0.4[/B]
 - Url Path set to "http://raw.github.com/HIGHWAY99/repository.thehighway/master/".
 ### From:		http://github.com/HIGHWAY99/repository.thehighway/raw/master/repo/
 ### To:			http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/
+
 [B]Version 0.0.3[/B]
 - Fixes to addon.xml
+
 [B]Version 0.0.2[/B]
 - Fanart and Projects
+
 [B]Version 0.0.1[/B]
 - Initial version
