@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon version="0.0.1" id="repository.thehighway" name="TheHighway's Broken and Outdated Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Broken and Outdated Addons">
+		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway.br/master/addons.xml</info>
+		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master.br/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway.br/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The[COLOR tan]Highway[/COLOR]'s Broken and Outdated Addons.</summary>
+		<description>A collection of addons by The[COLOR tan]Highway[/COLOR].  The graveyard to which my addons shall rest in once put to rest.</description>
+		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
