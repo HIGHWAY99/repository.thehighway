@@ -1,4 +1,7 @@
 
+[B]CartoonWorld - 0.1.4[/B]
+- Regex strings fixed up.  Have made an mp4star host plugin and submitted it to urlresolver.
+
 [B]CartoonWorld - 0.1.3[/B]
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
