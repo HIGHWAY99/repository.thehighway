@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.snowy" name="Snowy Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.christmas" name="Christmas Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -9,7 +9,7 @@
     <provides>executable</provides>
     <platform>all</platform>
     <language>en</language>
-  	<summary lang="en">Snowy Scenes.</summary>
+  	<summary lang="en">Christmas Scenes.</summary>
     <description lang="en">This is a ScreenSaver that makes use of a single image when prompted to start the screensaver.  Still image can be used, but this project is meant for animated gifs.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
     <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
