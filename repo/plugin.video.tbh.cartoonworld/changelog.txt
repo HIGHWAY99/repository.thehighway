@@ -1,4 +1,8 @@
 
+[B]CartoonWorld - 0.1.5[/B]
+- Fixed host locating.
+- Made a host plugin for urlresolver to handle justmp4.
+
 [B]CartoonWorld - 0.1.4[/B]
 - Regex strings fixed up.  Have made an mp4star host plugin and submitted it to urlresolver.
 

@@ -1024,7 +1024,7 @@
 
 <addon id="plugin.video.tbh.cartoonworld"
        name="C[COLOR cornflowerblue]artoon [COLOR orange]World[/COLOR][/COLOR]"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
