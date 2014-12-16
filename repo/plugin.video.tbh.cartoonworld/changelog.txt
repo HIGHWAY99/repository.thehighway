@@ -1,4 +1,7 @@
 
+[B]CartoonWorld - 0.1.6[/B]
+- Fixed Latest Episodes.
+
 [B]CartoonWorld - 0.1.5[/B]
 - Fixed host locating.
 - Made a host plugin for urlresolver to handle justmp4.
