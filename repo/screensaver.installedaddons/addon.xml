@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.installedaddons" name="Installed Addons Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.installedaddons" name="Installed Addons Screensaver" version="0.3.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
