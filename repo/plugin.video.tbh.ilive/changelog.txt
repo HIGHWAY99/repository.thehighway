@@ -1,4 +1,12 @@
+[B]iLiVE - 0.2.3[/B]
+- Fixed for /view-channel/ change in urls.
+- ...
+- Saving remote xml file locally for use when remote file shows empty.
+- More regex editing.
+- Additional domain handling.
+
 [B]iLiVE - 0.2.2[/B]
+- New Menu: Search: removed the parsing of symbols.
 - Api list on one of the sites seem to be back up again.
 - Old Menu system somewhat working for the moment.
 - Additional optional domain regex.
