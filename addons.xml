@@ -791,7 +791,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.3"
+       version="0.8.4"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -819,7 +819,7 @@
 
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
-       version="0.8.3"
+       version="0.8.4"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
