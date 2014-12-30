@@ -1,5 +1,15 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.4[/B]
+- Uncaching setup for screen-type channel-thumbs.
+- Screen-type thumbs should now work for channels.
+- common.py: 
+### Added variable(s): _thumbArtPath
+### Added function(s): thumbart(...), thumbartp(...), thumbartj(...)
+### Added variable(s): ImgCacheDB, ImgCacheDBDIR, ImgCacheDBDIRFound
+### Added function(s): unCacheAnImage(url)
+- c_HiddenDownloader.py improved.
+
 [B]v0.1.3[/B]
 - Some new graphics for the addon.
 
