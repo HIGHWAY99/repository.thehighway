@@ -1,3 +1,8 @@
+[B]Version 0.3.9[/B]
+- MyNote(...) function to use addon's icon image by default.
+- Updated the mode used for tv favorites.
+- Packaged some of the backup module files.
+
 [B]Version 0.3.8[/B]
 - Adjusted Resolving code on PlayVideo.
 - Fixed Episode Regex Syntax and coding.
