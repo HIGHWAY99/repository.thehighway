@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.tbh.ilive"
-       name="i[COLOR white]L[COLOR lime]i[/COLOR]VE[/COLOR]"
-       version="0.2.3"
+       name="i[COLOR white]L[COLOR lime]i[/COLOR]VE[/COLOR] - [COLOR lime]StreamLive[/COLOR]"
+       version="0.2.4"
        provider-name="The[COLOR tan]Highway[/COLOR],TwiztedZero,Blazetamer">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
