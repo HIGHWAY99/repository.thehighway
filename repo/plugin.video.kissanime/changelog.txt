@@ -1,5 +1,19 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.6[/B]
+- teh_tools.py: KA_Login(): slight adjustments to code.
+- default.py: listBookmarks(...): "Anime" changed to ps('common_word').
+
+[B]Version 0.8.5[/B]
+- MyNote(...) default icon changed to addon's icon.
+- Option Added to determine rather or not to use url resolving @ playback.
+- settings.xml
+### Playback tab made with some settings moved there.
+### Addition(s) in Debug tab for more options useful when testing.
+### Debugging to File and Debugging to Notice(s) moved to Debug tab.
+### Debug tab created.
+### 2nd Link Type - default set to True.
+
 [B]Version 0.8.4[/B]
 - Normal link regex string fixed.
 - More error handling.

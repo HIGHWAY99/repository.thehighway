@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.4"
+       version="0.8.6"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -23,6 +23,6 @@
   	<platform>all</platform>
   	<forum>http://forums.tvaddons.ag/threads/13583-Video-Addon-Kiss-Anime</forum>
   	<website>http://tvaddons.ag/</website>
-  	<source>https://github.com/HIGHWAY99/plugin.video.kissanime/</source>
+  	<source>http://github.com/HIGHWAY99/plugin.video.kissanime/</source>
   </extension>
 </addon>
