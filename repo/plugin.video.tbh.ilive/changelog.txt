@@ -1,3 +1,6 @@
+[B]iLiVE - 0.2.5[/B]
+- Adjustments to Old Menu for the new url regex and other stuff.
+
 [B]iLiVE - 0.2.4[/B]
 - prevented premium channels from canceling playback if account is enabled... still get the dialog.
 - Attempting to use Login for before playback if account is enabled.
