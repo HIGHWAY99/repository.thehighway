@@ -1,3 +1,6 @@
+[B]iLiVE - 0.2.6[/B]
+- Additional Coding for catching the url tag.
+
 [B]iLiVE - 0.2.5[/B]
 - Adjustments to Old Menu for the new url regex and other stuff.
 
