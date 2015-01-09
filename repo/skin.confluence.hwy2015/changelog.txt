@@ -1,3 +1,8 @@
+[B]2.5.9.002[/B] Mod Changes by TheHighway
+- Home.xml:  Added buttons for Debug layers.
+- Home.xml:  Adjusted values for onleft / onright.
+- Home.xml:  Adjusted values for Left potision and width of RSS.
+
 [B]2.5.9.001[/B] Mod Changes by TheHighway
 - VideoOSD.xml:  Added Play Button for SendTo Axel.
 - VideoOSD.xml:  Added Record Button for Dreamcatcher.
