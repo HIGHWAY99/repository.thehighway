@@ -1,3 +1,6 @@
+[B]Version 0.3.0[/B]
+- Updating for use on Helix.
+
 [B]Version 0.2.9[/B]
 - Fix in Settings
 
