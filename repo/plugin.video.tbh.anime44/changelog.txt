@@ -1,4 +1,7 @@
 
+[B]Anime44 - 0.1.4[/B]
+- Updating for use on Helix.
+
 [B]Anime44 - 0.1.3[/B]
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
