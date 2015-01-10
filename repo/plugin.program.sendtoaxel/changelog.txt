@@ -1,4 +1,8 @@
 
+[B]v0.0.4[/B]
+- Updated VideoOSD.xml for recent version of Confluence.
+- Updating for use on Helix.
+
 [B]v0.0.3[/B]
 - Added path for playurl and download functions.
 - Switched 'import proxy' to 'import axelproxy as proxy'
