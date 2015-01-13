@@ -1,5 +1,28 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.7[/B]
+- Re-porting of Anti CF DDOS Protection code to KC v0.8.7 from KA v0.8.7.
+- More testing for CF Freindly Coding.
+### Things seem to be working partially.
+### ## Although things will eventually load it seems, 
+### ## they have to be reloaded before they come up for some odd reason.
+### ## Each dif page seems to need to be done for differently, 
+### ## and each page needs to have the cookie for the one before removed it seems.
+### ## Things are far from 100% or even as much as I'd like, but atleast it works somewhat.
+### ## Please do NOT get out of control and use this for any kind of hammering.
+### ## Relax and take your time and doing get ahead of yourself.
+### Adjusting .replace() coding for other things that showed up.
+### Adjusting .replace() coding for " 's.
+### More testing....
+### Adjusting User-Agent in different ways.
+### More testing....
+### Got the clearance cookie but no luck.
+### Code adjsuted to deal with change in CF page.
+### 2015-01-11: CF Page for KissAnime.com seemed to change.
+### Got the clearance cookie but no luck.
+- Attempting to test out some Anti CF DDOS Protection code.
+### Site dropped CF Protection before I could test it, so I've disabled the code for now.
+
 [B]Version 0.8.6[/B]
 - teh_tools.py: KA_Login(): slight adjustments to code.
 - default.py: listBookmarks(...): "Anime" changed to ps('common_word').

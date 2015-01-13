@@ -795,7 +795,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.6"
+       version="0.8.7"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -805,6 +805,7 @@
   	<import addon="script.module.pysqlite" optional="true" />
   	<import addon="script.module.sqlite" optional="true" />
   	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -823,7 +824,7 @@
 
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
-       version="0.8.6"
+       version="0.8.7"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -833,6 +834,7 @@
   	<import addon="script.module.pysqlite" optional="true" />
   	<import addon="script.module.sqlite" optional="true" />
   	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
