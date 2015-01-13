@@ -1,3 +1,7 @@
+[B]Version 0.4.6[/B] 2015-01-13
+- Adjustments for use on Helix.
+- Fixed metahandler import call.
+
 [B]Version 0.4.5[/B] 2014-07-10
 - metadata error handling fall-back to non-metadata labs.
 - metadata code method adjustment(s).
