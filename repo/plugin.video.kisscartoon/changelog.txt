@@ -1,5 +1,11 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.7[/B]
+- CF Code is untested for KC, until it gets under CF Protection sometime, to test it.
+- Re-porting of Anti CF DDOS Protection code to KC v0.8.7 from KA v0.8.7.
+- Attempting to test out some Anti CF DDOS Protection code.
+### Site dropped CF Protection before I could test it, so I've disabled the code for now.
+
 [B]Version 0.8.6[/B]
 - teh_tools.py: KA_Login(): slight adjustments to code.
 - default.py: listBookmarks(...): "Anime" changed to ps('common_word').
