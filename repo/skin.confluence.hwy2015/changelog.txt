@@ -1,3 +1,11 @@
+[B]2.5.9.003[/B] Mod Changes by TheHighway
+- Custom_Overlay.xml:  <colordiffuse>0xffff9900</colordiffuse>
+- Custom_Overlay.xml:  ...
+- VideoOSD.xml:  Added Download Button for SendTo Axel.
+- DialogAddonInfo.xml:  Added "Addon.Path"
+- DialogAddonInfo.xml:  Added "Addon.ID".
+- Custom_Overlay.xml:  Changed <visible>Skin.HasSetting(DebugGrid)</visible> to <visible>!Skin.HasSetting(DebugGrid)</visible>
+
 [B]2.5.9.002[/B] Mod Changes by TheHighway
 - Home.xml:  Added buttons for Debug layers.
 - Home.xml:  Adjusted values for onleft / onright.
