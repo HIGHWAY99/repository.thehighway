@@ -1,5 +1,18 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]Version 0.8.8[/B]
+- listEpisodes: Image and Fanart Fix for related animes.
+- listEpisodes: Coloring for Specials.
+- listEpisodes: Attempt to fix metadata for some Specials.
+- PlayVideo: Another attempt @ preventing the dialog issue.
+- PlayVideo: made the non-autoplay eod() in optional vis addon setting in playback tab.
+- listEpisodes: Show Plot: Added Add/Remove Favorites to context menu.
+- listEpisodes: Estimated Countdown until next episode.  Just incase KissCartoon ends up getting this like KissAnime has.
+- PlayVideo: Attempting Playback adjustments
+- listEpisodes: Title regex adjusted for information\s*</div at end.
+- listEpisodes: Cover image regex adjusted for \s*/> at end.
+- Default file extention for [###x###].___ links changed to .mp4.
+
 [B]Version 0.8.7[/B]
 - CF Code is untested for KC, until it gets under CF Protection sometime, to test it.
 - Re-porting of Anti CF DDOS Protection code to KC v0.8.7 from KA v0.8.7.
