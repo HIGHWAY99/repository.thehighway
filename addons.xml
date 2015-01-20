@@ -795,7 +795,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.7"
+       version="0.8.8"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -824,7 +824,7 @@
 
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
-       version="0.8.7"
+       version="0.8.8"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1383,11 +1383,15 @@
   </extension>
 </addon>
 
-<addon id="screensaver.nextepisode" name="Next Episode Screensaver" version="1.0.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.nextepisode" name="Next Episode Screensaver" version="1.0.2" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
+     <import addon="script.module.addon.common" />
   </requires>
+  <extension point="xbmc.python.pluginsource" library="menu.py">
+  	<provides>video executable</provides>
+  </extension>
   <extension point="xbmc.ui.screensaver" library="default.py" />
   <extension point="xbmc.addon.metadata">
     <provides>executable</provides>
