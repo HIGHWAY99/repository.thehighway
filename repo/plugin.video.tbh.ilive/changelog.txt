@@ -1,3 +1,6 @@
+[B]iLiVE - 0.2.7[/B]
+- Adjustment to code @Playback.
+
 [B]iLiVE - 0.2.6[/B]
 - Additional Coding for catching the url tag.
 
