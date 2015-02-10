@@ -1,5 +1,8 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.5[/B]
+- Playback options in "Playback" category in Add-on Settings.
+
 [B]v0.1.4[/B]
 - Uncaching setup for screen-type channel-thumbs.
 - Screen-type thumbs should now work for channels.
