@@ -1,3 +1,48 @@
+[B]2.5.9.004[/B] Mod Changes by TheHighway
+- More graphic editing / changes and adjustments for them in the .xml skin files.
+- Pointer SIZE (WIDTHxHEIGHT) now adjustable.  This seems to not update until you reload the skin, so I've auto-set it to reload the skin too.
+- A lot of graphic and color adjustments.
+- Adding more color labels to the color .xml files.
+- Adjusting SOME graphic filenames.
+- Texture Tool sometimes extracts corrupted graphics.
+- textures.xbt testing.
+- Attempting to change out some graphics where useful.
+- Extracted the texture file to study.
+- \addons\skin.confluence.hwy2015\colors\: Added Pink.xml.
+- SkinSettings.xml:  Fixed my errors caused by copying/pasting for so long into over a hundred .xml files.  Hope I didn't do that anywhere else.
+- \addons\skin.confluence.hwy2015\colors\: Added Green.xml.
+- \addons\skin.confluence.hwy2015\colors\: Added Violet.xml.
+- ....
+- A lot of  colordiffuse="blue" all over!!!
+- ....
+- Re adjusting some of the color scheme Colours
+- ....
+- includes.xml:  Changed <texturefocus border="5">floor_buttonFOB.png</texturefocus> to <texturefocus colordiffuse="blue" border="5">floor_buttonFO.png</texturefocus> for Back button.
+- includes.xml:  Changed <texture>icon_back.png</texture> to <texture colordiffuse="blue">icon_back.png</texture>.
+- includes.xml:  Changed <texture>icon_home.png</texture> to <texture colordiffuse="blue">icon_home.png</texture>.
+- includes.xml:  Changed <texturefocus border="5">floor_buttonFOB.png</texturefocus> to <texturefocus colordiffuse="blue" border="5">floor_buttonFO.png</texturefocus> for Home button.
+- Home.xml:  Changed <texture>icon-rss.png</texture> to <texture colordiffuse="blue">icon-rss.png</texture>.
+- Home.xml:  In <description>LOGO</description> changed <texture>kodi-logo.png</texture> to <texture colordiffuse="blue">kodi-logo.png</texture>.
+- \addons\skin.confluence.hwy2015\colors\: Added Blue.xml.
+- \addons\skin.confluence.hwy2015\colors\: Added Woody.xml.
+- \addons\skin.confluence.hwy2015\colors\: Added Kryptonite.xml.
+- \addons\skin.confluence.hwy2015\colors\: Added Fire_Brick.xml.
+- in several Settings*.xml files:  Changed <texture>Confluence_Logo.png</texture> to <texture colordiffuse="blue">Confluence_Logo.png</texture>.
+- Home.xml:  Changed <texturefocus border="5">floor_buttonFO.png</texturefocus> to <texturefocus colordiffuse="blue" border="5">floor_buttonFOB.png</texturefocus>.
+- \addons\skin.confluence.hwy2015\media\: Added image "floor_buttonFOB.png".
+- includes.xml:  In <include name="ButtonHomeSubCommonValues"> changed <texturefocus border="5">HomeSubFO.png</texturefocus> to <texturefocus colordiffuse="blue" border="5">HomeSubFO.png</texturefocus>
+- includes.xml:  In <include name="ButtonHomeSubCommonValues"> changed <focusedcolor>white</focusedcolor> to <focusedcolor>blue</focusedcolor>.
+- Testing Custom, user-settable width/height size for Mouse Pointer.  No luck yet, Making a thread on Kodi forum to inquire to possible means.
+- IncludesHomeMenuItems.xml:  Moved button for <onclick>ActivateWindow(Settings)</onclick> to right of <onclick>ActivateWindow(SystemInfo)</onclick>.
+- IncludesHomeMenuItems.xml:  Added button for <label>Skin Settings</label><onclick>ActivateWindow(SkinSettings)</onclick> to right of <onclick>ActivateWindow(SystemInfo)</onclick>.
+- Home.xml:  ReloadSkin button now also runs UpdateLocalAddons(), to update the local addons directory and repopulate the list of addons currently installed and their information.  This should be extremely useful to developers.
+- SkinSettings.xml:  Options for Mouse Pointers.
+- Pointer.xml:  Setup for CUSTOM Mouse Pointers.
+- \addons\skin.confluence.hwy2015\media\: Added some extra possible Mouse Pointers.
+- Pointer.xml:  Played around with Mouse Pointers using different images, but disabled that idea to use custom idea instead.
+- Pointer.xml:  Played around with ColorDiffuse on Mouse Pointers, but disabled ColorDiffuse idea for now.
+- Pointer.xml:  Mouse Pointers size changed from 32x32 to 64x64.
+
 [B]2.5.9.003[/B] Mod Changes by TheHighway
 - Custom_Overlay.xml:  <colordiffuse>0xffff9900</colordiffuse>
 - Custom_Overlay.xml:  ...
@@ -17,6 +62,8 @@
 - 25 shortcut icons for videos submenu.
 - 10 shortcut icons for submenus of pictures, music, and programs.
 - 720p grid included for debugging.
+
+!! Thanks to Jezz_X and Team Kodi for their work on Confluence, which this addon is ported from.
 
 [B]2.5.9[/B]
 

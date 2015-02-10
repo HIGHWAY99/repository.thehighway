@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence.hwy2015"
-  version="2.5.9.003"
+  version="2.5.9.004"
   name="Confluence - hwy2015 Mod by TheHighway"
-  provider-name="Jezz_X, Team Kodi">
+  provider-name="The[COLOR tan]Highway[/COLOR], Jezz_X, Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
   </requires>
@@ -15,8 +15,8 @@
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>This is a MODDED version of the default skin, Confluence.</summary>
-    <description>Modded version of Confluence skin.  25 shortcuts for videos, 10 for the rest. Debug graph included.</description>
+    <summary>Ported from Confluence v2.5.9 used on Helix 14.0 stable.  It is meant for use with Helix (at least 14.0 stable) and will not work on Gotham, Frodo or earlier versions.</summary>
+    <description>25 shortcuts for videos, 10 for the rest.  Debug graph included.  This skin may be a work in progress, but aims to bring useful customizations while holding onto the main feel of it's pretacessor, Confluence.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
     <platform>all</platform>
   </extension>
