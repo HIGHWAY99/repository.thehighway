@@ -1087,29 +1087,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tbh.ilive"
-       name="i[COLOR white]L[COLOR lime]i[/COLOR]VE[/COLOR] - [COLOR lime]StreamLive[/COLOR]"
-       version="0.2.8"
-       provider-name="The[COLOR tan]Highway[/COLOR],TwiztedZero,Blazetamer">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="liLiveTo.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>iLiVE Streams</summary>
-  	<description>Streaming Video Addon.  Graphics by TwiztedZero and TheHighway.  Thanks to Blazetamer as well.</description>
-  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/26610-iLiVE</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.tbh.kidswb"
        name="K[COLOR blue]ids[/COLOR] [COLOR red][B]WB[/B][/COLOR]"
        version="0.0.1"
