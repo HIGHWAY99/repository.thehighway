@@ -1,3 +1,10 @@
+[B]2.5.9.005[/B] Mod Changes by TheHighway
+- IncludesHomeMenuItems.xml:  Added submenu items to MUSIC for some radio stations.
+- DialogButtonMenu.xml (Shutdown Menu):  Added button to return to Home Screen.
+...
+- DialogFavourites.xml:  ListItem.Label and ListItem.FileNameAndPath label objects added.
+- Added a submenu for Programs with some useful link(s) and command functions.
+
 [B]2.5.9.004[/B] Mod Changes by TheHighway
 - More graphic editing / changes and adjustments for them in the .xml skin files.
 - Pointer SIZE (WIDTHxHEIGHT) now adjustable.  This seems to not update until you reload the skin, so I've auto-set it to reload the skin too.

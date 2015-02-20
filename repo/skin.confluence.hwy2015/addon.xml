@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence.hwy2015"
-  version="2.5.9.004"
+  version="2.5.9.005"
   name="Confluence - hwy2015 Mod by TheHighway"
   provider-name="The[COLOR tan]Highway[/COLOR], Jezz_X, Team Kodi">
   <requires>
@@ -19,5 +19,7 @@
     <description>25 shortcuts for videos, 10 for the rest.  Debug graph included.  This skin may be a work in progress, but aims to bring useful customizations while holding onto the main feel of it's pretacessor, Confluence.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
     <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
   </extension>
 </addon>
