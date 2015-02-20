@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.ramfmradio"
-       name="RAM FM Radio" version="0.0.5"
+       name="RAM FM Radio" version="0.0.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" />
+    <import addon="script.module.addon.common" optional="true" />
+    <import addon="script.module.urlresolver" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" 	library="default.py">
 		<provides>audio</provides>
@@ -11,10 +14,10 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">This addon is a 3rd Party Plugin for XBMC.</summary>
     <description lang="en">http://ramfm.org</description>
-    <disclaimer lang="en">This addon is mainly setup for XBMC versions 12.x Frodo and Gotham Alpha verions.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
     <language>en</language>
     <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <forum>http://forums.tvaddons.ag/threads/18202-Release-RAM-FM-Radio-v0-0-4-stand-a-lone-version</forum>
     <website>http://ramfm.org/</website>
     <source></source>
   </extension>
