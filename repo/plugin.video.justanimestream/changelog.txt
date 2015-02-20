@@ -1,4 +1,7 @@
 
+[B]JustAnimeStream - 0.0.8[/B]
+- GetMedia():  Fixed regex string.
+
 [B]JustAnimeStream - 0.0.7[/B]
 - Went through and fixed most all regex strings.
 
