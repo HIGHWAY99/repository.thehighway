@@ -745,13 +745,16 @@
 
 <addon id="plugin.video.justanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.7"
+       version="0.0.8"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver"  />
   	<import addon="script.module.metahandler"  />
   	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aJustAnimeStream.py">
   	<provides>video</provides>
@@ -759,24 +762,27 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Addon for JustAnimeStream suggested by darkorical via IRC Chat.</summary>
   	<description>Video Addon for JustAnimeStream.net.  Graphics by Marquerite and TheHighway.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/threads/19229-Release-JustAnimeStream</forum>
+  	<website>http://tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
   </extension>
 </addon>
 
 <addon id="plugin.video.kindertube.nl"
        name="Kindertube[COLOR green].NL[/COLOR]"
-       version="0.0.4"
+       version="0.0.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" version="1.0.0"/>
-  	<import addon="plugin.video.vimeo" version="1.0.0"/>
-  	<import addon="plugin.video.youtube" version="1.0.0"/>
+  	<import addon="script.module.urlresolver" />
+  	<import addon="plugin.video.vimeo" />
+  	<import addon="plugin.video.youtube" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -784,11 +790,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary></summary>
   	<description>Thanks to Marquerite for finding the site and work her on Translations and Graphics.</description>
-  	<disclaimer>This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>nl</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
   </extension>
 </addon>
@@ -1191,13 +1197,16 @@
 
 <addon id="plugin.video.waoanime"
        name="W[COLOR deepskyblue]AO[/COLOR] [COLOR white][I]Anime[/I][/COLOR]  [COLOR deepskyblue]TV[/COLOR]"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver" />
   	<import addon="script.module.metahandler" />
   	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aWaoAnimeTV.py">
   	<provides>video</provides>
@@ -1208,9 +1217,9 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum>http://forums.tvaddons.ag/threads/21311-Release-WAO-ANIME</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <source>http://github.com/HIGHWAY99/</source>
   </extension>
 </addon>
 
