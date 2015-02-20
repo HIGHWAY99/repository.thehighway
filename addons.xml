@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.audio.ramfmradio"
-       name="RAM FM Radio" version="0.0.5"
+       name="RAM FM Radio" version="0.0.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" />
+    <import addon="script.module.addon.common" optional="true" />
+    <import addon="script.module.urlresolver" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" 	library="default.py">
 		<provides>audio</provides>
@@ -12,10 +15,10 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">This addon is a 3rd Party Plugin for XBMC.</summary>
     <description lang="en">http://ramfm.org</description>
-    <disclaimer lang="en">This addon is mainly setup for XBMC versions 12.x Frodo and Gotham Alpha verions.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
     <language>en</language>
     <platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
+    <forum>http://forums.tvaddons.ag/threads/18202-Release-RAM-FM-Radio-v0-0-4-stand-a-lone-version</forum>
     <website>http://ramfm.org/</website>
     <source></source>
   </extension>
@@ -46,23 +49,26 @@
 
 <addon id="plugin.audio.thefunkstation"
        name="TheFunkStation"
-       version="0.3.4"
+       version="0.3.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
-    <import addon="xbmc.python" 								version="2.1.0"/>
-  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.t0mm0.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>thefunkstation.com and/or http://listento.thefunkstation.com:8000/</summary>
-  	<description>Initial Project forked from plugin.video.solarmovie.so.</description>
-  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<description>http://thefunkstation.com</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
+  	<forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+  	<website>http://www.tvaddons.ag/</website>
+  	<email></email>
   </extension>
 </addon>
 
@@ -640,6 +646,58 @@
   	<website>http://www.tvaddons.ag/</website>
   	<source></source>
   	<email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.radio.disney"
+       name="Radio Disney"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Radio Disney</summary>
+  	<description>Listen to Radio Disney.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.radio.disneyjr"
+       name="Radio Disney Jr"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Radio Disney Jr</summary>
+  	<description>Listen to Radio Disney Jr.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <source></source>
+    <email></email>
   </extension>
 </addon>
 
@@ -1504,7 +1562,7 @@
 
 <addon
   id="skin.confluence.hwy2015"
-  version="2.5.9.004"
+  version="2.5.9.005"
   name="Confluence - hwy2015 Mod by TheHighway"
   provider-name="The[COLOR tan]Highway[/COLOR], Jezz_X, Team Kodi">
   <requires>
@@ -1522,6 +1580,8 @@
     <description>25 shortcuts for videos, 10 for the rest.  Debug graph included.  This skin may be a work in progress, but aims to bring useful customizations while holding onto the main feel of it's pretacessor, Confluence.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
     <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
   </extension>
 </addon>
 </addons>
