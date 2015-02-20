@@ -780,6 +780,7 @@
   	<import addon="script.module.urlresolver" />
   	<import addon="plugin.video.vimeo" />
   	<import addon="plugin.video.youtube" />
+  	<import addon="script.module.metahandler" optional="true" />
   	<import addon="script.module.addon.common" optional="true" />
   	<import addon="script.common.plugin.cache" optional="true" />
   	<import addon="script.module.t0mm0.common" optional="true" />
@@ -791,7 +792,7 @@
   	<summary></summary>
   	<description>Thanks to Marquerite for finding the site and work her on Translations and Graphics.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
-  	<language>nl</language>
+  	<language>nl en</language>
   	<platform>all</platform>
     <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
     <website>http://www.tvaddons.ag/</website>
