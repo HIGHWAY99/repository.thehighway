@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.streamup"
        name="StreamUP"
-       version="0.1.3"
+       version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR], Shani">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="false" />
   	<import addon="script.common.plugin.cache" optional="false" />
   	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  	<import addon="script.module.metahandler" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -15,11 +17,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary></summary>
   	<description></description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 RC1, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/threads/26030-Release-StreamUP</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>http://github.com/HIGHWAY99/plugin.video.streamup/</source>
     <email></email>
   </extension>

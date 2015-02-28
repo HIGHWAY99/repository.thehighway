@@ -1,3 +1,9 @@
+[B]v0.1.4[/B]
+Replaced .add_directory(...) with .add_video_item(...) for playable items.
+PlayStreamUP():  making use ipad user-agent.
+PlayStreamUP():  making use of .m3u8 playable urls.
+...
+
 [B]v0.1.3[/B]
 Regex string updated for channel listings.
 Regex string updated for search listings.
