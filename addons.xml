@@ -776,6 +776,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.stream.sos" name="S[COLOR orange]O[/COLOR]S"
+    version="1.0.0" provider-name="SaveonSky, The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" optional="true" />
+    <import addon="script.module.addon.common" optional="true" />
+    <import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SaveonSky</summary>
+    <description>Stream Channels from SaveonSky.com.  Register account on SaveonSky.com</description>
+    <disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+    <language>all</language>
+    <platform>all</platform>
+    <forum></forum>
+    <website>http://www.saveonsky.com/</website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
        version="0.1.5"
