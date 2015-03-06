@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.game.tankshot"
-       name="Tank Warfare"
-       version="0.0.3"
+<addon id="plugin.devtool.errors"
+       name="Error Tracker"
+       version="0.1.0"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -11,11 +11,11 @@
   	<import addon="script.module.urlresolver" optional="true" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-  	<provides>executable game</provides>
+  	<provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>Game</summary>
-  	<description>IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<summary>Used to check for errors in the main log file.</summary>
+  	<description>Check for errors.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>

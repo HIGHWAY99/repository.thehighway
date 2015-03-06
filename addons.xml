@@ -117,6 +117,33 @@
   </extension>
 </addon>
 
+<addon id="plugin.devtool.errors"
+       name="Error Tracker"
+       version="0.1.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Used to check for errors in the main log file.</summary>
+  	<description>Check for errors.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <source>https://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.devtool.texteditor"
        name="Text Editor"
        version="0.0.1"
@@ -145,7 +172,7 @@
 
 <addon id="plugin.devtool.textreader"
        name="Text Reader"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -162,8 +189,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
     <email></email>
   </extension>
@@ -198,7 +225,7 @@
 
 <addon id="plugin.game.tankshot"
        name="Tank Warfare"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

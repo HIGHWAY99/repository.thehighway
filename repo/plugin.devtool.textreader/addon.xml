@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.devtool.textreader"
        name="Text Reader"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -18,8 +18,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
     <email></email>
   </extension>
