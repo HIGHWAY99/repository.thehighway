@@ -1,3 +1,14 @@
+[B]2.5.9.006[/B] Mod Changes by TheHighway
+- Custom_Overlay.xml:  Adjusted true/false settings for Debug Layers.
+- includes.xml, My*.xml:  Added "Cheat Sheet" side-menu to the right side of the screen.  This menu will allow jumping around easier.
+...
+- DialogKeyboard.xml:  Adjusting the right side spacing for @#!*.
+- DialogKeyboard.xml:  Adjusting the size of buttons (English QWERTY, Shift, Caps Lock and @#!*) for better fitting a larger size ratio button.
+- DialogKeyboard.xml:  Adjusting the size of ratiobutton images.
+...
+- Attempting to try out making a new VIEW (599), with no luck so far.
+...
+
 [B]2.5.9.005[/B] Mod Changes by TheHighway
 - IncludesHomeMenuItems.xml:  Added submenu items to MUSIC for some radio stations.
 - DialogButtonMenu.xml (Shutdown Menu):  Added button to return to Home Screen.
