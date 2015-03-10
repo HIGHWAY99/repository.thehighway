@@ -828,13 +828,16 @@
 
 <addon id="plugin.video.animefate"
        name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]"
-       version="0.1.0"
+       version="0.1.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver"  />
   	<import addon="script.module.metahandler"  />
-  	<import addon="script.module.addon.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aAnimeFATE.py">
   	<provides>video</provides>
@@ -842,18 +845,18 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Addon for AnimeFATE suggested by darkorical via IRC Chat.</summary>
   	<description>Video Addon for AnimeFATE.com.  Graphics by Marquerite and TheHighway.</description>
-  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/18927-AnimeFate</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   </extension>
 </addon>
 
 <addon id="plugin.video.codelyokoevolution"
        name="[COLOR white][COLOR purple]C[/COLOR][COLOR cornflowerblue]o[/COLOR]de Ly[COLOR cornflowerblue]o[/COLOR]k[COLOR cornflowerblue]o[/COLOR] Ev[COLOR cornflowerblue]o[/COLOR]luti[COLOR cornflowerblue]o[/COLOR]n[/COLOR]"
-       version="0.1.5"
+       version="0.1.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -873,8 +876,8 @@
   	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS/</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website>http://codelyokoevolutionfan.webs.com/</website>
   </extension>
 </addon>
 
@@ -906,7 +909,7 @@
 
 <addon id="plugin.video.justanimestream"
        name="J[COLOR green]ust[/COLOR]A[COLOR white]nime[/COLOR]S[COLOR cornflowerblue]tream[/COLOR]"
-       version="0.0.8"
+       version="0.0.9"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -926,9 +929,9 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/19229-Release-JustAnimeStream</forum>
-  	<website>http://tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum></forum>
+  	<website></website>
+    <source></source>
   </extension>
 </addon>
 
@@ -963,7 +966,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.8.9"
+       version="0.9.1"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -980,19 +983,19 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for kissanime.com.  New Graphics by Marquerite.</summary>
-  	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<description>Play videos from kissanime.com.  New Graphics by Marquerite.  Remember to check out KissAnime.com's site whenever your at a PC.  They have added a mobile version setup for -some- mobile devices.  It looks like it'll be a nice feature for them, and I encourage you to check it out @ kissanime.com/M with a compatible mobile device.  PCs and Other Devices will forward to the main site.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/threads/13583-Video-Addon-Kiss-Anime</forum>
-  	<website>http://tvaddons.ag/</website>
-  	<source>http://github.com/HIGHWAY99/plugin.video.kissanime/</source>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
   </extension>
 </addon>
 
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
-       version="0.8.9"
+       version="0.9.1"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1009,43 +1012,45 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for kisscartoon.me.  Graphics by TheHighway, Marquerite, and konbon.</summary>
-  	<description>Play videos from kisscartoon.me.  This project has been ported from the current version of my own KissAnime addon.  This project may end up getting re-ported from my KissAnime Re-write project, once that gets finished.  Remember to check out KissCartoon.me's site whenever your at a PC.  Don't forget to try KissAnime.com for Anime and KissManga.com for Manga.  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<description>Play videos from kisscartoon.me.  This project has been ported from the current version of my own KissAnime addon.  This project may end up getting re-ported from my KissAnime Re-write project, once that gets finished.  Remember to check out KissCartoon.me's site whenever your at a PC.  Don't forget to try KissAnime.com for Anime and KissManga.com for Manga.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/threads/27419-Kiss-Cartoon</forum>
-  	<website>http://tvaddons.ag/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   </extension>
 </addon>
 
 <addon id="plugin.video.merdb"
-       name="MerDB.cn"
-       version="0.4.0"
+       name="MerDB"
+       version="0.4.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver" />
-  	<import addon="script.module.addon.common" />
   	<import addon="script.module.metahandler" />
+  	<import addon="script.module.t0mm0.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>Play Videos @ MerDB.cn.</summary>
-  	<description>Play Videos @ MerDB.cn.</description>
+  	<summary>Play Videos @ MerDB.</summary>
+  	<description>Play Videos @ MerDB.</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/threads/17754-Release-MerDB-ru</forum>
-  	<website>http://www.tvaddons.ag/</website>
+  	<forum></forum>
+  	<website></website>
   </extension>
 </addon>
 
 <addon id="plugin.video.moviefork"
        name="Movie Fork"
-       version="0.3.0"
+       version="0.3.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1065,16 +1070,16 @@
   	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/general-video-addon-discussion/9090-%5Binitial-release%5D-animeget-anime44.html</forum>
-  	<website>http://github.com/HIGHWAY99/plugin.video.moviefork/</website>
+  	<forum></forum>
+  	<website></website>
   	<email></email>
-  	<source>http://github.com/HIGHWAY99/plugin.video.moviefork/archive/master.zip</source>
+  	<source></source>
   </extension>
 </addon>
 
 <addon id="plugin.video.solarmovie.so"
        name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.4.6"
+       version="0.4.7"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
@@ -1095,9 +1100,9 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/13592-Video-Addon-SolarMovie-so</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/plugin.video.solarmovie.so/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   	<email></email>
   </extension>
 </addon>
