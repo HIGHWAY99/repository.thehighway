@@ -1,3 +1,9 @@
+[B]AnimeStatic - 0.1.5[/B]
+- Fixed: Anime Movies
+- Fixed: Source Listing
+- Updated: url from .org to .eu to avoid redirect
+- Updated: xbmchub references to tvaddons.ag
+- Removed: Subbed Anime (none provided on AnimeStatic)
 
 [B]AnimeStatic - 0.1.4[/B]
 - Added: Latest Anime Series

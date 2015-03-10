@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.animefate"
        name="A[COLOR firebrick][I]nime[/I][/COLOR] F[COLOR mediumpurple]ate[/COLOR]"
-       version="0.1.0"
+       version="0.1.1"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver"  />
   	<import addon="script.module.metahandler"  />
-  	<import addon="script.module.addon.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aAnimeFATE.py">
   	<provides>video</provides>
@@ -15,11 +18,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Addon for AnimeFATE suggested by darkorical via IRC Chat.</summary>
   	<description>Video Addon for AnimeFATE.com.  Graphics by Marquerite and TheHighway.</description>
-  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/18927-AnimeFate</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   </extension>
 </addon>

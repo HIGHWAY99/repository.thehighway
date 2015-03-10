@@ -1,4 +1,10 @@
-[B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
+[B]Note:[/B]  IRC Chat Channel: Channel and IRC Server location currently up in the air.
+
+[B]Version 0.9.1[/B]
+- ...
+
+[B]Version 0.9.0[/B]
+- listLinks:  Fixing code for 2nd version Links.
 
 [B]Version 0.8.9[/B]
 - Fixed playable links for the new styles of 2015.

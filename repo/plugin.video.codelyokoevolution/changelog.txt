@@ -1,3 +1,11 @@
+[B]Version 0.1.6[/B]
+- ...
+
+[B]Version 0.1.5[/B]
+- Dependencies updated
+- xbmchub.com references changed to tvaddons.ag
+- strings.xml updated with strings for settings
+
 [B]Version 0.1.4[/B]
 - support for XBMC Gotham.
 

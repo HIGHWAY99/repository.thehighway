@@ -853,12 +853,16 @@
 
 <addon id="plugin.video.codelyokoevolution"
        name="[COLOR white][COLOR purple]C[/COLOR][COLOR cornflowerblue]o[/COLOR]de Ly[COLOR cornflowerblue]o[/COLOR]k[COLOR cornflowerblue]o[/COLOR] Ev[COLOR cornflowerblue]o[/COLOR]luti[COLOR cornflowerblue]o[/COLOR]n[/COLOR]"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver" />
   	<import addon="script.module.requests" />
+  	<import addon="script.module.metahandler" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
@@ -866,11 +870,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Videos for http://codelyokoevolutionfan.webs.com/</summary>
   	<description>http://codelyokoevolutionfan.webs.com/</description>
-  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS/</forum>
+    <website>http://www.tvaddons.ag/</website>
   </extension>
 </addon>
 
@@ -1180,7 +1184,7 @@
 
 <addon id="plugin.video.tbh.animestatic"
        name="A[COLOR white][COLOR blue]nime[/COLOR]Static[/COLOR]"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1197,8 +1201,8 @@
   	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.tvaddons.ag/</website>
     <source>https://github.com/HIGHWAY99/</source>
   </extension>
 </addon>
