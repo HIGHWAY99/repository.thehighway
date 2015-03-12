@@ -1,7 +1,12 @@
+[B]AnimeGet - 0.1.4[/B]
+- Updated: Ongoing and New Series (site changes)
+- Updated: Episode Listing (site changes)
+- Updated: url to animeget.eu to avoid redirect
+- Updated: Addon XML and About Dialog
+- Added: Urlresolver plugnplay resolvers
+- Added: Play44/Video44/Yucache Resolvers
 
 [B]AnimeGet - 0.1.3[/B]
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
 - Initial Sub-Addon for TheBinaryHighway.
-
-
