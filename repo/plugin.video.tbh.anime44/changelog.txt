@@ -1,3 +1,8 @@
+[B]Anime44 - 0.1.5[/B]
+- Updated: url to www.animenova.tv to avoid redirect
+- Updated: Addon XML and About Dialog
+- Added: Urlresolver plugnplay resolvers
+- Added: Play44/Video44/Yucache Resolvers
 
 [B]Anime44 - 0.1.4[/B]
 - Updating for use on Helix.
@@ -6,5 +11,3 @@
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
 - Initial Sub-Addon for TheBinaryHighway.
-
-
