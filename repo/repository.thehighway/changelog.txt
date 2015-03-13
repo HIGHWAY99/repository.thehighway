@@ -1,3 +1,6 @@
+[B]Version 0.0.6[/B]
+-Adjustments.
+
 [B]Version 0.0.5[/B]
 - Updating for Gotham/Helix additional methods.
 

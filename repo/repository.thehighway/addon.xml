@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon version="0.0.5" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+<addon version="0.0.6" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
 	<extension point="xbmc.addon.repository" name="TheHighway's Addons">
-		<dir minversion="12.9.0">
-			<info compressed="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml</info>
-			<checksum>http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml.md5</checksum>
-			<datadir zip="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/repo/</datadir>
-		</dir>
 		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml</info>
 		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
-		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  Also I'm often on chat.freenode.net:6667 #TVADDONS for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].</description>
 		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
-
