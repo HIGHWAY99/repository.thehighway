@@ -1437,7 +1437,7 @@
 	</extension>
 </addon>
 
-<addon id="screensaver.christmas" name="Christmas Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.christmas" name="Christmas Screensaver" version="0.2.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1450,14 +1450,14 @@
   	<summary lang="en">Christmas Scenes.</summary>
     <description lang="en">This is a ScreenSaver that makes use of a single image when prompted to start the screensaver.  Still image can be used, but this project is meant for animated gifs.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.drp" name="Dr Pepper Screensaver" version="0.1.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.drp" name="Dr Pepper Screensaver" version="0.1.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1470,14 +1470,14 @@
   	<summary lang="en">One of my favoriate flavors!</summary>
     <description lang="en">This is a ScreenSaver that makes use of multiple image when prompted to start the screensaver.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.hypno" name="Hypno Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.hypno" name="Hypno Screensaver" version="0.2.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1490,14 +1490,14 @@
   	<summary lang="en">Hypno Scenes.</summary>
     <description lang="en">This is a ScreenSaver that makes use of a single image when prompted to start the screensaver.  Still image can be used, but this project is meant for animated gifs.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.installedaddons" name="Installed Addons Screensaver" version="0.3.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.installedaddons" name="Installed Addons Screensaver" version="0.3.2" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1510,14 +1510,14 @@
   	<summary lang="en">Fanarts from special://home/addons/*.</summary>
     <description lang="en">This is a ScreenSaver that makes use of multiple image when prompted to start the screensaver.  Remember to turn on [B]Adult Check[/B] to prevent showing any installed adult addons.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.neonstar" name="Neon Star Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.neonstar" name="Neon Star Screensaver" version="0.2.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1530,14 +1530,14 @@
   	<summary lang="en">Neon Star Images.</summary>
     <description lang="en">This is a ScreenSaver that makes use of a single image when prompted to start the screensaver.  Still image can be used, but this project is meant for animated gifs.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.nextepisode" name="Next Episode Screensaver" version="1.0.2" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.nextepisode" name="Next Episode Screensaver" version="1.0.3" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1554,14 +1554,14 @@
   	<summary lang="en"></summary>
     <description lang="en">This is a ScreenSaver handles the Top TV Episodes for Today, Yesterday and Tomorrow from http://next-episode.net/</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.snowy" name="Snowy Screensaver" version="0.2.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.snowy" name="Snowy Screensaver" version="0.2.1" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1574,14 +1574,14 @@
   	<summary lang="en">Snowy Scenes.</summary>
     <description lang="en">This is a ScreenSaver that makes use of a single image when prompted to start the screensaver.  Still image can be used, but this project is meant for animated gifs.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
 </addon>
 
-<addon id="screensaver.ttg" name="Telltale Games Screensaver" version="0.1.0" provider-name="The[COLOR tan]Highway[/COLOR]" >
+<addon id="screensaver.ttg" name="Telltale Games Screensaver" version="0.1.2" provider-name="The[COLOR tan]Highway[/COLOR]" >
   <requires>
      <import addon="xbmc.python" version="2.1.0" />
      <import addon="xbmc.addon"  version="12.0.0" />
@@ -1594,8 +1594,8 @@
   	<summary lang="en">Check out some of the great games by Telltale Games.  And remember to check out http://telltalegames.com to find locations where you can buy them.</summary>
     <description lang="en">This is a ScreenSaver that makes use of multiple image when prompted to start the screensaver.</description>
     <disclaimer lang="en">By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum></forum>
+    <website></website>
     <source></source>
     <email></email>
   </extension>
