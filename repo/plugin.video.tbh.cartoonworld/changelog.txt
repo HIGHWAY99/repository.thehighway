@@ -1,3 +1,6 @@
+[B]CartoonWorld - 0.1.7[/B]
+- Fixed Latest Episodes.
+- Updated Addon.xml and About Dialog
 
 [B]CartoonWorld - 0.1.6[/B]
 - Fixed Latest Episodes.
