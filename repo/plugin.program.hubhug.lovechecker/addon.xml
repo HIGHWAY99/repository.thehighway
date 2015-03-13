@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.hubhug.lovechecker" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.0.3" name="HUB-HUG Love Checker">
+       version="0.0.4" name="Love Checker">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.addon.common"  />
@@ -11,11 +11,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>This is part of the HUB-HUG movement, to release playful addons of a fun, enjoyable nature... to inspire happiness, togetherness, and good vibes.  Let's all work together to promote joyful, peaceful, even playful movements online.  Down with the bad tidings, up with the HUB.  ONWARDS AND HUBWARDS.</summary>
   	<description>Calculate the potential LOVE between you and your crush(s).  Addon Graphics by Marquerite.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.xbmchub.com/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>

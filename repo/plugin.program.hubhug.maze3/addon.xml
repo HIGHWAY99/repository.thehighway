@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.hubhug.maze3" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="0.2.3" name="HUB-HUG Dungeon Crawler">
+       version="0.2.4" name="Dungeon Crawler">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
   	<import addon="script.module.addon.common"  />
@@ -11,11 +11,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>This is part of the HUB-HUG movement, to release playful addons of a fun, enjoyable nature... to inspire happiness, togetherness, and good vibes.  Let's all work together to promote joyful, peaceful, even playful movements online.  Down with the bad tidings, up with the HUB.  ONWARDS AND HUBWARDS.</summary>
   	<description>Originally a MAZE-type game, this has become a full-on dungeon/adventure game.  There's still maze-like maps with a starting location and a location to exit from.  You can use the exit on a map to goto another map, carrying over what you've picked up.  This is unless you want a final victory, then save your beloved and take her to the exit.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 RC 1, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.xbmchub.com/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>

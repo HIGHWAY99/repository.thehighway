@@ -8,6 +8,14 @@
 -- 
 -- 
 
+[Updates]
+### v0.2.0 - [2014-01-13] && [2014-01-13]
+-- ....
+
+### v0.1.9 - [2014-01-13] && [2014-01-13]
+-- Shifted Row-ZERO forward so that the coins will appear to drop behind them.
+-- Attempted to learn how to skin mouse/pointer/cursor image(s), but my attempts ended in failure.
+-- Several functions added for testing of skinning features.
 
 [Initial Version]
 ### v0.1.8 - [2014-01-10]
