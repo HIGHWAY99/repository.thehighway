@@ -1,7 +1,13 @@
+[B]DubHappy.eu - 0.1.4[/B]
+- Updated XML and About
+- Updated url to dubbedanimestream.com to avoid redirect
+- Fixed Anime Movies and Series listing
+- Fixed Episode listing
+- Fixed Host listing
+- Added urlresolver plugnplay resolvers
+- Added myvidstream.net resolvers
 
 [B]DubHappy.eu - 0.1.3[/B]
 - Setup of the Sub-Addon as a Full-Addon.
 - Graphics mostly by TwiztedZero and TheHighway.
 - Initial Sub-Addon for TheBinaryHighway.
-
-

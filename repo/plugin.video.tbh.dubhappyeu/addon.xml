@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.tbh.dubhappyeu"
        name="D[COLOR white][B]ub[/B]Happy.eu[/COLOR]"
-       version="0.1.3"
+       version="0.1.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.urlresolver" version="2.1.2"/>
-  	<import addon="script.module.metahandler" version="2.0.0"/>
-  	<import addon="script.module.addon.common" version="2.0.0"/>
+  	<import addon="script.module.urlresolver" />
+  	<import addon="script.module.metahandler" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="aDubHappy_eu.py">
   	<provides>video</provides>
@@ -15,11 +17,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary></summary>
   	<description>Video Addon.  Graphics by TwiztedZero and TheHighway.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-    <website>http://www.xbmchub.com/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   </extension>
 </addon>
