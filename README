@@ -1,68 +1,21 @@
 TheHighway's xbmc plugin repository!
 -------------------------------
 
-Contents:
- - Audio
- - - SearchMP3.mobi
- - - RadioPlayer.co.uk
- - - TheFunkStation
- - - The Binary Highway
- - - RAM FM Radio
- - - 
- - - 
- - - 
- - Picture
- - - KissManga
- - - The Binary Highway
- - - 
- - - 
- - - 
- - Video
- - - Funimation (U/C)
- - - Anime44 (Shelf)
- - - AnimeGet (Shelf)
- - - The Anime Highway (Many Subbed and Dubbed Anime Sites) (Shelf)
- - - SolarMovie.so
- - - Code Lyoko Evolution
- - - MovieFork.com
- - - MerDB.ru
- - - Vidics4 (Shelf)
- - - TheDareTV [with TheDareRadio] by The_Silencer and The Highway.  Radio section was removed from the site. (Shelf)  Check out The_Silencer 's repo for current versions of the addon.
- - - The Binary Highway
- - - Example of a Video Addon - [Tutorial]
- - - Kindertube.NL.  This is for people in the Netherlands that want some content for children.
- - - KissAnime.  Check out http://www.kissanime.com/.  They now have a mobile version for some mobile devices @ http://www.kissanime.com/M.
- - - 
- - - 
- - - 
- - Programs
- - - The Binary Highway
- - - Connect 4
- - - FTP HUB - FTP Server
- - - 
- - - 
- - - 
- - Games
- - - Connect 4.  2 Player game, Human vs. Human locally.
- - - 
- - - 
- - - 
- - Common Module Projects
- - - TheHighway's Common Addon Modules.  Has a module for handling/fetching Proxies thats been ran through some testing, as well as, a labelformatting.py module that hasn't been tested yet.
- - - 
- - - 
- - - 
- - Service Projects
- - - FTP HUB - FTP Server.  A basic FTP/FTPD Server using a slightly modified version of pyftpdlib 1.3.0.
- - - 
- - - 
- - - 
- - Repositories
- - - TheHighway's Repository
- - - TheHighway's Easy Fresh Install Addon Collection.  This one is pretty much outdated and not kept up anymore, mainly just old stuff.
- - - 
- - - 
- - - 
- 
+Install:
+		You can manually install via System - Add-ons - Install from zip file... if you wish to manually download the zip from:
+*				http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/repository.thehighway/repository.thehighway-0.0.6.zip
+		Another means is via SuperRepo.org:
+*				As shown @ https://superrepo.org/get-started/
+*				Add Files source named "SuperRepo": http://srp.nu/
+*				Then goto: System - Addons - Install from zip file - SuperRepo (the Files source you just made).
+*				Select your type of xbmc/kodi installed such as "Helix".
+*				Select "all".
+*				Select "repository.superrepo.org.helix.all-latest.zip" to install SR's repository of user repositories among seemingly all other things.
+*				Now back up to where you clicked "Install from zip file" and click "Get Add-ons".
+*				Next click "SuperRepo  All [helix]" or simular.  Sometimes you'll have to right click this and hit force refresh a couple times or so until it populates a list.
+*				Once it comes up with a list, click "Add-on repository", there should be a HUGE list of repositories here.
+*				Scroll way down or up to get to the bottom and up a bit more until you find the T's, then select "TheHighway's Addons" and include Install on the next screen.
+*				Once it's done downloading and installing, you man then go back to the "Get Add-ons" list and select TheHighway's Addons" (sometimes having to force refresh), and browse a list of addons by TheHighway for download.
+
 Contact:
- Private message via forum at xbmchub.com.
+*		Should have an irc channel up again soon.
