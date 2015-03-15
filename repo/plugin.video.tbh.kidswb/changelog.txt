@@ -1,3 +1,5 @@
+[B]KidsWB - 0.0.2[/B]
+- Updated XML and About
 
 [B]KidsWB - 0.0.1[/B]
 - Setup of the Sub-Addon as a Full-Addon.
