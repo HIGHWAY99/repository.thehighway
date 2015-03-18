@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.devtool.urltester.pro"
+       name="Url Tester Pro"
+       version="0.0.4"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Test Urls with or without urlresolver.</summary>
+  	<description>Test Urls with or without urlresolver.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>

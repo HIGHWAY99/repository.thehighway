@@ -1,4 +1,7 @@
 
+[B]v0.0.5[/B]
+- Updating addon.xml.
+
 [B]v0.0.4[/B]
 - Updated VideoOSD.xml for recent version of Confluence.
 - Updating for use on Helix.

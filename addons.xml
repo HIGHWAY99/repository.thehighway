@@ -119,7 +119,7 @@
 
 <addon id="plugin.devtool.errors"
        name="Error Tracker"
-       version="0.2.1"
+       version="0.2.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -223,6 +223,87 @@
   </extension>
 </addon>
 
+<addon id="plugin.devtool.urltester.pro"
+       name="Url Tester Pro"
+       version="0.0.4"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Test Urls with or without urlresolver.</summary>
+  	<description>Test Urls with or without urlresolver.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.game.blackjack"
+       name="Blackjack"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Card game.</summary>
+  	<description>A simple Blackjack game.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.game.match.cards"
+       name="Match Cards"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Card game.</summary>
+  	<description>Try to match cards of the same type in this old fashioned card game.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.game.tankshot"
        name="Tank Warfare"
        version="0.0.4"
@@ -277,11 +358,14 @@
 </addon>
 
 <addon id="plugin.program.dreamcatcher"
-       version="0.1.3" name="Dreamcatcher"
+       version="0.1.4" name="Dreamcatcher"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" version="2.0.0"/>
+  	<import addon="script.module.t0mm0.common" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video audio executable</provides>
@@ -289,11 +373,11 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Download what your watching. Adjust Addon Settions before use.</summary>
   	<description>Downloads the file (video or music) currently playing.  This does not work for live streams.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.xbmchub.com/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>
@@ -698,12 +782,12 @@
 </addon>
 
 <addon id="plugin.program.sendtoaxel"
-       version="0.0.4" name="SendTo Axel"
+       version="0.0.5" name="SendTo Axel"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
-  	<import addon="script.module.addon.common"  />
-  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" />
+  	<import addon="script.module.addon.common" optional="true" />
   	<import addon="script.module.axel.downloader" optional="true" />
   	<import addon="script.common.plugin.cache" optional="true" />
   	<import addon="script.module.urlresolver" optional="true" />
@@ -717,8 +801,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-  	<website>http://www.tvaddons.ag/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>
@@ -1630,6 +1714,24 @@
   	<forum></forum>
   	<website></website>
   	<email></email>
+  </extension>
+</addon>
+
+<addon id="script.module.axel.downloader"
+	     name="Axel Downloader"
+	     version="0.2.2"
+	     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="controlpanel.py"/>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension library="default.py" point="xbmc.service" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Multi-connection/threaded Downloader</summary>
+    <description lang="en">Download a file using multiple connections to achieve the highest speed.</description>
   </extension>
 </addon>
 

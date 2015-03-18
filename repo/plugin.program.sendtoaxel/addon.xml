@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.sendtoaxel"
-       version="0.0.4" name="SendTo Axel"
+       version="0.0.5" name="SendTo Axel"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
-  	<import addon="script.module.addon.common"  />
-  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" />
+  	<import addon="script.module.addon.common" optional="true" />
   	<import addon="script.module.axel.downloader" optional="true" />
   	<import addon="script.common.plugin.cache" optional="true" />
   	<import addon="script.module.urlresolver" optional="true" />
@@ -19,8 +19,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-  	<website>http://www.tvaddons.ag/</website>
+  	<forum></forum>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>

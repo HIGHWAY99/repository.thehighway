@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.game.blackjack"
+       name="Blackjack"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  	<import addon="script.module.urlresolver" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Card game.</summary>
+  	<description>A simple Blackjack game.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
