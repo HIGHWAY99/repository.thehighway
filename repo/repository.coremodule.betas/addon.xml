@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.coremodule.betas" name="Core Module Beta Testing Repo" version="1.0.0" provider-name="eldorado">
+    <extension point="xbmc.addon.repository" name="Core Module Beta Testing Repo">
+        <info compressed="false">http://raw.github.com/Eldorados/Core-Module-Beta-Repo/master/addons.xml</info>
+        <checksum>http://raw.github.com/Eldorados/Core-Module-Beta-Repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://raw.github.com/Eldorados/Core-Module-Beta-Repo/master/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is used ONLY for beta testing</summary>
+        <description>Beta testing only!!!
+        	
+- URLResolver
+- Metahandlers
+- t0mm0.common/addon.common
+
+DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.1" provider-name="tknorris">
+    <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
+        <info compressed="false">https://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tknorris/tknorris-beta-repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is used ONLY for beta testing</summary>
+        <description>Beta testing only!!!
+DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
+
+Addons Included        	
+    - 1Channel (Beta)
+    - SALTS (Beta)
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

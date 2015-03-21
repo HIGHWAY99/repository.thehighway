@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.TheYid" name="TheYid's REPO" version="2.0" provider-name="tcz009 AKA TheYid">
+	<extension point="xbmc.addon.repository" name="TheYid Addon Repository">
+		<info compressed="false">https://raw.github.com/TheYid/My-Repo/master/addons.xml</info>
+		<checksum>https://raw.github.com/TheYid/My-Repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/TheYid/My-Repo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install TheYid's repo and Addons</summary>
+		<description>install addons from tcz009 AKA TheYid .......For OFFICIAL Support please Visit www.tvaddons.ag or follow me on Twitter @TheYid009 If you enjoy my addons and would like to donate please goto http://forums.tvaddons.ag/forums/146-THEYID-REPO and thanks for the support</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

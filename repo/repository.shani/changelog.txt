@@ -1,0 +1,20 @@
+[B]Version 1.0[/B]
+- First version 1
+[B]Version 1.5[/B]
+- Fixed some bugs about folder names and zip files
+[B]Version 1.5[/B]
+- https links
+[B]Version 2.0[/B]
+- https removed
+[B]Version 2.0[/B]
+- new url
+[B]Version 2.2[/B]
+- new url
+
+[B]Version 2.3[/B]
+- Server Move
+[B]Version 2.4[/B]
+- Just a icon change, thanks to jonuthedevil@hub
+
+[B]Version 2.5[/B]
+- Back to github

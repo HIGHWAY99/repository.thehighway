@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tknorris.release" name="tknorris Release Repository" version="1.0.1" provider-name="tknorris">
+    <extension point="xbmc.addon.repository" name="tknorris release repository">
+        <info compressed="false">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml</info>
+        <checksum>https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is tknorris's release repository</summary>
+        <description>This repository contains official releases of my Kodi/XBMC addons
+
+Addons Included        	
+    - Stream All The Sources
+    - 1Channel
+    - 1Channel Themepaks
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

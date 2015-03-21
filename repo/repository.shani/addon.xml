@@ -1,0 +1,13 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.5" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+		<info compressed="false">https://raw.github.com/Shani-08/ShaniXBMCWork/master/addons.xml</info>
+		<checksum>https://raw.github.com/Shani-08/ShaniXBMCWork/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Shani-08/ShaniXBMCWork/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>

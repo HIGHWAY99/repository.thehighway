@@ -1,0 +1,11 @@
+[B]Version 2.0.2[/B]
+- Changed github repo location to use http://raw.github.com instead of https
+
+[B]Version 2.0.1[/B]
+- Corrected repo locations to not break Frodo compatibility
+
+[B]Version 2.0.0[/B]
+- Added new offshoregit repo location
+
+[B]Version 1.0.1[/B]
+- Initial version

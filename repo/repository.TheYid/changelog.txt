@@ -1,0 +1,26 @@
+[B]Version 1.1[/B]
+- Initial version
+
+[B]Version 1.2[/B]
+- github fix
+
+[B]Version 1.3[/B]
+- github fix
+
+[B]Version 1.4[/B]
+- new icon & fanart
+
+[B]Version 1.5[/B]
+- new icon & fanart
+
+[B]Version 1.6[/B]
+- test
+
+[B]Version 1.7[/B]
+- fixed
+
+[B]Version 1.8[/B]
+- fixed
+
+[B]Version 2.0[/B]
+- fix for 0%
