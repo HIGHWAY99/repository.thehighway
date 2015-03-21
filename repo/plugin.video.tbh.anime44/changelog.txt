@@ -1,3 +1,6 @@
+[B]Anime44 - 0.1.6[/B]
+- importURLResolver() fix.
+
 [B]Anime44 - 0.1.5[/B]
 - Updated: url to www.animenova.tv to avoid redirect
 - Updated: Addon XML and About Dialog

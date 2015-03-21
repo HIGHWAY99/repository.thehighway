@@ -225,7 +225,7 @@
 
 <addon id="plugin.devtool.urltester.pro"
        name="Url Tester Pro"
-       version="0.0.4"
+       version="0.0.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -861,7 +861,7 @@
 </addon>
 
 <addon id="plugin.stream.sos" name="S[COLOR orange]O[/COLOR]S"
-    version="1.0.9" provider-name="SaveonSky, The[COLOR tan]Highway[/COLOR]">
+    version="1.1.0" provider-name="SaveonSky, The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" optional="true" />
@@ -1221,7 +1221,7 @@
 
 <addon id="plugin.video.tbh.anime44"
        name="A[COLOR white]nime[COLOR red]44[/COLOR][/COLOR]"
-       version="0.1.5"
+       version="0.1.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1248,7 +1248,7 @@
 
 <addon id="plugin.video.tbh.animeget"
        name="A[COLOR white]nime[COLOR royalblue]Get[/COLOR][/COLOR]"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1327,7 +1327,7 @@
 
 <addon id="plugin.video.tbh.dubhappyeu"
        name="D[COLOR white][B]ub[/B]Happy.eu[/COLOR]"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

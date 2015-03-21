@@ -1,3 +1,6 @@
+[B]AnimeGet - 0.1.5[/B]
+- importURLResolver() fix.
+
 [B]AnimeGet - 0.1.4[/B]
 - Updated: Ongoing and New Series (site changes)
 - Updated: Episode Listing (site changes)
