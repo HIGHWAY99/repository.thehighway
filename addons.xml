@@ -965,6 +965,38 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.filmehd.net" provider-name="The[COLOR tan]Highway[/COLOR]"
+       version="1.0.9" name="FilmeHD.net" >
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver"  />
+  	<import addon="script.module.metahandler"  />
+  	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>FILME ONLINE GRATIS, SUBTITRATE IN LIMBA ROMANA!</summary>
+  	<summary lang="en">MOVIES ONLINE FREE, SUBTITLED IN ROMAINIAN!</summary>
+  	<summary lang="ro">FILME ONLINE GRATIS, SUBTITRATE IN LIMBA ROMANA!</summary>
+  	<description>Video Addon for FilmeHD.net that has Romanian Subtitles.  The development of this add-on was sponsored by dotSmart Media Player.     </description>
+  	<description lang="en">Video Addon for FilmeHD.net that has Romanian Subtitles.  The development of this add-on was sponsored by dotSmart Media Player.</description>
+  	<description lang="ro">Addon video pentru filmehd.net cu subtitrare in limba romana.  Dezvoltarea acestui add-on a fost sponsorizata de catre dotSmart Media Player.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer lang="en">By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer lang="ro">By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>ro en</language>
+  	<platform>all</platform>
+    <forum>http://forums.tvaddons.ag/threads/22628-RELEASE-FilmeHD-(-Romanian-and-English-)</forum>
+    <website>http://www.tvaddons.ag/</website>
+    <source>http://github.com/HIGHWAY99/</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.funimation"
        name="Funimation (Under Construction)"
        version="0.0.5"

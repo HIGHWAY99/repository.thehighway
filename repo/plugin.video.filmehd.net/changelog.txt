@@ -1,0 +1,42 @@
+[B]v1.0.9[/B]
+- importURLResolver() fixed.
+- valid_url method in default.py fixed.
+- Regex string adjusted.
+
+[B]v1.0.8[/B]
+- Added method for 2nd plugin path for UrlResolver.
+- Attempting to fix videomega.tv.
+
+[B]v1.0.7[/B]
+- Taking a look at hqq.tv (also known as netu.tv) and ok.ru for future use, but nothing right now as both are very protected.
+- Attempting to fix videomega.tv.  Fix not available at this time, but am setting it to use urlresolver for videomega so hopefully it will automatically be fixed when we come up with a fix and push it via the host plugin for urlresolver.
+
+[B]v1.0.6[/B]
+- Seriale(s) don't seem to be functional video the site these days.  The Seriale pages seem to act as episode/movie pages instead of list of episodes.
+- Working mail.ru links seem to seem to be functioning well again.
+- Still nothing I can do for video host, hqq.tv, at this time.
+- The video host, videomega.tv, seems to be behind ddos protection atm so can't test for rather it's working or not at this time.
+- Some mail.ru fix(s) for a few different additional variations.
+- Fixes for host(s).
+- Adjustments for use on Helix.
+
+[B]v1.0.5[/B]
+- Made adjustments to fix the host list.
+
+[B]v1.0.4[/B]
+- Video Host, videomega.tv, is now fixed for the /cdn.php?ref=[id] urls, replacing cdn.php with iframe.php basically.
+- Video Host, playreplay.net, is still too much trouble to get working.
+
+[B]v1.0.3[/B]
+- Next Page / Previous Page items fixed on list of movies.
+
+[B]v1.0.2[/B]
+- VideoMega File Host handling.
+
+[B]v1.0.1[/B]
+- Next Page functionality fixed.
+
+[B]v1.0.0[/B]
+- Thanks to: dotSmart Media Player, Eleazar, and TheHighway.
+- Initial Addon.
+
