@@ -1,4 +1,7 @@
 
+[B]WaoAnimeTV - 0.0.4[/B]
+- Updating Information.
+
 [B]WaoAnimeTV - 0.0.3[/B]
 - GetMedia():  Actual link regex string fix(s).
 - Hot This Season:  Removed list.

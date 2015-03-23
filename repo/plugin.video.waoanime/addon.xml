@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.waoanime"
        name="W[COLOR deepskyblue]AO[/COLOR] [COLOR white][I]Anime[/I][/COLOR]  [COLOR deepskyblue]TV[/COLOR]"
-       version="0.0.3"
+       version="0.0.4"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -21,8 +21,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/21311-Release-WAO-ANIME</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>http://github.com/HIGHWAY99/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   </extension>
 </addon>

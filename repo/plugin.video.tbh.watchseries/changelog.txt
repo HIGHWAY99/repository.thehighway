@@ -1,3 +1,6 @@
+[B]v0.0.6[/B]
+- Updating information
+
 [B]v0.0.5[/B]
 - Tweaking to GetMedia function.
 - Regex string adjusted.
