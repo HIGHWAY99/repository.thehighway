@@ -1,3 +1,6 @@
+[B]v0.1.5[/B]
+Updated information for the IRC Channel.
+
 [B]v0.1.4[/B]
 Replaced .add_directory(...) with .add_video_item(...) for playable items.
 PlayStreamUP():  making use ipad user-agent.

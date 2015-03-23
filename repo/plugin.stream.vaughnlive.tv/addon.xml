@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
-       version="0.1.5"
+       version="0.1.6"
        provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -14,13 +14,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
-  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).  IRC Chat Channel: #TVADDONS @ chat.freenode.net</description>
+  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>http://github.com/HIGHWAY99/plugin.stream.vaughnlive.tv/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
     <email></email>
   </extension>
 </addon>

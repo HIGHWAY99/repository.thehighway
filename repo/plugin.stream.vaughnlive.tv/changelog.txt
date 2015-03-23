@@ -1,5 +1,8 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.6[/B]
+- Updated information for the IRC Channel.
+
 [B]v0.1.5[/B]
 - Playback options in "Playback" category in Add-on Settings.
 
