@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.splash.changer"
+       name="Splash Changer"
+       version="1.0.0"
+       provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver" optional="true" />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+  	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Change your splash image @ Startup screen.</summary>
+  	<description>This tool is meant to make it easier to either browse and select locally or via networked source, or download via a user provided url... an image to use to make a new Splash.png for use in XBMC / Kodi.  This tool makes use of "special://home/media/Splash.png" so not to mess with the the Splash.png in the installed path's media folder.  Inspiration for this addon came from seeing a random youtube video by XBMCONNECT while I was working on another project.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website>http://webchat.snoonet.org/#The_Projects</website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
