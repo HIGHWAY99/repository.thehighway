@@ -1,0 +1,9 @@
+[B]Version 0.0.3[/B]
+- Removed Bitbucket
+
+[B]Version 0.0.2[/B]
+- Added Icon
+- Added Bitbucket as backup repo location
+
+[B]Version 0.0.1[/B]
+- Initial version

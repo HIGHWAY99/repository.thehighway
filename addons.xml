@@ -1521,6 +1521,19 @@ DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
 	</extension>
 </addon>
 
+<addon id="repository.smokdpi" name="smokdpi's Add-ons" version="0.0.3" provider-name="smokdpi">
+	<extension point="xbmc.addon.repository" name="smokdpi's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/smokdpi/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/smokdpi/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/smokdpi/kodi/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install smokdpi's add-ons</summary>
+		<description>Download and install add-ons by smokdpi</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.superrepo.org.helix.all" name="SuperRepo  All [helix] " version="0.5.207" provider-name="Bart Otten">
 <requires>
     <import addon="xbmc.addon" version="12.0.0" />
