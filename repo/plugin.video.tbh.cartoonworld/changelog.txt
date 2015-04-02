@@ -1,3 +1,7 @@
+[B]CartoonWorld - 0.1.9[/B]
+- Thumb/Fanart adjustment.
+- Adjustments made to Search functionality.
+
 [B]CartoonWorld - 0.1.8[/B]
 - Fix Hosts listings.
 
