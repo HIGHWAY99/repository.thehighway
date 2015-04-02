@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.filmehd.net" provider-name="The[COLOR tan]Highway[/COLOR]" 
-       version="1.0.9" name="FilmeHD.net" >
+       version="1.1.0" name="FilmeHD.net" >
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver"  />
@@ -24,8 +24,8 @@
   	<disclaimer lang="ro">By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
   	<language>ro en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/threads/22628-RELEASE-FilmeHD-(-Romanian-and-English-)</forum>
-    <website>http://www.tvaddons.ag/</website>
+    <forum>http://webchat.snoonet.org/#The_Projects</forum>
+    <website>http://www.dotsmart.ro/</website>
     <source>http://github.com/HIGHWAY99/</source>
     <email></email>
   </extension>

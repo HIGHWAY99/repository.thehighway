@@ -1,3 +1,8 @@
+[B]v1.1.0[/B]
+- addon.xml updated.
+- GetMedia() fixed.  Syntax adjusted.
+- 1videomega.py updated.
+
 [B]v1.0.9[/B]
 - importURLResolver() fixed.
 - valid_url method in default.py fixed.
