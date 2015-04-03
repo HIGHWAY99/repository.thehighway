@@ -1,5 +1,9 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.4[/B]
+- teh_tools.py:  Added new functions and import(s).
+- default.py:  PlayVideo() & PlayURL():  Handling for new redirect method.
+
 [B]Version 0.9.3[/B]
 - AntiDDOSProtection.py:  Adjustments.  Users may have to visit via a browser first for pc-users.  Other users, please wait until cloud protection drops.
 - listEpisodes(): Fixed syntax for Related Shows.
