@@ -1,5 +1,10 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.6[/B]
+- listEpisodes():  Related Links:  next episode link hidden since it doesn't exist yet anyways.
+- listLinks():  Fixes and added methods 5 and 6.
+- settings.xml:  Added more link methods.
+
 [B]Version 0.9.5[/B]
 - net._accept bug fix.
 
