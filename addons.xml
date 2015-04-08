@@ -945,7 +945,7 @@
 </addon>
 
 <addon id="plugin.video.filmehd.net" provider-name="The[COLOR tan]Highway[/COLOR]"
-       version="1.1.0" name="FilmeHD.net" >
+       version="1.1.1" name="FilmeHD.net" >
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.urlresolver"  />

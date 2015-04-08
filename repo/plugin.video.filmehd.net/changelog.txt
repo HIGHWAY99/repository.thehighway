@@ -1,3 +1,11 @@
+[B]v1.1.1[/B]
+- Removing hqq.tv / netu.tv host plugin for time being.  Too much troubling protection on watch_video.php pages.
+- Checking out ok.ru host for portential plugin.  Still too much hassle to resolve.
+- Redoing parsing method for host links.  Links for realvid.net should now be caught.
+- Making hqq.tv / netu.tv host plugin.
+- Redoing parsing method for host links.  Links for hqq.tv should now be caught.
+- Checking videomega host plugin.
+
 [B]v1.1.0[/B]
 - addon.xml updated.
 - GetMedia() fixed.  Syntax adjusted.
