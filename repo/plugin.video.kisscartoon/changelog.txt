@@ -1,5 +1,12 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.7[/B]
+- teh_tools.py:  http_POST method setup for the CF Protection work-a-round.
+- settings.xml:  Text for 6th link type.
+- Download method adjusted for new redirect method.
+- JDownloader method may be broken whenever CF Protection is up.
+- Download Filename adjustment.
+
 [B]Version 0.9.6[/B]
 - listEpisodes():  Related Links:  next episode link hidden since it doesn't exist yet anyways.
 - listLinks():  Fixes and added methods 5 and 6.
