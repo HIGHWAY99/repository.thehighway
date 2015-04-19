@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.a.web.server" name="[COLOR FFFFFFFF]A Web Server[/COLOR]"
+       version="0.2.7" provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  />
+    <import addon="script.module.t0mm0.common"  />
+    <import addon="script.module.addon.common" optional="true" />
+    <import addon="script.common.plugin.cache" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A tiny web server</summary>
+    <description>A mix of a tiny web server and intergration for allowing a user, making use of it, to control the XBMC / Kodi client.</description>
+    <disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>

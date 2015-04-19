@@ -1,0 +1,71 @@
+0.2.7
+- Added function FixTextCodes(...).
+- Adding /favourites page.
+#  # Attempting to make use of the global "favourites.xml".
+#  # Stuff is now listing.
+#  # ActivateWindow(...) method seems to be takng things to the wrong place.
+#  # Removed "&quot;" from "a" variable line.
+#  # ActivateWindow(...) method seems to be takng things to the wrong place.
+#  # Removed ",return" from "a" variable line.
+#  # ActivateWindow(...) method seems to be taking things to the given addon's front menu.
+#  # ActivateWindow(...) method is now working.
+- Added ADDON.* %%...%%'s to the self.w(...) syntax list.
+- Setup for "/" to work (within the url) in place of "_" for page names.  For example, "/m_playing" can now be typed as "/m/playing".
+- Setup for less loading of body page when not as likely needed.
+- Setup for functions (and pages) for "some" error codes.
+0.2.6
+- Filtering of [...] XBMC / Kodi in-text coding for labels on /current_list page.
+- Adjustments to /dir.
+- Added links for /dir and /current_list to /m 's mobile.html.
+- ...
+- Added Weather image to main body's topbar.
+- Attempting to fix /img feature to handle items from skin folder, but no luck yet.
+- Working on adding a method to display whats on the container's list currently shown in XBMC / Kodi.
+#  # Testing how to get list of items (label,thumb,path).
+#  # Currently able to get list of items (label,thumb,path).
+#  # Testing how to run the variations of path(s) to get a new list on the screen.
+#  # ActivateWindow(Home) now seems to work when the item's label is ".." and path is None/Blank.  Working on the others yet.
+#  # Change things for Back method.
+#  # Added pages for body, playing, home, weather.
+#  # ...
+#  # Alright, things seem to be working a LOT better now.
+#  # Keep in mind that some screens just dont work.
+#  # I've tried to handle putting home info for those screens, but might still be some.
+#  # ...
+- Fixed /page page for misc file type file-sending.
+- ...
+- Added /dir page.
+- ...
+- Added sub-row to topbar area.
+- Added globalvariablessyntax_test.html.
+- Global replacable values for %%...%%'s in self.w(...).
+- changes to what's playing.
+- ...
+
+0.2.5
+- Hidden iframe(s).
+- Modified the html/style method for the topbar menu.
+- Added some mobile functions and .html pages.
+- The action variable adjusted to lowercase.  So, "/M" will be same as "/m"
+- /m: added this mobile-version method, to display mobile.html.
+
+0.2.4
+- Attempting to setup several possible webplayer*.html files for possible usage.
+- /webplay:  added /webpage method.
+#  # path= is used to set the .html page 
+#  # url= is used to set the url.  Defaults to whatever XBMC / Kodi is playing by default.
+#  # %%FILE%% and %%QPFILE%% (quote_plus) are used in the .html to place the url in the output of the page.
+- /page: added [".js",".css",".apk",".pdf",".atom",".xml",".avi",".torrent",".sh",...].  Way too many file extentions added to list.
+- ...
+
+0.2.3
+- ...
+
+0.2.2
+- ...
+
+0.2.1
+- ...
+
+0.1.0
+- ...
