@@ -1,0 +1,32 @@
+[B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
+
+[B]Version 0.1.1[/B]
+- Added a temp. icon.png.
+- Episode screenshots / thumbs seem to appear on Kodi 15.0.alpha2 but not on 14.1 stable.
+- Attempting Search-Fix for Android users.
+
+
+[B]Version 0.1.0[/B]
+- Making use of some pages / features of both the pc and mobile version(s) of the site.
+- Latest Episodes
+- New Added Series
+- Hot Anime
+- Ongoing Anime
+- Suggested Anime
+- Anime of the Week
+- Anime Movie List
+- Anime List
+- Browse a Genre
+- Genres List
+- Search Feature:
+##  ## You may call search with:
+##  ## plugin.anime.animeselect?mode=Search&q=[your search query here]
+- Image Issues:
+##  ## Images seem to mostly re-use graphics hosted from elsewhere, some of which have been adjusted on the other end since original use, and no longer show correctly on the website.
+##  ## Got some images auto-corrected to show up, but not all.
+##  ## Episode screenshot thumbnails (images) don't want to currently show up.
+
+
+
+
+
