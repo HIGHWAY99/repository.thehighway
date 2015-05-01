@@ -1,3 +1,6 @@
+[B]v0.0.7[/B]
+- Fixed settings.xml back to watch-series addresses.
+
 [B]v0.0.6[/B]
 - Updating information
 
