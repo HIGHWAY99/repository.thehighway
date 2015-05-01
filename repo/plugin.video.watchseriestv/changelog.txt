@@ -1,0 +1,24 @@
+[B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
+
+[B]Version 0.1.0[/B]
+- Latest Added Episodes
+- icon.png, fanart.jpg
+- pagination
+- Genres
+- A to Z
+- Search...
+- Playback
+- Browse Link Hosts
+- Browse Episodes
+- Initial Version.
+
+
+
+
+
+
+
+
+
+
+
