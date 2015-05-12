@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.serialero" provider-name="The[COLOR tan]Highway[/COLOR]" 
+       version="1.0.3" name="Seriale-ro" >
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.urlresolver"  />
+  	<import addon="script.module.metahandler"  />
+  	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary></summary>
+  	<summary lang="en">Most content has English Audio and Romanian Subtitles, or Romanian audio.</summary>
+  	<summary lang="ro"></summary>
+  	<description>Video Addon that has Romanian Subtitles.  The development of this add-on was sponsored by dotSmart Media Player.     </description>
+  	<description lang="en">Video Addon that has Romanian Subtitles.  The development of this add-on was sponsored by dotSmart Media Player.</description>
+  	<description lang="ro">Addon video cu subtitrare in limba romana.  Dezvoltarea acestui add-on a fost sponsorizata de catre dotSmart Media Player.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer lang="en">By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<disclaimer lang="ro">By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>ro en</language>
+  	<platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
+    <website>http://www.dotsmart.tv/</website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>

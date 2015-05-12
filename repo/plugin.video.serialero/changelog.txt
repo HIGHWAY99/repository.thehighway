@@ -1,0 +1,38 @@
+[B]v1.0.3[/B]
+- Setup 2nd host plugin folder for urlresolver.
+- Added videomega (host plugin) in 2nd folder.
+- Working on hqq (host plugin), not included yet.
+- Filtering for "http://videomega.tv/validateemb.php".
+- Filtering for 'ok.ru','ajax.googleapis.com'.
+
+[B]Date:[/B] 2015-05-10
+- Re-Checking Stuff:
+#### Host: mail.ru - good.
+#### Host: ok.ru - not handled, no future plans.
+#### Host: hqq.tv - not handled, for now.
+#### Host: videomega - failing to show, seems to be using 2 <script...></script>'s.
+#### #### http://videomega.tv/validatehash.php?hashkey=000000000000000000000000000000000000000000000000000000000000
+#### #### http://videomega.tv/validateemb.php?width=660&height=300
+
+[B]v1.0.2[/B]
+- Fix(s) in ListShows.  Additional regex string for some shows.
+- Hidden link for "New Series with Subtitles" (LatestShows), as the list no longer exists on the site where it was (on front page) and I could not locate it anywhere else.
+- Fix(s) in LatestMovies.
+
+[B]v1.0.1[/B]
+- Some mail.ru fix(s) for a few different additional variations.
+- Fixes for host(s).
+- Adjustments for use on Helix.
+
+[B]v1.0.0[/B]
+- Public Release
+
+[B]v0.5.1[/B]
+- Episode Syntax methods improved.  Yet another method added.
+- Youtube links parsed internally to use the youtube addon.  Some videos are often removed.
+- '/filme-online-subtitrate.html', '/emisiuni-tv-online.html', and '/seriale-online.html' are set to a seperate regex to better catch as many items as possible.
+
+[B]v0.5.0[/B]
+- Thanks to: dotSmart Media Player and TheHighway.
+- Initial Addon.
+
