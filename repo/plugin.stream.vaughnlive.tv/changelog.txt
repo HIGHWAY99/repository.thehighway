@@ -1,5 +1,9 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.7[/B]
+- Notice(s) of whats happening with the addon and stream site's servers.
+- Attempted to sort out the ~7seconds problem.  Turns out that the stream server tried to reset the url to an unsupported protocol (wowz://).
+
 [B]v0.1.6[/B]
 - Updated information for the IRC Channel.
 
