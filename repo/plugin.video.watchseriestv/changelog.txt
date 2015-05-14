@@ -1,5 +1,8 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.1.1[/B]
+- Fixed Addon ID.
+
 [B]Version 0.1.0[/B]
 - Latest Added Episodes
 - icon.png, fanart.jpg

@@ -1560,8 +1560,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.anime.watchseriestv" name="Watch Series TV"
-       version="0.1.0" provider-name="The[COLOR tan]Highway[/COLOR]">
+<addon id="plugin.video.watchseriestv" name="Watch Series TV"
+       version="0.1.1" provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common"  />
