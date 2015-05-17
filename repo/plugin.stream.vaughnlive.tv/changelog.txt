@@ -1,5 +1,11 @@
 [B]Note:[/B]  IRC Chat Channel: #TVADDONS @ chat.freenode.net
 
+[B]v0.1.8[/B]
+- Added reddit link.
+- Adjusted forum link.
+- Vapers, Breakers, and Gamers now play.
+- Fixed playback 7 seconds issue.
+
 [B]v0.1.7[/B]
 - Notice(s) of whats happening with the addon and stream site's servers.
 - Attempted to sort out the ~7seconds problem.  Turns out that the stream server tried to reset the url to an unsupported protocol (wowz://).
