@@ -1,0 +1,21 @@
+[B]v1.1.0[/B]
+- Added optional (via Addon Setting) use of All RECENT episodes instead of just episodes of TOP (Popular) shows.
+- Added / to end of main domain for page calls for Android compatibility.
+- Addon Setting for use of [_CR_].
+- Colorizing for specials in menu method.
+- Colorizing for first episode in menu method.
+- Colorizing for season premeres in menu method.
+- Colorizing menu method.
+
+[B]v1.0.3[/B]
+- ...
+
+[B]v1.0.2[/B]
+- ...
+
+[B]v1.0.1[/B]
+- ...
+
+[B]v1.0.0[/B]
+- ...
+
