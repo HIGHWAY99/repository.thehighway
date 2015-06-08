@@ -1,5 +1,10 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.8[/B]
+- Some tweaks for episodes list's visited states.
+- settings.xml:  Link types moved to their own tab.
+- teh_tools.py & settings.xml:  CF Protection notice option.
+
 [B]Version 0.9.7[/B]
 - teh_tools.py:  http_POST method setup for the CF Protection work-a-round.
 - settings.xml:  Text for 6th link type.
