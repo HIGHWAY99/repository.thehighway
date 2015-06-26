@@ -2,6 +2,11 @@ Addon Name: 		Kindertube.NL
 Addon Author: 	The Highway
 Thanks to Marquerite for finding the site and work her on Translations and Graphics.
 
+[B]v0.0.7[/B]
+- addon.xml adjusted.
+- fixed regex.
+- About window adjusted.
+
 [B]v0.0.6[/B]
 - Attempting Helix fix.  Vimeo plugin set as optional requirement.
 

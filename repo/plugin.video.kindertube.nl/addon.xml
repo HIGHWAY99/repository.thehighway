@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kindertube.nl"
        name="Kindertube[COLOR green].NL[/COLOR]"
-       version="0.0.6"
+       version="0.0.7"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -22,8 +22,8 @@
   	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
   	<language>nl en</language>
   	<platform>all</platform>
-    <forum>http://forums.tvaddons.ag/forums/143-THEHIGHWAY-S-XBMC-ADDONS</forum>
-    <website>http://www.tvaddons.ag/</website>
-    <source>https://github.com/HIGHWAY99/</source>
+    <forum></forum>
+    <website></website>
+    <source></source>
   </extension>
 </addon>
