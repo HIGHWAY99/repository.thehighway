@@ -1729,7 +1729,7 @@ DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
 	</extension>
 </addon>
 
-<addon version="0.0.1" id="repository.thehighway" name="TheHighway's Broken and Outdated Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+<addon version="0.0.2" id="repository.thehighway.br" name="TheHighway's Broken and Outdated Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
 	<extension point="xbmc.addon.repository" name="TheHighway's Broken and Outdated Addons">
 		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway.br/master/addons.xml</info>
 		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master.br/addons.xml.md5</checksum>

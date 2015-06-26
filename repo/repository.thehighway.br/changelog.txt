@@ -1,2 +1,7 @@
+[B]Version 0.0.2[/B]
+
+- id fixed.
+
 [B]Version 0.0.1[/B]
-- Initial version
+
+- Initial version.
