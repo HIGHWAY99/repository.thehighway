@@ -1,3 +1,18 @@
+[B]Version 0.5.2[/B] 2015-08-15
+- Quick check on listings for tv shows, seasons, and episodes.
+- Fixed quality and age tags on link listings.
+- Fixed number of links in item listings.
+
+[B]Version 0.5.1[/B] 2015-06-26
+- default.py:  listItems():  Attempting to fix "Last Watched" Movies / TV.
+### 
+### 
+### No luck so far.
+### Have tried a different function for fetching the page.
+### Have double checked the url string.
+### For some reason I seem to get different results than what I can find via browser.
+- default.py & teh_tools.py:  listItems():  Pagination fixed.
+
 [B]Version 0.5.0[/B] 2015-05-18
 - Movie / Show+Episode title information regex updated.
 - Download file naming fix.
