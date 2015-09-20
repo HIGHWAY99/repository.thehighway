@@ -410,7 +410,7 @@
 
 <addon id="plugin.image.kissmanga"
        name="KissManga"
-       version="0.3.5"
+       version="0.3.6"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
@@ -424,13 +424,12 @@
   <extension point="xbmc.addon.metadata">
   	<summary>Handles Mangas for kissmanga.com</summary>
   	<description>Play Mangas from kissmanga.com.</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-   	<language>en</language>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.xbmchub.com/</website>
-  	<source>http://github.com/HIGHWAY99/plugin.video.kissmanga/</source>
-  	<email></email>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
   </extension>
 </addon>
 
@@ -1139,6 +1138,35 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.kissasian"
+       name="KissAsian"
+       version="0.9.8"
+       provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.metahandler" />
+  	<import addon="script.common.plugin.cache"  />
+  	<import addon="script.module.addon.common" optional="true" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.pysqlite" optional="true" />
+  	<import addon="script.module.sqlite" optional="true" />
+  	<import addon="script.module.myconnpy" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>Handles Videos for kissasian.com.  Graphics by TheHighway, Marquerite, and konbon.</summary>
+  	<description>Play videos from kissasian.com.  This project has been ported from the current version of my own KissAnime addon.  This project may end up getting re-ported from my KissAnime Re-write project, once that gets finished.  Remember to check out kissasian.com's site whenever your at a PC.  Don't forget to try KissAnime.com for Anime and KissManga.com for Manga.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.  By using this, you also take resposibility for being older enough, and legal, to view any possible content.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
        version="0.9.8"
@@ -1257,7 +1285,7 @@
 
 <addon id="plugin.video.solarmovie.so"
        name="S[COLOR goldenrod]o[/COLOR]lar[COLOR yellow]M[/COLOR][COLOR grey]ovie.so[/COLOR]"
-       version="0.5.0"
+       version="0.5.2"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
