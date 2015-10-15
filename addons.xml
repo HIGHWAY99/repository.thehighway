@@ -1111,7 +1111,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.9.8"
+       version="0.9.9"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1140,7 +1140,7 @@
 
 <addon id="plugin.video.kissasian"
        name="KissAsian"
-       version="0.9.8"
+       version="0.9.9"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1169,7 +1169,7 @@
 
 <addon id="plugin.video.kisscartoon"
        name="KissCartoon"
-       version="0.9.8"
+       version="0.9.9"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite, konbon">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1692,6 +1692,19 @@ DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
 	<extension point="xbmc.addon.metadata">
 		<summary>Install smokdpi's add-ons</summary>
 		<description>Download and install add-ons by smokdpi</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.smokdpi_mod" name="smokdpi's Modified Add-ons" version="1.0.0" provider-name="smokdpi">
+	<extension point="xbmc.addon.repository" name="smokdpi's Modified Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install smokdpi's modified add-ons</summary>
+		<description>Download and install add-ons modified by smokdpi[CR][CR][B]Artwork by @konsumer420[/B]</description>
 		<platform>all</platform>
 	</extension>
 </addon>
