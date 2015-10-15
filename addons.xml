@@ -434,7 +434,7 @@
 </addon>
 
 <addon id="plugin.program.dreamcatcher"
-       version="0.1.4" name="Dreamcatcher"
+       version="0.1.5" name="Dreamcatcher"
        provider-name="The[COLOR tan]Highway[/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>

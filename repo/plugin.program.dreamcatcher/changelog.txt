@@ -1,3 +1,11 @@
+[B]v0.1.5[/B] - [2015-10-15]
+- adjustments to default.py.  mode: 'Download' fixed up a bit. This is for when downloading what's currently playing, a direct url to the video.
+- adjustments to default.py.  mode: 'ResolveAndDownload' added.  This is for when you need to resolve the url of the video, for say if your passing a hosted file link from another addon.
+### Usage Example for 1Channel: contextMenuItems.append(('Download Movie','XBMC.RunPlugin(%s)'%_1CH.build_plugin_url({'destpath':destPath,'destfile':title+' ('+year+')'+eXt,'img':img,'mode':'ResolveAndDownload','section':'movies','url':item['url']}).replace('plugin://plugin.video.1channel/','plugin://plugin.program.dreamcatcher/') ))
+### Usage Example for what to pass: {'destpath':'C:\\Movies\\','destfile':'test.mp4','mode':'ResolveAndDownload','section':'movies','url':'http://.../amber_seas.flv'}
+
+- adjustments to c_HiddenDownloader.py. destPath variable name on one line adjusted to destpath.
+
 [B]v0.1.4[/B]
 - Updating addon.xml.
 
