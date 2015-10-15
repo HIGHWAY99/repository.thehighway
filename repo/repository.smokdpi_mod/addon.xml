@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.smokdpi_mod" name="smokdpi's Modified Add-ons" version="1.0.0" provider-name="smokdpi">
+	<extension point="xbmc.addon.repository" name="smokdpi's Modified Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/smokdpi/kodi_mod_versions/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install smokdpi's modified add-ons</summary>
+		<description>Download and install add-ons modified by smokdpi[CR][CR][B]Artwork by @konsumer420[/B]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
