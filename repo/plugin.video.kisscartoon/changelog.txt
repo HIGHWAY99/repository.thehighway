@@ -1,5 +1,13 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.9[/B] - Thanks to smokdpi
+- Cloudflare resolved
+- Images working
+- Automatic Login
+- Logout added to Account settings tab
+- net module using https://raw.githubusercontent.com/smokdpi/script.module.addon.common/fab01fdf9659ab2c9b0f7846b383a94b9ad7a372/lib/addon/common/net.py
+- temp files / cookies saved in userdata path
+
 [B]Version 0.9.8[/B]
 - teh_tools.py:  nURL():  "get":  Adjustment for doing away with need to click a 2nd time.
 - Some tweaks for episodes list's visited states.
