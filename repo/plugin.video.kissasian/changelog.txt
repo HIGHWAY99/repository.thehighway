@@ -1,5 +1,8 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.10[/B]
+- Images in favorites and histories resolved (these will take slightly longer to open now)
+
 [B]Version 0.9.9[/B] - Thanks to smokdpi
 - Cloudflare resolved
 - Images working
