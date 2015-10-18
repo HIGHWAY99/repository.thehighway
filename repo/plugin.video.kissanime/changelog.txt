@@ -1,5 +1,10 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.11[/B]
+- Possible Android playback issue fix
+- Auto-Play adjustments (resolution options changed, episode/video title on playback)
+- 'Play from here' now allows skipping to next episode/video
+
 [B]Version 0.9.10[/B]
 - Images in favorites and histories resolved (these will take slightly longer to open now)
 
