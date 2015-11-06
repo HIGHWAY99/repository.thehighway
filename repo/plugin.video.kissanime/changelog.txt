@@ -1,5 +1,9 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.12[/B] - (10/05/2015)
+- Adjustment(s) for SQL Favorites listings call due to domain change.
+- Domain change(s).
+
 [B]Version 0.9.11[/B]
 - Possible Android playback issue fix
 - Auto-Play adjustments (resolution options changed, episode/video title on playback)
