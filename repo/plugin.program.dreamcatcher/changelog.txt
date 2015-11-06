@@ -1,3 +1,5 @@
+[B]v0.1.6[/B] - [2015-10-28]
+- djustments to default.py. function: 'fixPathSymbols' added and made use of.
 [B]v0.1.5[/B] - [2015-10-15]
 - adjustments to default.py.  mode: 'Download' fixed up a bit. This is for when downloading what's currently playing, a direct url to the video.
 - adjustments to default.py.  mode: 'ResolveAndDownload' added.  This is for when you need to resolve the url of the video, for say if your passing a hosted file link from another addon.
