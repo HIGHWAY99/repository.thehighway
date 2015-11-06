@@ -1,5 +1,8 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.12[/B] - (11/06/2015)
+- default.py: function listLinks(...): link type 3: adjustments due to white spaces and line returns 
+
 [B]Version 0.9.11[/B]
 - Possible Android playback issue fix
 - Auto-Play adjustments (resolution options changed, episode/video title on playback)
