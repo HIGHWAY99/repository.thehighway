@@ -1,5 +1,32 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.16[/B] - (04/30/2016)
+- Method #s 3 and 4 setup for KEDecrypt().
+- teh_tools.py: KEDecrypt(t): function added.  Makes use of files in 'kissenc.py'.
+- Some of the new files in \resources\lib\ imported from https://github.com/Twoure/KissNetwork.bundle
+- default.py: listLinks(...): Updates for KEDecrypt() and their new AES Decryption.
+
+[B]Version 0.9.15[/B] - (03/25/2016)
+- default.py: function listLinks(...): Link Method #8 added. (stream)
+- settings.xml: Additional options....
+
+[B]Version 0.9.14[/B] - (03/07/2016)
+- default.py: function listLinks(...): Link Method #7 added. (openload)
+- default.py: function PlayVideo(...): Attemping to make use of UrlResolver.
+- settings.xml: Updated information for Method #7.
+- addon.xml: Added requirement for UrlResolver.
+- Waiting to see how things go for a bit....
+
+[B]Version 0.9.13[/B] - (02/25/2016)
+- Fixes done on Kodi 16.0.x Jarvis.  Found that print statements were no longer writing to kodi.log, so did a bit of tweaking to make use of xbmc.log(...).
+- teh_tools.py: function Check_Login(): fixed hasPassword_Cookie check.
+
+[B]Version 0.9.12[/B] - (11/19/2015)
+- default.py: function listItems_Upcoming(...): some html code filtering additions to the plot description.
+
+[B]Version 0.9.12[/B] - (11/15/2015)
+- default.py: function listEpisodes(...): change in html page for information used for variable "NEpCountdown".  Information may be hidden within addon for this for the time being.
+
 [B]Version 0.9.11[/B]
 - Possible Android playback issue fix
 - Auto-Play adjustments (resolution options changed, episode/video title on playback)
