@@ -1111,7 +1111,7 @@
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.9.14"
+       version="0.9.18"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1122,6 +1122,7 @@
   	<import addon="script.module.sqlite" optional="true" />
   	<import addon="script.module.myconnpy" optional="true" />
   	<import addon="script.module.t0mm0.common" optional="true" />
+  	<import addon="script.module.urlresolver" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
   	<provides>video</provides>
