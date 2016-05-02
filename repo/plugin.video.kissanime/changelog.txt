@@ -1,5 +1,11 @@
 [B]Note:[/B]  IRC Chat Channel: #The_Projects @ irc.snoonet.org:6667
 
+[B]Version 0.9.19[/B] - (05/02/2016)
+- default.py: FavoritesSQL_List(...): Added some on-the-fly fixing for old domains with: "http://", "kissanime.com", "kissanime.me".  This does not fix EVERY instance of the old urls
+- default.py: History201(...): Slight adjustments made for similar reasons, without an sql update fix.
+- default.py: History101a(...): Slight adjustments made for similar reasons, without an sql update fix.
+- default.py: History101(...): Slight adjustments made for similar reasons, without an sql update fix.
+
 [B]Version 0.9.18[/B] - (04/30/2016)
 - config.py: Changed "http://" to "https://".  This fixed the login issue.
 
