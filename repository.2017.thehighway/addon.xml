@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon version="0.0.1" id="repository.2017.thehighway" name="TheHighway's Kodi Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Kodi Addons (2017)">
+		<info compressed="false">http://raw.github.com/HIGHWAY99/repository.2017.thehighway/master/addons.xml</info>
+		<checksum>http://raw.github.com/HIGHWAY99/repository.2017.thehighway/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.2017.thehighway/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  You cand find me on addons.center's forum ( http://forum.addons.center/ ).  Also I'm often on irc.snoonet.org:6667 #The_Projects for those who have a IRC Chat client.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
